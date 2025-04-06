@@ -6,7 +6,7 @@
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Hill"],
 		"gold": 2,
-		"improvement": "Mine",
+		"improvedBy": ["Mine","Theater Square","Military Camp","Airstrip","Spaceport","Industrial Zone","Commercial Hub","Holy Site","Campus"],
 		"improvementStats": {"gold": 1},
 		"uniques": ["Generated on every [200] tiles <in [Hill] tiles>"]
 	},
@@ -16,7 +16,7 @@
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Forest"],
 		"gold": 2,
-		"improvement": "Crop Field",
+		"improvedBy": ["Crop Field","Theater Square","Military Camp","Airstrip","Spaceport","Industrial Zone","Commercial Hub","Holy Site","Campus"],
 		"improvementStats": {"gold": 1},
 		"uniques": ["Generated on every [200] tiles <in [Forest] tiles>"]
 	},
@@ -26,7 +26,7 @@
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Forest","Jungle"],
 		"gold": 2,
-		"improvement": "Crop Field",
+		"improvedBy": ["Crop Field","Theater Square","Military Camp","Airstrip","Spaceport","Industrial Zone","Commercial Hub","Holy Site","Campus"],
 		"improvementStats": {"gold": 1},
 		"uniques": ["Generated on every [200] tiles <in [Jungle] tiles>","Generated on every [200] tiles <in [Forest] tiles>"]
 	},
@@ -36,7 +36,7 @@
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Desert"],
 		"gold": 2,
-		"improvement": "Mine",
+		"improvedBy": ["Mine","Theater Square","Military Camp","Airstrip","Spaceport","Industrial Zone","Commercial Hub","Holy Site","Campus"],
 		"improvementStats": {"gold": 1},
 		"uniques": ["Generated on every [200] tiles <in [Desert] tiles>"]
 	},
@@ -46,7 +46,7 @@
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Grassland"],
 		"gold": 2,
-		"improvement": "Crop Field",
+		"improvedBy": ["Crop Field","Theater Square","Military Camp","Airstrip","Spaceport","Industrial Zone","Commercial Hub","Holy Site","Campus"],
 		"improvementStats": {"gold": 1},
 		"uniques": ["Generated on every [200] tiles <in [Grassland] tiles>"]
 	},
@@ -56,7 +56,7 @@
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Grassland"],
 		"gold": 2,
-		"improvement": "Mine",
+		"improvedBy": ["Mine","Theater Square","Military Camp","Airstrip","Spaceport","Industrial Zone","Commercial Hub","Holy Site","Campus"],
 		"improvementStats": {"gold": 1},
 		"uniques": ["Generated on every [200] tiles <in [Grassland] tiles>"]
 	},
@@ -66,7 +66,7 @@
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Grassland"],
 		"gold": 2,
-		"improvement": "Mine",
+		"improvedBy": ["Mine","Theater Square","Military Camp","Airstrip","Spaceport","Industrial Zone","Commercial Hub","Holy Site","Campus"],
 		"improvementStats": {"gold": 1},
 		"uniques": ["Generated on every [200] tiles <in [Grassland] tiles>"]
 	},
@@ -76,7 +76,7 @@
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Jungle"],
 		"gold": 2,
-		"improvement": "Crop Field",
+		"improvedBy": ["Crop Field","Theater Square","Military Camp","Airstrip","Spaceport","Industrial Zone","Commercial Hub","Holy Site","Campus"],
 		"improvementStats": {"gold": 1},
 		"uniques": ["Generated on every [200] tiles <in [Jungle] tiles>"]
 	},
@@ -86,7 +86,7 @@
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Jungle"],
 		"gold": 2,
-		"improvement": "Crop Field",
+		"improvedBy": ["Crop Field","Theater Square","Military Camp","Airstrip","Spaceport","Industrial Zone","Commercial Hub","Holy Site","Campus"],
 		"improvementStats": {"gold": 1},
 		"uniques": ["Generated on every [200] tiles <in [Jungle] tiles>"]
 	},
@@ -96,7 +96,7 @@
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Coast"],
 		"gold": 2,
-		"improvement": "Fish Trap",
+		"improvedBy": ["Fish Trap","Harbor"],
 		"improvementStats": {"gold": 1},
 		"uniques": ["Generated on every [200] tiles <in [Coast] tiles>"]
 	},
@@ -106,6 +106,7 @@
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Desert"],
 		"gold": 2,
+		"improvedBy": ["Theater Square","Military Camp","Airstrip","Spaceport","Industrial Zone","Commercial Hub","Holy Site","Campus"],
 		"improvementStats": {"gold": 1},
 		"uniques": ["Generated on every [200] tiles <in [Desert] tiles>"]
 	},
@@ -115,7 +116,7 @@
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Forest","Jungle"],
 		"gold": 2,
-		"improvement": "Crop Field",
+		"improvedBy": ["Crop Field","Theater Square","Military Camp","Airstrip","Spaceport","Industrial Zone","Commercial Hub","Holy Site","Campus"],
 		"improvementStats": {"gold": 1},
 		"uniques": ["Generated on every [200] tiles <in [Forest] tiles>","Generated on every [200] tiles <in [Jungle] tiles>"]
 	},
@@ -125,7 +126,7 @@
 		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": ["Tropical"],
 		"food": 1,
-		"improvement": "Crop Field",
+		"improvedBy": ["Crop Field","Theater Square","Military Camp","Airstrip","Spaceport","Industrial Zone","Commercial Hub","Holy Site","Campus"],
 		"improvementStats": {"production": 1},
 		"uniques": ["Generated on every [210] tiles <in [Tropical] tiles>"]
 	},
@@ -134,7 +135,7 @@
 		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": ["Grassland","Plains"],
 		"food": 1,
-		"improvement": "Crop Field",
+		"improvedBy": ["Crop Field","Theater Square","Military Camp","Airstrip","Spaceport","Industrial Zone","Commercial Hub","Holy Site","Campus"],
 		"improvementStats": {"production": 1},
 		"uniques": ["Generated on every [210] tiles <in [Grassland] tiles>","Generated on every [210] tiles <in [Plains] tiles>"]
 	},
@@ -143,7 +144,7 @@
 		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": ["Grassland"],
 		"food": 1,
-		"improvement": "Crop Field",
+		"improvedBy": ["Crop Field","Theater Square","Military Camp","Airstrip","Spaceport","Industrial Zone","Commercial Hub","Holy Site","Campus"],
 		"improvementStats": {"production": 1},
 		"uniques": ["Generated on every [210] tiles <in [Grassland] tiles>"]
 	},
@@ -152,7 +153,7 @@
 		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": ["Plains","Grassland"],
 		"food": 1,
-		"improvement": "Crop Field",
+		"improvedBy": ["Crop Field","Theater Square","Military Camp","Airstrip","Spaceport","Industrial Zone","Commercial Hub","Holy Site","Campus"],
 		"improvementStats": {"production": 1},
 		"uniques": ["Generated on every [210] tiles <in [Plains] tiles>","Generated on every [210] tiles <in [Grassland] tiles>"]
 	},
@@ -161,7 +162,7 @@
 		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": ["Tropical","Grassland","Marsh"],
 		"food": 1,
-		"improvement": "Crop Field",
+		"improvedBy": ["Crop Field","Theater Square","Military Camp","Airstrip","Spaceport","Industrial Zone","Commercial Hub","Holy Site","Campus"],
 		"improvementStats": {"production": 1},
 		"uniques": ["Generated on every [210] tiles <in [Tropical] tiles>","Generated on every [210] tiles <in [Grassland] tiles>","Generated on every [210] tiles <in [Marsh] tiles>"]
 	},
@@ -170,7 +171,7 @@
 		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": ["Tropical"],
 		"food": 1,
-		"improvement": "Crop Field",
+		"improvedBy": ["Crop Field","Theater Square","Military Camp","Airstrip","Spaceport","Industrial Zone","Commercial Hub","Holy Site","Campus"],
 		"improvementStats": {"production": 1},
 		"uniques": ["Generated on every [210] tiles <in [Tropical] tiles>"]
 	},
@@ -179,7 +180,7 @@
 		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": ["Tropical"],
 		"food": 1,
-		"improvement": "Crop Field",
+		"improvedBy": ["Crop Field","Theater Square","Military Camp","Airstrip","Spaceport","Industrial Zone","Commercial Hub","Holy Site","Campus"],
 		"improvementStats": {"production": 1},
 		"uniques": ["Generated on every [210] tiles <in [Tropical] tiles>"]
 	},
@@ -188,7 +189,7 @@
 		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": ["Plains"],
 		"food": 1,
-		"improvement": "Crop Field",
+		"improvedBy": ["Crop Field","Theater Square","Military Camp","Airstrip","Spaceport","Industrial Zone","Commercial Hub","Holy Site","Campus"],
 		"improvementStats": {"production": 1},
 		"uniques": ["Generated on every [210] tiles <in [Plains] tiles>"]
 	},
@@ -197,7 +198,7 @@
 		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": ["Forest"],
 		"food": 1,
-		"improvement": "Crop Field",
+		"improvedBy": ["Crop Field","Theater Square","Military Camp","Airstrip","Spaceport","Industrial Zone","Commercial Hub","Holy Site","Campus"],
 		"improvementStats": {"production": 1},
 		"uniques": ["Generated on every [210] tiles <in [Forest] tiles>"]
 	},
@@ -206,7 +207,7 @@
 		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": ["Forest","Sagebrush Steppe"],
 		"food": 1,
-		"improvement": "Crop Field",
+		"improvedBy": ["Crop Field","Theater Square","Military Camp","Airstrip","Spaceport","Industrial Zone","Commercial Hub","Holy Site","Campus"],
 		"improvementStats": {"production": 1},
 		"uniques": ["Generated on every [210] tiles <in [Plains] tiles>"]
 	},
@@ -215,7 +216,7 @@
 		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": ["Forest"],
 		"food": 1,
-		"improvement": "Crop Field",
+		"improvedBy": ["Crop Field","Theater Square","Military Camp","Airstrip","Spaceport","Industrial Zone","Commercial Hub","Holy Site","Campus"],
 		"improvementStats": {"production": 1},
 		"uniques": ["Generated on every [210] tiles <in [Forest] tiles>"]
 	},
@@ -224,7 +225,7 @@
 		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": ["Forest"],
 		"food": 1,
-		"improvement": "Crop Field",
+		"improvedBy": ["Crop Field","Theater Square","Military Camp","Airstrip","Spaceport","Industrial Zone","Commercial Hub","Holy Site","Campus"],
 		"improvementStats": {"production": 1},
 		"uniques": ["Generated on every [210] tiles <in [Forest] tiles>"]
 	},
@@ -233,7 +234,7 @@
 		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": ["Plains","Sagebrush Steppe"],
 		"food": 1,
-		"improvement": "Crop Field",
+		"improvedBy": ["Crop Field","Theater Square","Military Camp","Airstrip","Spaceport","Industrial Zone","Commercial Hub","Holy Site","Campus"],
 		"improvementStats": {"production": 1},
 		"uniques": ["Generated on every [210] tiles <in [Plains] tiles>"]
 	},
@@ -242,7 +243,7 @@
 		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": ["Forest"],
 		"food": 1,
-		"improvement": "Crop Field",
+		"improvedBy": ["Crop Field","Theater Square","Military Camp","Airstrip","Spaceport","Industrial Zone","Commercial Hub","Holy Site","Campus"],
 		"improvementStats": {"production": 1},
 		"uniques": ["Generated on every [210] tiles <in [Forest] tiles>"]
 	},
@@ -251,7 +252,7 @@
 		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": ["Forest"],
 		"food": 1,
-		"improvement": "Crop Field",
+		"improvedBy": ["Crop Field","Theater Square","Military Camp","Airstrip","Spaceport","Industrial Zone","Commercial Hub","Holy Site","Campus"],
 		"improvementStats": {"production": 1},
 		"uniques": ["Generated on every [210] tiles <in [Forest] tiles>"]
 	},
@@ -260,7 +261,7 @@
 		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": ["Jungle","Tropical"],
 		"food": 1,
-		"improvement": "Crop Field",
+		"improvedBy": ["Crop Field","Theater Square","Military Camp","Airstrip","Spaceport","Industrial Zone","Commercial Hub","Holy Site","Campus"],
 		"improvementStats": {"production": 1},
 		"uniques": ["Generated on every [210] tiles <in [Jungle] tiles>"]
 	},
@@ -270,7 +271,7 @@
 		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": ["Tropical","Marsh"],
 		"food": 1,
-		"improvement": "Animal Pen",
+		"improvedBy": ["Animal Pen","Theater Square","Military Camp","Airstrip","Spaceport","Industrial Zone","Commercial Hub","Holy Site","Campus"],
 		"improvementStats": {"production": 1},
 		"uniques": ["Generated on every [210] tiles <in [Tropical] tiles>","Generated on every [210] tiles <in [Marsh] tiles>"]
 	},
@@ -279,7 +280,7 @@
 		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": ["Grassland"],
 		"food": 1,
-		"improvement": "Animal Pen",
+		"improvedBy": ["Animal Pen","Theater Square","Military Camp","Airstrip","Spaceport","Industrial Zone","Commercial Hub","Holy Site","Campus"],
 		"improvementStats": {"production": 1},
 		"uniques": ["Generated on every [210] tiles <in [Grassland] tiles>"]
 	},
@@ -288,7 +289,7 @@
 		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": ["Forest"],
 		"food": 1,
-		"improvement": "Animal Pen",
+		"improvedBy": ["Animal Pen","Theater Square","Military Camp","Airstrip","Spaceport","Industrial Zone","Commercial Hub","Holy Site","Campus"],
 		"improvementStats": {"production": 1},
 		"uniques": ["Generated on every [210] tiles <in [Forest] tiles>"]
 	},
@@ -297,7 +298,7 @@
 		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": ["Grassland"],
 		"food": 1,
-		"improvement": "Animal Pen",
+		"improvedBy": ["Animal Pen","Theater Square","Military Camp","Airstrip","Spaceport","Industrial Zone","Commercial Hub","Holy Site","Campus"],
 		"improvementStats": {"production": 1},
 		"uniques": ["Generated on every [210] tiles <in [Grassland] tiles>"]
 	},
@@ -306,7 +307,7 @@
 		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": ["Grassland"],
 		"food": 1,
-		"improvement": "Animal Pen",
+		"improvedBy": ["Animal Pen","Theater Square","Military Camp","Airstrip","Spaceport","Industrial Zone","Commercial Hub","Holy Site","Campus"],
 		"improvementStats": {"production": 1},
 		"uniques": ["Generated on every [210] tiles <in [Grassland] tiles>"]
 	},
@@ -315,7 +316,7 @@
 		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": ["Plains"],
 		"food": 1,
-		"improvement": "Animal Pen",
+		"improvedBy": ["Animal Pen","Theater Square","Military Camp","Airstrip","Spaceport","Industrial Zone","Commercial Hub","Holy Site","Campus"],
 		"improvementStats": {"production": 1},
 		"uniques": ["Generated on every [210] tiles <in [Plains] tiles>"]
 	},
@@ -324,7 +325,7 @@
 		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": ["Forest"],
 		"gold": 2,
-		"improvement": "Animal Pen",
+		"improvedBy": ["Animal Pen","Theater Square","Military Camp","Airstrip","Spaceport","Industrial Zone","Commercial Hub","Holy Site","Campus"],
 		"improvementStats": {"production": 1},
 		"uniques": ["Generated on every [210] tiles <in [Forest] tiles>"]
 	},
@@ -333,7 +334,7 @@
 		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": ["Hill"],
 		"food": 1,
-		"improvement": "Animal Pen",
+		"improvedBy": ["Animal Pen","Theater Square","Military Camp","Airstrip","Spaceport","Industrial Zone","Commercial Hub","Holy Site","Campus"],
 		"improvementStats": {"production": 1},
 		"uniques": ["Generated on every [210] tiles <in [Hill] tiles>"]
 	},
@@ -342,7 +343,7 @@
 		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": ["Hill"],
 		"food": 1,
-		"improvement": "Animal Pen",
+		"improvedBy": ["Animal Pen","Theater Square","Military Camp","Airstrip","Spaceport","Industrial Zone","Commercial Hub","Holy Site","Campus"],
 		"improvementStats": {"production": 1},
 		"uniques": ["Generated on every [210] tiles <in [Hill] tiles>"]
 	},
@@ -351,7 +352,7 @@
 		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": ["Hill"],
 		"food": 1,
-		"improvement": "Animal Pen",
+		"improvedBy": ["Animal Pen","Theater Square","Military Camp","Airstrip","Spaceport","Industrial Zone","Commercial Hub","Holy Site","Campus"],
 		"improvementStats": {"production": 1},
 		"uniques": ["Generated on every [210] tiles <in [Hill] tiles>"]
 	},
@@ -360,7 +361,7 @@
 		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": ["Savanna Woodland"],
 		"food": 1,
-		"improvement": "Animal Pen",
+		"improvedBy": ["Animal Pen","Theater Square","Military Camp","Airstrip","Spaceport","Industrial Zone","Commercial Hub","Holy Site","Campus"],
 		"improvementStats": {"production": 1},
 		"uniques": ["Generated on every [210] tiles <in [Savanna Woodland] tiles>"]
 	},
@@ -369,7 +370,7 @@
 		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": ["Plains"],
 		"food": 1,
-		"improvement": "Animal Pen",
+		"improvedBy": ["Animal Pen","Theater Square","Military Camp","Airstrip","Spaceport","Industrial Zone","Commercial Hub","Holy Site","Campus"],
 		"improvementStats": {"production": 1},
 		"uniques": ["Generated on every [210] tiles <in [Plains] tiles>"]
 	},
@@ -378,7 +379,7 @@
 		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": ["Tundra"],
 		"food": 1,
-		"improvement": "Animal Pen",
+		"improvedBy": ["Animal Pen","Theater Square","Military Camp","Airstrip","Spaceport","Industrial Zone","Commercial Hub","Holy Site","Campus"],
 		"improvementStats": {"production": 1},
 		"uniques": ["Generated on every [210] tiles <in [Tundra] tiles>"]
 	},
@@ -387,6 +388,7 @@
 		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": ["Plains","Savanna Woodland"],
 		"food": 1,
+		"improvedBy": ["Animal Pen","Theater Square","Military Camp","Airstrip","Spaceport","Industrial Zone","Commercial Hub","Holy Site","Campus"],
 		"improvementStats": {"production": 1},
 		"uniques": ["Generated on every [210] tiles <in [Plains] tiles>","Generated on every [210] tiles <in [Savanna Woodland] tiles>"]
 	},
@@ -395,7 +397,7 @@
 		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": ["Desert"],
 		"food": 1,
-		"improvement": "Animal Pen",
+		"improvedBy": ["Animal Pen","Theater Square","Military Camp","Airstrip","Spaceport","Industrial Zone","Commercial Hub","Holy Site","Campus"],
 		"improvementStats": {"production": 1},
 		"uniques": ["Generated on every [210] tiles <in [Desert] tiles>"]
 	},
@@ -405,7 +407,7 @@
 		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": ["Coast","Deep Coast"],
 		"food": 1,
-		"improvement": "Fish Trap",
+		"improvedBy": ["Fish Trap","Harbor"],
 		"improvementStats": {"production": 1},
 		"uniques": ["Generated on every [10] tiles <in [Coast] tiles>"]
 	},
@@ -414,7 +416,7 @@
 		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": ["Coast","Deep Coast"],
 		"food": 1,
-		"improvement": "Fish Trap",
+		"improvedBy": ["Fish Trap","Harbor"],
 		"improvementStats": {"production": 1},
 		"uniques": ["Generated on every [10] tiles <in [Coast] tiles>"]
 	},
@@ -423,7 +425,7 @@
 		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": ["Coast","Deep Coast"],
 		"food": 1,
-		"improvement": "Fish Trap",
+		"improvedBy": ["Fish Trap","Harbor"],
 		"improvementStats": {"production": 1},
 		"uniques": ["Generated on every [10] tiles <in [Coast] tiles>"]
 	},
@@ -432,7 +434,7 @@
 		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": ["Coast"],
 		"food": 1,
-		"improvement": "Fish Trap",
+		"improvedBy": ["Fish Trap","Harbor"],
 		"improvementStats": {"production": 1},
 		"uniques": ["Generated on every [10] tiles <in [Coast] tiles>"]
 	},
@@ -441,7 +443,7 @@
 		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": ["Ocean"],
 		"food": 1,
-		"improvement": "Fish Trap",
+		"improvedBy": ["Fish Trap","Harbor"],
 		"improvementStats": {"production": 1},
 		"uniques": ["Generated on every [10] tiles <in [Ocean] tiles>"]
 	},
@@ -450,7 +452,7 @@
 		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": ["Deeper Ocean"],
 		"food": 1,
-		"improvement": "Fish Trap",
+		"improvedBy": ["Fish Trap","Harbor"],
 		"improvementStats": {"production": 1},
 		"uniques": ["Generated on every [10] tiles <in [Deeper Ocean] tiles>"]
 	},
@@ -459,7 +461,7 @@
 		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": ["Deeper Ocean"],
 		"food": 1,
-		"improvement": "Fish Trap",
+		"improvedBy": ["Fish Trap","Harbor"],
 		"improvementStats": {"production": 1},
 		"uniques": ["Generated on every [10] tiles <in [Deeper Ocean] tiles>"]
 	},
@@ -468,7 +470,7 @@
 		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": ["Ocean","Deep Ocean"],
 		"food": 1,
-		"improvement": "Fish Trap",
+		"improvedBy": ["Fish Trap","Harbor"],
 		"improvementStats": {"production": 1},
 		"uniques": ["Generated on every [10] tiles <in [Ocean] tiles>"]
 	},
@@ -487,7 +489,7 @@
 		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": ["Grassland","Plains","Tundra","Sagebrush Steppe"],
 		"production": 1,
-		"improvement": "Quarry",
+		"improvedBy": ["Quarry","Theater Square","Military Camp","Airstrip","Spaceport","Industrial Zone","Commercial Hub","Holy Site","Campus"],
 		"improvementStats": {"production": 1},
 		"uniques": ["Generated on every [50] tiles <in [Grassland] tiles>","Generated on every [50] tiles <in [Plains] tiles>","Generated on every [50] tiles <in [Tundra] tiles>"]
 	},
@@ -517,6 +519,7 @@
 		"production": 1,
 		"terrainsCanBeFoundOn": ["Grassland","Plains","Sagebrush Steppe"],
 		"revealedBy": "Agriculture",
+		"improvedBy": ["Animal Pen","Theater Square","Military Camp","Airstrip","Spaceport","Industrial Zone","Commercial Hub","Holy Site","Campus"],
 		"resourceType": "Strategic",
 		"uniques":["Generated on every [50] tiles <in [Grassland] tiles>","Generated on every [50] tiles <in [Plains] tiles>"]
 	},
@@ -531,7 +534,7 @@
 		"revealedBy": "Mining",
 		"gold": 1,
 		"production": 1,
-		"improvement":"Mine",
+		"improvedBy": ["Mine","Theater Square","Military Camp","Airstrip","Spaceport","Industrial Zone","Commercial Hub","Holy Site","Campus"],
 		"resourceType": "Strategic",
 		"uniques":["Generated on every [10] tiles <in [Hill] tiles>"]
 	},
@@ -541,7 +544,7 @@
 		"revealedBy": "Iron Working",
 		"gold": 1,
 		"production": 1,
-		"improvement":"Mine",
+		"improvedBy": ["Mine","Theater Square","Military Camp","Airstrip","Spaceport","Industrial Zone","Commercial Hub","Holy Site","Campus"],
 		"resourceType": "Strategic",
 		"uniques":["Generated on every [11] tiles <in [Hill] tiles>"]
 	},
@@ -551,7 +554,7 @@
 		"revealedBy": "Gunpowder",
 		"gold": 1,
 		"production": 1,
-		"improvement":"Mine",
+		"improvedBy": ["Mine","Theater Square","Military Camp","Airstrip","Spaceport","Industrial Zone","Commercial Hub","Holy Site","Campus"],
 		"resourceType": "Strategic",
 		"uniques":["Generated on every [11] tiles <in [Hill] tiles>"]
 	},
@@ -577,7 +580,7 @@
 		"revealedBy": "Industrialization",
 		"gold": 1,
 		"production": 1,
-		"improvement":"Mine",
+		"improvedBy": ["Mine","Theater Square","Military Camp","Airstrip","Spaceport","Industrial Zone","Commercial Hub","Holy Site","Campus"],
 		"resourceType": "Strategic",
 		"uniques":["Generated on every [11] tiles <in [Hill] tiles>","Generated on every [99] tiles <in [Forest] tiles>","Generated on every [99] tiles <in [Jungle] tiles>"]
 	},
@@ -587,7 +590,7 @@
 		"revealedBy": "Refining",
 		"gold": 2,
 		"production": 1,
-		"improvedBy": ["Oil well", "Offshore Platform"],
+		"improvedBy": ["Oil well", "Offshore Platform","Harbor"],
 		"resourceType": "Strategic",
 		"uniques":["Generated on every [11] tiles <in [Desert] tiles>","Generated on every [11] tiles <in [Deep Coast] tiles>","Generated on every [11] tiles <in [Deep Ocean] tiles>","Generated on every [11] tiles <in [Snow] tiles>"]
 	},
@@ -602,7 +605,7 @@
 		"revealedBy": "Advanced Flight",
 		"gold": 1,
 		"production": 1,
-		"improvement":"Mine",
+		"improvedBy": ["Mine","Theater Square","Military Camp","Airstrip","Spaceport","Industrial Zone","Commercial Hub","Holy Site","Campus"],
 		"resourceType": "Strategic",
 		"uniques":["Generated on every [11] tiles <in [Desert] tiles>","Generated on every [99] tiles <in [Rainforest] tiles>","Generated on every [99] tiles <in [Plains] tiles>"]
 	},
@@ -613,7 +616,7 @@
 		"gold": 1,
 		"science": 1,
 		"production": 1,
-		"improvement":"Mine",
+		"improvedBy": ["Mine","Theater Square","Military Camp","Airstrip","Spaceport","Industrial Zone","Commercial Hub","Holy Site","Campus"],
 		"resourceType": "Strategic",
 		"uniques":["Generated on every [11] tiles <in [Rainforest] tiles>","Generated on every [99] tiles <in [Forest] tiles>","Generated on every [99] tiles <in [Plains] tiles>",
 	                                                                    "Generated on every [99] tiles <in [Desert] tiles>","Generated on every [99] tiles <in [Grassland] tiles>",

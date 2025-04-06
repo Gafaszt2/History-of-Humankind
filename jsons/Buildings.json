@@ -1381,7 +1381,7 @@
 	{
 		"name": "Ultimate World Bank",
 		"isNationalWonder": true,
-		"uniques": ["Unbuildable","Can be purchased with [Gold] [in all cities]","Can be purchased for [26000] [Gold] [in all cities]",
+		"uniques": ["Unbuildable","Can be purchased with [Gold] [in all cities]","Can be purchased for [76000] [Gold] [in all cities]",
 			"Only available <when [Economic] Victory is enabled>"]
 	},
 	///////// RELIGION
