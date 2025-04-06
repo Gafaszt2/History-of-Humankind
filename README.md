@@ -1,2 +1,4 @@
 # History-of-Humankind
 My brand new ruleset free for all to play, if you wonder how an civilization game would be on my hands? this is the ruleset for you.
+
+History of Humankind dives deeper into humanity's resilience and progression through history by introducing key elements like the Dark Age, representing a time of challenge and uncertainty that shaped societies. The addition of Plague captures the devastating impact of disease on populations, serving as a reminder of the fragility yet adaptability of civilizations. Injuries bring a personal dimension to struggles, highlighting individual hardships amidst the larger historical narrative. Artifacts, meanwhile, celebrate the enduring legacy of human creativity and ingenuity, offering glimpses into the cultural milestones that define us. Lastly, a thoughtful Rework of existing features ensures a refined, cohesive experience that aligns seamlessly with the epic story you're telling.
