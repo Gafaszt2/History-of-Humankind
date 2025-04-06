@@ -1,0 +1,293 @@
+[
+
+	{
+		"name": "Communal Area",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"food": 1,
+		"turnsToBuild": 7,
+		"techRequired": "Fire",
+		"obsoleteTech": "Agriculture",
+		"uniques": ["[-1 Food] from [Bonus resource] tiles","[-1 Food] from [Strategic resource] tiles","[-1 Food] from [Luxury resource] tiles"],
+		"shortcutKey": "A"
+	},
+    {
+		"name": "Geothermal Plant",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"turnsToBuild": 10,
+		"techRequired": "Nuclear Fission",
+		"uniques": ["[+4 Gold] for each adjacent [Volcano]","[+4 Production] for each adjacent [Volcano]","[+1 Science] for each adjacent [Volcano]"],
+		"shortcutKey": "A"
+	},
+	{
+		"name": "Wind Farm",
+		"terrainsCanBeBuiltOn": ["Hill","Mountain"],
+		"turnsToBuild": 5,
+		"production": 2,
+		"gold": 3,
+		"techRequired": "Composites",
+		"shortcutKey": "A"
+	},
+	{
+		"name": "Underwater Habitat",
+		"terrainsCanBeBuiltOn": ["Deeper Coast","Ocean","Deep Ocean","Deeper Ocean"],
+		"turnsToBuild": 10,
+		"food": 2,
+		"science": 2,
+		"uniques": ["Can be built just outside your borders",
+			"Gain control over [Deeper Coast] tiles in a [1]-tile radius",
+			"Gain control over [Ocean] tiles in a [1]-tile radius",
+			"Gain control over [Deep Ocean] tiles in a [1]-tile radius",
+			"Gain control over [Deeper Ocean] tiles in a [1]-tile radius",
+			"Removes removable features when built"],
+		"techRequired": "Nanotechnology",
+		"shortcutKey": "A"
+	},
+    {
+		"name": "Ski Resort",
+		"terrainsCanBeBuiltOn": ["Mountain"],
+		"turnsToBuild": 10,
+		"happiness": 2,
+		"culture": 2,
+		"gold": 2,
+		"techRequired": "Plastics",
+		"shortcutKey": "A"
+	},
+	{
+		"name": "Crop Field",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"food": 1,
+		"turnsToBuild": 7,
+		"techRequired": "Selective Cultivation",
+		"uniques": ["Can only be built to improve a resource"],
+		"shortcutKey": "B"
+	},
+	{
+		"name": "Oil well",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"gold": 3,
+		"turnsToBuild": 7,
+		"techRequired": "Refining",
+		"uniques": ["Can only be built to improve a resource"],
+		"shortcutKey": "G"
+	},
+	{
+		"name": "Offshore Platform",
+		"terrainsCanBeBuiltOn": ["Water"],
+		"gold": 3,
+		"turnsToBuild": 7,
+		"techRequired": "Biology",
+		"uniques": ["Can only be built to improve a resource"],
+		"shortcutKey": "G"
+	},
+	{
+		"name": "Trench",
+        "techRequired": "Replaceable Parts",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"turnsToBuild": 4,
+		"uniques": ["Can be built outside your borders", "Gives a defensive bonus of [30]%","Adjacent enemy units ending their turn take [5] damage"]
+	},
+	{
+		"name": "Mine",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"production": 1,
+		"turnsToBuild": 7,
+		"techRequired": "Mining",
+		"uniques": ["Can only be built to improve a resource"],
+		"shortcutKey": "C"
+	},
+	{
+		"name": "Fish Trap",
+		"terrainsCanBeBuiltOn": ["Coast","Deep Coast","Land","Ocean","Deep Ocean","Deeper Ocean"],
+		"food": 1,
+		"turnsToBuild": 7,
+		"techRequired": "Fishing",
+		"uniques": ["Can only be built to improve a resource"],
+		"shortcutKey": "D"
+	},
+    {
+		"name": "Animal Pen",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"food": 1,
+		"turnsToBuild": 7,
+		"techRequired": "Collar",
+		"uniques": ["Can only be built to improve a resource"],
+		"shortcutKey": "E"
+	},
+	{
+		"name": "Quarry",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"production": 1,
+		"turnsToBuild": 7,
+		"techRequired": "Stone Tools",
+		"uniques": ["Can only be built to improve a resource"],
+		"shortcutKey": "H"
+	},
+	{
+		"name": "Farmstead",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"food": 1,
+		"turnsToBuild": 7,
+		"techRequired": "Agriculture",
+		"obsoleteTech":"Stirrups",
+		"uniques": ["[-1 Food] from [Bonus resource] tiles","[-1 Food] from [Strategic resource] tiles","[-1 Food] from [Luxury resource] tiles"],
+		"shortcutKey": "F"
+	},
+	{
+		"name": "Feudal Farm",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"food": 2,
+		"turnsToBuild": 5,
+		"techRequired": "Stirrups",
+		"obsoleteTech":"Gas Lighting",
+		"uniques": ["[-2 Food] from [Bonus resource] tiles","[-2 Food] from [Strategic resource] tiles","[-2 Food] from [Luxury resource] tiles"],
+		"shortcutKey": "F"
+	},
+	{
+		"name": "Neighborhood",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"food": 3,
+		"turnsToBuild": 5,
+		"techRequired": "Gas Lighting",
+		"uniques": [
+			"[+1 Gold] for each adjacent [City center]",
+			"[+1 Science] for each adjacent [Campus]","[+1 Faith] for each adjacent [Holy Site]","[+1 Gold] for each adjacent [Commercial Hub]","[+1 Production] for each adjacent [Industrial Zone]",
+			"[+1 Production] for each adjacent [Military Camp]","[+1 Culture] for each adjacent [Theater Square]","[+1 Gold] for each adjacent [Harbor]",
+			"[-3 Food] from [Bonus resource] tiles","[-3 Food] from [Strategic resource] tiles","[-3 Food] from [Luxury resource] tiles"],
+		"shortcutKey": "F"
+	},
+	{
+		"name": "Seaside Resort",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"gold": 1,
+		"turnsToBuild": 8,
+		"techRequired": "Radio",
+		"uniques": [
+			"[+2 Gold] for each adjacent [Coast]","[+2 Culture] for each adjacent [Coast]",
+		    "[+1 Gold] for each adjacent [Reef]","[+1 Culture] for each adjacent [Reef]"],
+		"shortcutKey": "F"
+	},
+	{
+		"name": "Lumber Mill",
+		"terrainsCanBeBuiltOn": ["Forest","Jungle"],
+		"production": 2,
+		"turnsToBuild": 7,
+		"techRequired": "Construction",
+		"shortcutKey": "G"
+	},
+	{
+		"name": "Fort",
+		"terrainsCanBeBuiltOn": ["Land"],
+        "uniques": ["Destroyed when pillaged","Gives a defensive bonus of [+30]%"],
+		"turnsToBuild": 7,
+		"techRequired": "Construction",
+		"shortcutKey": "G"
+	},
+	{
+		"name": "Campus",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"science": 1,
+		"uniques": ["Unpillagable","Great Improvement","Will not be replaced by automated units","Removes removable features when built",
+			"[-1 Science] from [Bonus resource] tiles","[-1 Science] from [Strategic resource] tiles","[-1 Science] from [Luxury resource] tiles"]
+	},
+	{
+		"name": "Holy Site",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"faith": 1,
+		"uniques": ["Unpillagable","Great Improvement","Will not be replaced by automated units","Removes removable features when built",
+			"[-1 Faith] from [Bonus resource] tiles","[-1 Faith] from [Strategic resource] tiles","[-1 Faith] from [Luxury resource] tiles"]
+	},
+	{
+		"name": "Commercial Hub",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"gold": 1,
+		"uniques": ["Unpillagable","Great Improvement","Will not be replaced by automated units","Removes removable features when built",
+			"[-1 Gold] from [Bonus resource] tiles","[-1 Gold] from [Strategic resource] tiles","[-1 Gold] from [Luxury resource] tiles"]
+	},
+	{
+		"name": "Industrial Zone",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"production": 1,
+		"uniques": ["Unpillagable","Great Improvement","Will not be replaced by automated units","Removes removable features when built",
+			"[-1 Production] from [Bonus resource] tiles","[-1 Production] from [Strategic resource] tiles","[-1 Production] from [Luxury resource] tiles"]
+	},
+	{
+		"name": "Spaceport",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"science": 2,
+		"production": 1,
+		"uniques": ["Unpillagable","Great Improvement","Will not be replaced by automated units","Removes removable features when built",
+			"[-1 Production] from [Bonus resource] tiles","[-1 Production] from [Strategic resource] tiles","[-1 Production] from [Luxury resource] tiles",
+		    "[-2 Science] from [Bonus resource] tiles","[-2 Science] from [Strategic resource] tiles","[-2 Science] from [Luxury resource] tiles"]
+	},
+	{
+		"name": "Airstrip",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"production": 1,
+		"uniques": ["Unpillagable","Great Improvement","Will not be replaced by automated units","Removes removable features when built",
+			"[-1 Production] from [Bonus resource] tiles","[-1 Production] from [Strategic resource] tiles","[-1 Production] from [Luxury resource] tiles"]
+	},
+	{
+		"name": "Military Camp",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"production": 1,
+		"uniques": ["Unpillagable","Great Improvement","Will not be replaced by automated units","Removes removable features when built",
+			"[-1 Production] from [Bonus resource] tiles","[-1 Production] from [Strategic resource] tiles","[-1 Production] from [Luxury resource] tiles"]
+	},
+	{
+		"name": "Theater Square",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"culture": 1,
+		"uniques": ["Unpillagable","Great Improvement","Will not be replaced by automated units","Removes removable features when built",
+			"[-1 Culture] from [Bonus resource] tiles","[-1 Culture] from [Strategic resource] tiles","[-1 Culture] from [Luxury resource] tiles"]
+	},
+	{
+		"name": "Harbor",
+		"terrainsCanBeBuiltOn": ["Coast"],
+		"food": 1,
+		"gold": 1,
+		"uniques": ["Unpillagable","Great Improvement","Will not be replaced by automated units","Removes removable features when built",
+			"[-1 Food] from [Bonus resource] tiles","[-1 Food] from [Strategic resource] tiles","[-1 Food] from [Luxury resource] tiles",
+		"[-1 Gold] from [Bonus resource] tiles","[-1 Gold] from [Strategic resource] tiles","[-1 Gold] from [Luxury resource] tiles"]
+	},
+	{
+		"name": "Road",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"turnsToBuild": 4,
+		"techRequired": "Wheel",
+		"uniques": ["Can be built outside your borders", "Costs [1] [Gold] per turn"],
+		"shortcutKey": "G",
+        "civilopediaText": [
+            {"text":"Reduces movement cost to ½ if the other tile also has a Road or Railroad"},
+            {"text":"Reduces movement cost to ⅓ with Machinery", "link":"Technology/Machinery"},
+            {"text":"Requires Engineering to bridge rivers", "link":"Technology/Engineering"}
+        ]
+	},
+	// Unbuildable improvements
+	{
+		"name": "Ancient ruins",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"uniques": ["Unpillagable", "Provides a random bonus when entered", "Unbuildable"]
+	},
+	{
+		"name": "City ruins",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"uniques": ["Unpillagable", "Unbuildable"],
+        "civilopediaText": [{"text":"A bleak reminder of the destruction wreaked by War"}]
+	},
+	{
+		"name": "City center",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"uniques": ["Ensures a minimum tile yield of [+2 Food, +1 Production]",
+            "Unpillagable", "Irremovable", "Unbuildable", "Excluded from map editor"],
+        "civilopediaText": [
+			{"text":"Marks the center of a city"},
+			{"text":"Appearance changes with the technological era of the owning civilization"}
+		]
+	},
+	{
+		"name": "Barbarian encampment",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"uniques": ["Unpillagable", "Unbuildable", "Excluded from map editor"],
+        "civilopediaText": [{"text":"Home to uncivilized barbarians, will spawn a hostile unit from time to time"}]
+	}
+]

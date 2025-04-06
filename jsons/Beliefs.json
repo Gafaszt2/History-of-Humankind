@@ -1,0 +1,313 @@
+
+[
+    {
+        "name": "Ancestor Worship",
+        "type": "Pantheon",
+        "uniques": ["[+1 Culture] from every [Shrine]"]
+    },
+    {
+        "name": "Dance of the Aurora",
+        "type": "Pantheon",
+        "uniques": ["[+1 Faith] from [Tundra] tiles without [Forest] [in this city]"]
+    },
+    {
+        "name": "Desert Folklore",
+        "type": "Pantheon",
+        "uniques": ["[+1 Faith] from every [Desert]"]
+    },
+    {
+        "name": "Oba's Favor",
+        "type": "Pantheon",
+        "uniques": ["[+2 Faith] from every [Savanna Woodland]","[+1 Food] from every [Savanna Woodland]"]
+    },
+    {
+        "name": "Zamani's Eternal Flame",
+        "type": "Pantheon",
+        "uniques": ["[+1 Faith] from every [Shrine]","[+1 Faith] from every [Savanna Woodland]","[All] Units adjacent to this city heal [+5] HP per turn when healing"]
+    },
+    {
+        "name": "Voice of the Rainforest",
+        "type": "Pantheon",
+        "uniques": ["[+1 Faith] from every [Tropical]","[+1 Gold] from every [Tropical]"]
+    },
+    {
+        "name": "Sacred Canopy",
+        "type": "Pantheon",
+        "uniques": ["[+2 Faith] from [Tropical] tiles without [Rainforest] [in this city]","[+2 Gold] from every [Tropical]"]
+    },
+    {
+        "name": "Faith Healers",
+        "type": "Pantheon",
+        "uniques": ["[All] Units adjacent to this city heal [+30] HP per turn when healing"]
+    },
+    {
+        "name": "Fertility Rites",
+        "type": "Pantheon",
+        "uniques": ["[+10]% growth [in this city]"]
+    },
+    {
+        "name": "God of Craftsman",
+        "type": "Pantheon",
+        "uniques": ["[+1 Production] [in cities following this religion] <in cities with at least [3] [Population]>"]
+    },
+    {
+        "name": "God of the Sea",
+        "type": "Pantheon",
+        "uniques": ["[+1 Production] from every [Fish Trap]"]
+    },
+    {
+        "name": "God of War",
+        "type": "Pantheon",
+        "uniques": ["Earn [50]% of [Military] unit's [Strength] as [Faith] when killed within 4 tiles of a city following this religion"]
+    },
+    {
+        "name": "Goddess of Festivals",
+        "type": "Pantheon",
+        "uniques": ["[+1 Culture, +1 Faith] from every [Wine]", "[+1 Culture, +1 Faith] from every [Incense]"]
+    },
+    {
+        "name": "Goddess of Love",
+        "type": "Pantheon",
+        "uniques": ["[+1 Happiness] [in cities following this religion] <in cities with at least [6] [Population]>"]
+    },
+    {
+        "name": "Goddess of Protection",
+        "type": "Pantheon",
+        "uniques": ["[+30]% Strength for cities <when attacking>"]
+    },
+    {
+        "name": "Messenger of the Gods",
+        "type": "Pantheon",
+        "uniques": ["[+2 Science] from each Trade Route"]
+    },
+    {
+        "name": "Monument to the Gods",
+        "type": "Pantheon",
+        "uniques": ["[+15]% Production when constructing [Neolithic Era] wonders [in cities following this religion]",
+            "[+15]% Production when constructing [Classical Era] wonders [in cities following this religion]"]
+    },
+    {
+        "name": "One with Nature",
+        "type": "Pantheon",
+        "uniques": ["[+4 Faith] from every [Natural Wonder]"]
+    },
+    {
+        "name": "Religious Idols",
+        "type": "Pantheon",
+        "uniques": ["[+1 Culture, +1 Faith] from every [Gold Ore]", "[+1 Culture, +1 Faith] from every [Silver]"]
+    },
+    {
+        "name": "Religious Settlements",
+        "type": "Pantheon",
+        "uniques": ["[-15]% Culture cost of natural border growth [in cities following this religion]"]
+    },
+    {
+        "name": "Sacred Path",
+        "type": "Pantheon",
+        "uniques": ["[+1 Culture] from every [Jungle]"]
+    },
+    {
+        "name": "Sacred Waters",
+        "type": "Pantheon",
+        "uniques": ["[+1 Happiness] in cities on [River] tiles"]
+    },
+    {
+        "name": "Stone Circles",
+        "type": "Pantheon",
+        "uniques": ["[+2 Faith] from every [Quarry]"]
+    },
+///////////////////////////////////////// Follower beliefs /////////////////////////////////////////
+    {
+        "name": "Choral Music",
+        "type": "Follower",
+        "uniques": ["[+2 Culture] from every [Shrine]","[+2 Culture] from every [Temple]"]
+    },
+    {
+        "name": "Divine Inspiration",
+        "type": "Follower",
+        "uniques": ["[+4 Faith] from every [Wonder]"]
+    },
+    {
+        "name": "Feed the World",
+        "type": "Follower",
+        "uniques": ["[+3 Food] from every [Shrine]","[+3 Food] from every [Temple]"]
+    },
+    {
+        "name": "Jesuit Education",
+        "type": "Follower",
+        "uniques": ["May buy [Science] buildings with [Faith] [in all cities]"]
+    },
+    {
+        "name": "Religious Community",
+        "type": "Follower",
+        "uniques": ["[+1]% [Production] from every follower, up to [15]%"]
+    },
+    {
+        "name": "Reliquaries",
+        "type": "Follower",
+        "uniques": ["[+2 Faith] from all [Faith] buildings"]
+    },
+    {
+        "name": "Warrior Monks",
+        "type": "Follower",
+        "uniques": ["May buy [Melee] units with [Faith] [in all cities]"]
+    },
+    {
+        "name": "Work Ethic",
+        "type": "Follower",
+        "uniques": ["[+3 Production] from every [Holy Site] <in cities with at least [3] [Followers of this Religion]>"]
+    },
+    {
+        "name": "Zen Meditation",
+        "type": "Follower",
+        "uniques": ["[+1 Happiness] from all [Faith] buildings"]
+    },
+    
+///////////////////////////////////////// Founder beliefs //////////////////////////////////////////
+
+    {
+        "name": "Church Property",
+        "type": "Founder",
+        "uniques": ["[+2 Gold] for each global city following this religion"]
+    },
+    {
+        "name": "Cross-Cultural Dialogue",
+        "type": "Founder",
+        "uniques": ["[+1 Science] from every [5] global followers [in all cities]"]
+    },
+    {
+        "name": "Lay Ministry",
+        "type": "Founder",
+        "uniques": ["[+1 Culture] from every [Shrine]"]
+    },
+    {
+        "name": "Papal Primacy",
+        "type": "Founder",
+        "uniques": ["[+1 Faith] from every [3] global followers [in all cities]"]
+    },
+
+    {
+        "name": "Pilgrimage",
+        "type": "Founder",
+        "uniques": ["[+2 Faith] for each global city following this religion"]
+    },
+    {
+        "name": "Religious Unity",
+        "type": "Founder",
+        "uniques": ["Gifts of Gold to City-States generate [+15]% more Influence"]
+    },
+    {
+        "name": "Sacred Places",
+        "type": "Founder",
+        "uniques": ["[+1 Culture] from every [Wonder] <in cities with at least [5] [Followers of this Religion]>","[+1 Science] from every [Wonder] <in cities with at least [5] [Followers of this Religion]>"]
+    },
+    {
+        "name": "Stewardship",
+        "type": "Founder",
+        "uniques": ["[+1 Science] from every [Campus Project] <in cities with at least [2] [Followers of this Religion]>","[+1 Gold] from every [Commercial Hub Project] <in cities with at least [2] [Followers of this Religion]>"]
+    },
+    {
+        "name": "Tithe",
+        "type": "Founder",
+        "uniques": ["[+1 Gold] from every [3] global followers [in all cities]"]
+    },
+    {
+        "name": "World Church",
+        "type": "Founder",
+        "uniques": ["[+1 Culture] for each global city following this religion"]
+    },
+    
+
+    ////////////////////////////////////// Enhancer beliefs ///////////////////////////////////////
+
+    {
+        "name": "Cathedral",
+        "type": "Enhancer",
+        "uniques": ["May buy [Cathedral] buildings for [150] [Faith] [in cities following this religion]"]
+    },
+    {
+        "name": "Daoguan",
+        "type": "Enhancer",
+        "uniques": ["May buy [Daoguan] buildings for [150] [Faith] [in cities following this religion]"]
+    },
+    {
+        "name": "Dar-e Mehr",
+        "type": "Enhancer",
+        "uniques": ["May buy [Dar-e Mehr] buildings for [150] [Faith] [in cities following this religion]"]
+    },
+    {
+        "name": "Derasar",
+        "type": "Enhancer",
+        "uniques": ["May buy [Derasar] buildings for [150] [Faith] [in cities following this religion]"]
+    },
+    {
+        "name": "Gurdwara",
+        "type": "Enhancer",
+        "uniques": ["May buy [Gurdwara] buildings for [150] [Faith] [in cities following this religion]"]
+    },
+    {
+        "name": "Hof",
+        "type": "Enhancer",
+        "uniques": ["May buy [Hof] buildings for [150] [Faith] [in cities following this religion]"]
+    },
+    {
+        "name": "Jinja",
+        "type": "Enhancer",
+        "uniques": ["May buy [Jinja] buildings for [150] [Faith] [in cities following this religion]"]
+    },
+    {
+        "name": "Mandi",
+        "type": "Enhancer",
+        "uniques": ["May buy [Mandi] buildings for [150] [Faith] [in cities following this religion]"]
+    },
+    {
+        "name": "Mandir",
+        "type": "Enhancer",
+        "uniques": ["May buy [Mandir] buildings for [150] [Faith] [in cities following this religion]"]
+    },
+    {
+        "name": "Mashriqu'l-Adhkár",
+        "type": "Enhancer",
+        "uniques": ["May buy [Mashriqu'l-Adhkár] buildings for [150] [Faith] [in cities following this religion]"]
+    },
+    {
+        "name": "Meeting House",
+        "type": "Enhancer",
+        "uniques": ["May buy [Meeting House] buildings for [150] [Faith] [in cities following this religion]"]
+    },
+    {
+        "name": "Mosque",
+        "type": "Enhancer",
+        "uniques": ["May buy [Mosque] buildings for [150] [Faith] [in cities following this religion]"]
+    },
+    {
+        "name": "Naos",
+        "type": "Enhancer",
+        "uniques": ["May buy [Naos] buildings for [150] [Faith] [in cities following this religion]"]
+    },
+    {
+        "name": "Nemeton",
+        "type": "Enhancer",
+        "uniques": ["May buy [Nemeton] buildings for [150] [Faith] [in cities following this religion]"]
+    },
+    {
+        "name": "Pagoda",
+        "type": "Enhancer",
+        "uniques": ["May buy [Pagoda] buildings for [150] [Faith] [in cities following this religion]"]
+    },
+    {
+        "name": "Synagogue",
+        "type": "Enhancer",
+        "uniques": ["May buy [Synagogue] buildings for [150] [Faith] [in cities following this religion]"]
+    },
+    {
+        "name": "Teocalli",
+        "type": "Enhancer",
+        "uniques": ["May buy [Teocalli] buildings for [150] [Faith] [in cities following this religion]"]
+    },
+    {
+        "name": "Wat",
+        "type": "Enhancer",
+        "uniques": ["May buy [Wat] buildings for [150] [Faith] [in cities following this religion]"]
+    },
+]

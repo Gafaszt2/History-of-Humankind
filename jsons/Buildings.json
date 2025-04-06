@@ -1,0 +1,1515 @@
+[
+	{
+		"name": "Palace",
+		"isNationalWonder": true,
+		"production": 3,
+		"science": 3,
+		"gold": 3,
+		"culture": 1,
+		"cityStrength": 0,
+		"cost": 1,
+		"uniques": ["Indicates the capital city"]
+	},
+	///// NEOLITHIC
+	{
+		"name": "Campfire",
+		"culture": 1,
+		"hurryCostModifier": 25,
+		"requiredTech": "Fire"
+	},
+	{
+		"name": "Burial",
+		"culture": 1,
+		"hurryCostModifier": 25,
+		"requiredTech": "Fire"
+	},
+	{
+		"name": "Shrine",
+		"faith": 1,
+		"maintenance": 1,
+		"hurryCostModifier": 25,
+		"requiredTech": "Stone Tools"
+	},
+	{
+		"name": "Granary",
+		"food": 1,
+		"hurryCostModifier": 25,
+		"requiredTech": "Selective Cultivation"
+	},
+	{
+		"name": "Smokehouse",
+		"food": 1,
+		"hurryCostModifier": 25,
+		"requiredTech": "Fishing"
+	},
+	{
+		"name": "Tethering Post",
+		"food": 1,
+		"hurryCostModifier": 25,
+		"requiredTech": "Collar"
+	},
+	{
+		"name": "Flint Quarry",
+		"production": 1,
+		"hurryCostModifier": 25,
+		"requiredTech": "Stone Tools"
+	},
+	{
+		"name": "Brewarrina Fish Traps",
+		"food": 2,
+		"production": 1,
+		"uniques": ["[+1 Food] from [Fish Trap] tiles [in all cities]","[+1 Food] from [Lake Fish] tiles [in all cities]"],
+		"isWonder": true,
+		"requiredTech": "Fishing"
+	},
+	{
+		"name": "Göbekli Tepe",
+		"culture": 4,
+		"uniques": ["[+1 Production] from [Hill] tiles [in this city]"],
+		"isWonder": true,
+		"requiredTech": "Stone Tools"
+	},
+	{
+		"name": "Stonehenge",
+		"faith": 3,
+		"uniques": ["[+1 Faith] per [4] population [in this city]"],
+		"isWonder": true,
+		"requiredTech": "Stone Tools"
+	},
+	////////// ANCIENT
+	{
+		"name": "Pottery Workshop",
+		"food": 1,
+		"uniques":["Destroyed when the city is captured","Provides [1] [Ware]"],
+		"hurryCostModifier": 25,
+		"requiredTech": "Pottery"
+	},
+	{
+		"name": "Ceramics Market",
+		"gold": 2,
+		"uniques":["Destroyed when the city is captured","Consumes [2] [Ware]"],
+		"hurryCostModifier": 25,
+		"requiredTech": "Pottery"
+	},
+	{
+		"name": "Grain Mill",
+		"production": 2,
+		"hurryCostModifier": 25,
+		"requiredTech": "Wheel"
+	},
+	{
+		"name": "Temple",
+		"faith": 2,
+		"hurryCostModifier": 25,
+		"requiredBuilding":"Holy Site Project",
+		"requiredTech": "Astrology"
+	},
+	{
+		"name": "Holy Site Project",
+		"faith": 1,
+		"maintenance": 1,
+		"hurryCostModifier": 50,
+		"uniques": ["Never destroyed when the city is captured","Creates a [Holy Site] improvement on a specific tile"],
+		"requiredTech": "Astrology"
+	},
+	{
+		"name": "Monument",
+		"culture": 2,
+		"maintenance": 1,
+		"hurryCostModifier": 25,
+		"requiredTech": "Astrology"
+	},
+	{
+		"name": "Library",
+		"science": 2,
+		"hurryCostModifier": 25,
+		"requiredTech": "Writing"
+	},
+	{
+		"name": "Military Camp Project",
+		"maintenance": 1,
+		"hurryCostModifier": 50,
+		"uniques": ["Never destroyed when the city is captured","Creates a [Military Camp] improvement on a specific tile","[+10]% Production when constructing [Archaic Infantry] units [in this city]","[+10]% Production when constructing [Archaic Cavalry] units [in this city]"],
+		"requiredTech": "Bronze Working"
+	},
+	{
+		"name": "Lighthouse",
+		"cost": 75,
+		"hurryCostModifier": 25,
+		"maintenance": 1,
+		"uniques": ["Must be next to [Coast]","[+1 Food] from [Ocean] tiles [in this city]",
+			"[+1 Food] from [Coast] tiles [in this city]","[+1 Food] from [Coastal Fish] tiles [in this city]" ],
+		"requiredTech": "Sailing"
+	},
+	{
+		"name": "Etemenanki",
+		"isWonder":true,
+		"hurryCostModifier": 25,
+		"uniques": ["Must be next to [Marsh]","[+2 Science] from [Marsh] tiles [in this city]",
+			"[+1 Science] from [Flood plains] tiles [in this city]"],
+		"requiredTech": "Writing"
+	},
+	{
+		"name": "Solomon's Temple",
+		"isWonder":true,
+		"faith": 2,
+		"uniques":["[+1 Faith] from every [Temple]"],
+		"hurryCostModifier": 25,
+		"requiredTech": "Astrology"
+	},
+	{
+		"name": "Ur Ziggurat",
+		"isWonder": true,
+		"uniques": ["[+5]% [Science] [in capital]", "[+1 Culture, +1 Science] from every specialist [in all cities]"],
+		"requiredTech": "Astrology"
+	},
+	{
+		"name": "Great Pyramid of Giza",
+		"isWonder":true,
+		"culture": 1,
+		"hurryCostModifier": 25,
+		"uniques": ["Must be next to [Desert]","[-80]% construction time for [All] improvements"],
+		"requiredTech": "Mining"
+	},
+	///// CLASSICAL
+	{
+		"name": "Commercial Hub Project",
+		"gold": 1,
+		"hurryCostModifier": 50,
+		"uniques": ["Never destroyed when the city is captured","Creates a [Commercial Hub] improvement on a specific tile"],
+		"requiredTech": "Currency"
+	},
+    {
+		"name": "Market",
+		"requiredBuilding": "Commercial Hub Project",
+		"gold": 2,
+		"hurryCostModifier": 25,
+		"requiredTech": "Currency"
+	},
+	{
+		"name": "Petra",
+		"isWonder": true,
+		"gold": 2,
+		"food": 3,
+		"uniques": ["Must be next to [Desert]","[+1 Food] from [Desert] tiles [in this city]",
+			"[+1 Gold] from [Desert] tiles [in this city]"],
+		"hurryCostModifier": 25,
+		"requiredTech": "Currency"
+	},
+	{
+		"name": "Aqueduct",
+		"food": 2,
+		"uniques": ["[40]% Food is carried over after population increases [in this city]"],
+		"hurryCostModifier": 25,
+		"requiredTech": "Engineering"
+	},
+	{
+		"name": "Courthouse",
+		"maintenance": 4,
+		"hurryCostModifier": 50,
+		"uniques": ["Remove extra unhappiness from annexed cities",
+			"Can only be built <in [Annexed] cities>"],
+		"requiredTech": "Civil Law"
+	},
+	{
+		"name": "Stable",
+		"requiredNearbyImprovedResources": ["Horses"],
+		"requiredBuilding": "Military Camp Project",
+		"maintenance": 1,
+		"hurryCostModifier": 50,
+		"uniques": ["[+20]% Production when constructing [Light Cavalry] units [in this city]","[+20]% Production when constructing [Heavy Cavalry] units [in this city]"],
+		"requiredTech": "Horseback Riding"
+	},
+	{
+		"name": "Barracks",
+		"requiredBuilding": "Military Camp Project",
+		"maintenance": 1,
+		"hurryCostModifier": 50,
+		"uniques": ["[+20]% Production when constructing [Archaic Infantry] units [in this city]","[+10]% Production when constructing [Infantry] units [in this city]"],
+		"requiredTech": "Iron Working"
+	},
+	{
+		"name": "Theater Square Project",
+		"culture": 1,
+		"hurryCostModifier": 50,
+		"uniques": ["Never destroyed when the city is captured","Creates a [Theater Square] improvement on a specific tile"],
+		"requiredTech": "Drama and Poetry"
+	},
+	{
+		"name": "Arena",
+		"requiredBuilding": "Theater Square Project",
+		"happiness": 2,
+		"culture": 1,
+		"maintenance": 1,
+		"hurryCostModifier": 50,
+		"requiredTech": "Drama and Poetry"
+	},
+	{
+		"name": "Amphitheater",
+		"requiredBuilding": "Theater Square Project",
+		"culture": 2,
+		"maintenance": 2,
+		"hurryCostModifier": 50,
+		"requiredTech": "Drama and Poetry"
+	},
+	{
+		"name": "The Oracle",
+		"culture": 4,
+		"isWonder": true,
+		"uniques": ["Free Social Policy"],
+		"requiredTech": "Philosophy"
+	},
+	{
+		"name": "Great Wall",
+		"culture": 4,
+		"isWonder": true,
+		"uniques": ["Enemy [Land] units must spend [1] extra movement points when inside your territory <Suppress warning [*contains a conditional on a unit movement unique*]>"],
+		"requiredTech": "Engineering"
+	},
+	{
+		"name": "Walls",
+		"cityHealth": 30,
+		"requiredTech": "Engineering"
+	},
+	{
+		"name": "Colossus",
+		"culture": 1,
+		"gold": 6,
+		"isWonder": true,
+		"uniques": ["Must be next to [Coast]", "[+1 Gold] from [Water] tiles [in this city]"],
+		"requiredTech": "Iron Working"
+	},
+	{
+		"name": "Caravanserai",
+		"requiredBuilding": "Commercial Hub Project",
+		"gold": 2,
+		"uniques":["Must be next to [Desert]"],
+		"hurryCostModifier": 50,
+		"requiredTech": "Currency"
+	},
+	{
+		"name": "Water Mill",
+		"food": 2,
+		"production": 1,
+		"uniques":["Must be next to [River]"],
+		"hurryCostModifier": 50,
+		"requiredTech": "Construction"
+	},
+	{
+		"name": "Consulate",
+		"happiness": 2,
+		"maintenance": 1,
+		"hurryCostModifier": 50,
+		"requiredTech": "Philosophy"
+	},
+	{
+		"name": "Apadana",
+		"isWonder": true,
+		"gold": 1,
+		"uniques": ["[+100]% [Culture] from City-States"],
+		"requiredTech": "Philosophy"
+	},
+	{
+		"name": "Colosseum",
+		"isWonder": true,
+		"happiness": 5,
+		"culture": 3,
+		"requiredTech": "Construction"
+	},
+	{
+		"name": "Derinkuyu",
+		"isWonder": true,
+		"food": 4,
+		"uniques":["[+25]% [Food] [in capital]"],
+		"requiredTech": "Engineering"
+	},
+	{
+		"name": "Gate of All Nations",
+		"isWonder": true,
+		"culture": 4,
+		"uniques":["Gain a free [Consulate] [in all cities]"],
+		"requiredTech": "Construction"
+	},
+	{
+		"name": "Great Library of Alexandria",
+		"isWonder": true,
+		"science": 3,
+		"uniques":["Free Technology"],
+		"requiredTech": "Philosophy"
+	},
+	{
+		"name": "King Ezana’s Stele",
+		"isWonder": true,
+		"faith": 3,
+		"uniques":["Free [Prophet] appears"],
+		"requiredTech": "Mathematics"
+	},
+	{
+		"name": "Halicarnassus Mausoleum",
+		"isWonder": true,
+		"uniques":["[+1 Science] from [Coast] tiles [in this city]",
+	               "[+1 Science] from [Deep Coast] tiles [in this city]",
+				   "[+1 Science] from [Deeper Coast] tiles [in this city]",
+				   "[+1 Culture] from [Coast] tiles [in this city]",
+	               "[+1 Culture] from [Deep Coast] tiles [in this city]",
+				   "[+1 Culture] from [Deeper Coast] tiles [in this city]",
+				   "[+1 Gold] from [Coast] tiles [in this city]",
+	               "[+1 Gold] from [Deep Coast] tiles [in this city]",
+				   "[+1 Gold] from [Deeper Coast] tiles [in this city]"],
+		"requiredTech": "Optics"
+	},
+	{
+		"name": "Statue of Zeus",
+		"isWonder": true,
+		"uniques": ["[+15]% Strength <for [All] units> <vs cities> <when attacking>"],
+		"requiredTech": "Iron Working"
+	},
+	{
+		"name": "Temple of Artemis",
+		"isWonder": true,
+		"uniques": ["[+15]% [Food] [in all cities]"],
+		"requiredTech": "Engineering"
+	},
+	{
+		"name": "The Great Lighthouse",
+		"isWonder": true,
+		"uniques": ["Must be next to [Coast]", "[+1] Movement <for [{Military} {Water}] units>",
+			"[+1] Sight <for [{Military} {Water}] units>"],
+		"requiredTech": "Optics"
+	},
+	{
+		"name": "Parthenon",
+		"isWonder": true,
+		"culture":3,
+		"uniques": ["Free [Artist] appears"],
+		"requiredTech": "Drama and Poetry"
+	},
+	{
+		"name": "Lighthouse of Alexandria",
+		"isWonder": true,
+		"gold": 4,
+		"culture": 2,
+		"uniques": ["Must be next to [Coast]"],
+		"requiredTech": "Optics"
+	},
+	{
+		"name": "Hanging Gardens of Babylon",
+		"isWonder": true,
+		"food": 2,
+		"uniques": [
+		"[+20]% Production when constructing [Campus Project] buildings [in all cities]",
+		"[+20]% Production when constructing [Theater Square Project] buildings [in all cities]",
+		"[+20]% Production when constructing [Commercial Hub Project] buildings [in all cities]",
+		"[+20]% Production when constructing [Industrial Zone Project] buildings [in all cities]",
+		"[+20]% Production when constructing [Holy Site Project] buildings [in all cities]",
+		"[+20]% Production when constructing [Military Camp Project] buildings [in all cities]",
+		"[+1 Food] from [River] tiles [in this city]","Must be next to [River]"],
+		"requiredTech": "Engineering"
+	},
+	{
+		"name": "Petra",
+		"isWonder": true,
+		"food": 2,
+		"production": 1,
+		"gold": 2,
+		"uniques": ["[+1 Food] from [Desert] tiles [in this city]",
+		            "[+1 Gold] from [Desert] tiles [in this city]",
+					"[+1 Food] from [Desert] tiles [in this city] <during a Golden Age>",
+					"[+1 Food] from [Desert] tiles [in this city] <during a Golden Age>",
+					"Must be next to [Desert]"],
+		"requiredTech": "Engineering"
+	},
+	{
+		"name": "Serpent Mound",
+		"isWonder": true,
+		"culture": 2,
+		"faith": 2,
+		"uniques": ["[+1 Culture] from [Hill] tiles [in this city] <during a Golden Age>",
+					"Must be next to [Hill]"],
+		"requiredTech": "Engineering"
+	},
+	{
+		"name": "Terracotta Army",
+		"isWonder": true,
+		"culture": 2,
+		"uniques": ["New [Melee] units start with [15] XP [in all cities]"],
+		"requiredTech": "Iron Working"
+	},
+	/////// MEDIEVAL TIMES
+	{
+		"name": "Medieval Walls",
+		"cityHealth": 45,
+		"requiredTech": "Buttress"
+	},
+	{
+		"name": "Armory",
+		"requiredBuilding": "Military Camp Project",
+		"maintenance": 1,
+		"hurryCostModifier": 50,
+		"uniques": ["[+20]% Production when constructing [Archaic Infantry] units [in this city]","[+15]% Production when constructing [Siege] units [in this city]","[+10]% Production when constructing [Infantry] units [in this city]"],
+		"requiredTech": "Apprenticeship"
+	},
+	{
+		"name": "Brewery",
+		"happiness": 2,
+		"hurryCostModifier": 50,
+		"requiredTech": "Machinery"
+	},
+	{
+		"name": "Dam",
+		"food": 2,
+		"production": 1,
+		"hurryCostModifier": 50,
+		"requiredTech": "Buttress"
+	},
+	{
+		"name": "University",
+		"requiredBuilding":"Campus Project",
+		"science": 2,
+		"hurryCostModifier": 50,
+		"requiredTech": "Education"
+	},
+	{
+		"name": "Guild",
+		"gold": 2,
+		"hurryCostModifier": 50,
+		"requiredTech": "Education"
+	},
+	{
+		"name": "Workshop",
+		"production": 2,
+		"hurryCostModifier": 50,
+		"requiredTech": "Machinery"
+	},
+	{
+		"name": "Industrial Zone Project",
+		"production": 1,
+		"maintenance": 1,
+		"hurryCostModifier": 50,
+		"uniques": ["Never destroyed when the city is captured","Creates a [Industrial Zone] improvement on a specific tile"],
+		"requiredTech": "Apprenticeship"
+	},
+	{
+		"name": "Campus Project",
+		"science": 1,
+		"maintenance": 1,
+		"hurryCostModifier": 50,
+		"uniques": ["Never destroyed when the city is captured","Creates a [Campus] improvement on a specific tile"],
+		"requiredTech": "Education"
+	},
+	{
+		"name": "Alhambra",
+		"production": 2,
+		"gold": 2,
+		"isWonder": true,
+		"uniques": ["Must be next to [Hill]","[+3 Culture] from [Military Camp] tiles [in this city]"],
+		"requiredTech": "Buttress"
+	},
+	{
+		"name": "Angkor Wat",
+		"faith": 4,
+		"food": 2,
+		"isWonder": true,
+		"uniques": ["[Faith] cost of purchasing [Missionary] units [-25]%","[Faith] cost of purchasing [Prophet] units [-25]%"],
+		"requiredTech": "Education"
+	},
+	{
+		"name": "Borobudur",
+		"faith": 2,
+		"isWonder": true,
+		"uniques": ["[3] free [Missionary] units appear"],
+		"requiredTech": "Education"
+	},
+	{
+		"name": "Great Mosque of Djenne",
+		"faith": 2,
+		"culture": 1,
+		"isWonder": true,
+		"uniques": ["Must be next to [Desert]","[1] free [Engineer] units appear","Gain a free [Mosque] [in this city]"],
+		"requiredTech": "Education"
+	},
+	{
+		"name": "Great Zimbabwe",
+		"gold": 2,
+		"uniques":["Must be next to [Plains]","[+1 Gold] from [Bonus resource] tiles [in all cities]","[+10]% [Food] [in all cities]","[+15]% [Gold] [in all cities]"],
+		"isWonder": true,
+		"requiredTech": "Buttress"
+	},
+	{
+		"name": "Hagia Sophia",
+		"faith": 4,
+		"uniques":["[+4 Culture] from [Holy Site] tiles [in all cities]"],
+		"isWonder": true,
+		"requiredTech": "Buttress"
+	},
+	{
+		"name": "Huey Teocalli",
+		"science": 2,
+		"uniques":["Must be next to [Lakes]","[+1 Production] from [Lakes] tiles [in all cities]","[+1 Culture] from [Lakes] tiles [in all cities]","[+1 Happiness] from [Lakes] tiles [in all cities]"],
+		"isWonder": true,
+		"requiredTech": "Apprenticeship"
+	},
+	{
+		"name": "Kilwa Kisiwani",
+		"gold": 1,
+		"uniques":["Must be next to [Coast]","[+1 Gold] from [Coast] tiles [in this city]","[3] free [Merchant] units appear"],
+		"isWonder": true,
+		"requiredTech": "Machinery"
+	},
+	{
+		"name": "Kōtoku-in",
+		"faith": 2,
+		"uniques":["[+10]% [Faith] [in all cities]","[3] free [Warrior Monk] units appear"],
+		"isWonder": true,
+		"requiredTech": "Education"
+	},
+	{
+		"name": "Kaaba",
+		"faith": 5,
+		"uniques":["[+35]% [Faith] [in all cities]"],
+		"isWonder": true,
+		"requiredTech": "Education"
+	},
+	{
+		"name": "Dome of the Rock",
+		"faith": 3,
+		"culture":1,
+		"uniques":["[+15]% [Faith] [in all cities]"],
+		"isWonder": true,
+		"requiredTech": "Education"
+	},
+	{
+		"name": "Machu Picchu",
+		"production":1,
+		"food":1,
+		"uniques":["Must be next to [Mountain]","[+3 Production] from [Mountain] tiles [in all cities]","[+2 Food] from [Mountain] tiles [in all cities]"],
+		"isWonder": true,
+		"requiredTech": "Apprenticeship"
+	},
+	{
+		"name": "Monks Mound",
+		"culture":5,
+		"faith":5,
+		"uniques":["Must be next to [Mountain]"],
+		"isWonder": true,
+		"requiredTech": "Apprenticeship"
+	},
+	{
+		"name": "Pumapunku",
+		"culture":4,
+		"uniques":["[+1 Gold] from [Hill] tiles [in this city]","[+1 Gold] from [Stone] tiles [in all cities]","[+1 Gold] from [Mine] tiles [in all cities]","[+1 Gold] from [Quarry] tiles [in all cities]","[+1 Gold] from [Silver] tiles [in all cities]","[+1 Gold] from [Gold Ore] tiles [in all cities]","Must be next to [Desert]"],
+		"isWonder": true,
+		"requiredTech": "Buttress"
+	},
+	{
+		"name": "Notre Dame",
+		"happiness":6,
+		"faith":5,
+		"isWonder": true,
+		"requiredTech": "Education"
+	},
+	{
+		"name": "Haʻamonga ʻa Maui",
+		"culture": 1,
+		"faith": 1,
+		"uniques":["Must be next to [Grassland]","[+2 Faith, +2 Culture] from [Forest] tiles without [Lumber Mill] [in all cities]","[+2 Faith, +2 Culture] from [Jungle] tiles without [Lumber Mill] [in all cities]"],
+		"isWonder": true,
+		"requiredTech": "Apprenticeship"
+	},
+	{
+		"name": "Chichén Itzá",
+		"isWonder": true,
+		"uniques": ["Must be next to [Jungle]","[+1 Culture] from [Jungle] tiles [in this city]","[+1 Culture] from [Tropical] tiles [in this city]","[+1 Culture] from [Rainforest] tiles [in this city]","[+1 Culture] from [Mangrove] tiles [in this city]",
+	                "[+1 Production] from [Jungle] tiles [in this city]","[+1 Production] from [Tropical] tiles [in this city]","[+1 Production] from [Rainforest] tiles [in this city]","[+1 Production] from [Mangrove] tiles [in this city]"],
+		"requiredTech": "Buttress"
+	},
+	////// Renaissance 
+	{
+		"name": "Renaissance Walls",
+		"requiredBuilding":"Medieval Walls",
+		"cityHealth": 65,
+		"maintenance": 1,
+		"hurryCostModifier": 50,
+		"requiredTech": "Architecture"
+	},
+	{
+		"name": "Garden",
+		"isNationalWonder":true,
+		"maintenance": 2,
+		"uniques":["Free [Scientist] appears","Free [Artist] appears"],
+		"hurryCostModifier": 50,
+		"requiredTech": "Architecture"
+	},
+	{
+		"name": "Harbor Project",
+		"food": 1,
+		"gold": 2,
+		"hurryCostModifier": 50,
+		"uniques": ["Must be next to [Coast]","Never destroyed when the city is captured","Creates a [Harbor] improvement on a specific tile"],
+		"requiredTech": "Astronomy"
+	},
+	{
+		"name": "Shipyard",
+		"requiredBuilding":"Harbor Project",
+		"maintenance": 1,
+		"hurryCostModifier": 50,
+		"uniques": ["[+25]% Production when constructing [Water] units [in this city]"],
+		"requiredTech": "Astronomy"
+	},
+	{
+		"name": "Cannon Forge",
+		"requiredBuilding":"Military Camp Project",
+		"maintenance": 1,
+		"hurryCostModifier": 50,
+		"uniques": ["[+25]% Production when constructing [Siege] units [in this city]"],
+		"requiredTech": "Metal Casting"
+	},
+	{
+		"name": "Musket Forge",
+		"requiredBuilding":"Military Camp Project",
+		"maintenance": 1,
+		"hurryCostModifier": 50,
+		"uniques": ["[+25]% Production when constructing [Infantry] units [in this city]"],
+		"requiredTech": "Metal Casting"
+	},
+	{
+		"name": "Bank",
+		"requiredBuilding":"Commercial Hub Project",
+		"gold": 3,
+		"hurryCostModifier": 50,
+		"requiredTech": "Banking"
+	},
+	{
+		"name": "Art Gallery",
+		"requiredBuilding":"Theater Square Project",
+		"culture": 3,
+		"maintenance": 2,
+		"hurryCostModifier": 50,
+		"requiredTech": "Printing Press"
+	},
+	{
+		"name": "Observatory",
+		"requiredBuilding":"Campus Project",
+		"science": 2,
+		"maintenance": 1,
+		"hurryCostModifier": 50,
+		"requiredTech": "Printing Press"
+	},
+	{
+		"name": "Constabulary",
+		"maintenance": 2,
+		"uniques":["Only available <when espionage is enabled>", "[-25]% enemy spy effectiveness [in this city]"],
+		"hurryCostModifier": 50,
+		"requiredTech": "Printing Press"
+	},
+	{
+		"name": "Casa de Contratacion",
+		"culture": 3,
+		"gold": 4,
+		"isWonder": true,
+		"uniques": ["[Gold] cost of purchasing [Land] units [-25]%","[Gold] cost of purchasing [Water] units [-25]%"],
+		"requiredTech": "Astronomy"
+	},
+	{
+		"name": "Agra Fort",
+		"culture": 5,
+		"isWonder": true,
+		"uniques": ["[+25]% Strength for cities"],
+		"requiredTech": "Architecture"
+	},
+	{
+		"name": "Fasil Ghebbi",
+		"culture": 2,
+		"faith": 2,
+		"isWonder": true,
+		"uniques": ["[+1 Culture] from every [Medieval Walls]","[+1 Faith] from every [Medieval Walls]","Gain a free [Medieval Walls] [in this city]"],
+		"requiredTech": "Architecture"
+	},
+	{
+		"name": "Forbidden City",
+		"culture": 5,
+		"isWonder": true,
+		"uniques": ["Free Social Policy"],
+		"requiredTech": "Printing Press"
+	},
+	{
+		"name": "Globe Theatre",
+		"culture": 3,
+		"happiness": 3,
+		"isWonder": true,
+		"requiredTech": "Architecture"
+	},
+	{
+		"name": "Himeji Castle",
+		"culture": 3,
+        "uniques":["[3] free [Engineer] units appear"],
+		"isWonder": true,
+		"requiredTech": "Architecture"
+	},
+	{
+		"name": "Leaning Tower of Pisa",
+		"gold": 3,
+        "uniques":["[1] free [Merchant] units appear","[1] free [Engineer] units appear","[1] free [Artist] units appear"],
+		"isWonder": true,
+		"requiredTech": "Architecture"
+	},
+	{
+		"name": "Porcelain Tower of Nanjing",
+		"science": 2,
+        "uniques":["[2] free [Scientist] units appear","Science gained from research agreements [+40]%"],
+		"isWonder": true,
+		"requiredTech": "Architecture"
+	},
+	{
+		"name": "Potala Palace",
+		"science": 1,
+		"gold": 1,
+		"culture": 1,
+        "uniques":["[+1 Culture] from every [Wonder]"],
+		"isWonder": true,
+		"requiredTech": "Architecture"
+	},
+	{
+		"name": "Sistine Chapel",
+		"faith": 2,
+        "uniques":["[+1 Faith] from every [Temple]","[+2 Faith] from every [Holy Site]"],
+		"isWonder": true,
+		"requiredTech": "Architecture"
+	},
+	{
+		"name": "Taj Mahal",
+        "uniques":["[+30]% [Faith] [in all cities]"],
+		"isWonder": true,
+		"requiredTech": "Architecture"
+	},
+	{
+		"name": "Topkapi Palace",
+        "uniques":["[+2 Faith] from [Military Camp] tiles [in all cities]","New [Melee] units start with [25] XP [in all cities]"],
+		"isWonder": true,
+		"requiredTech": "Gunpowder"
+	},
+	{
+		"name": "Uffizi",
+		"culture":3,
+        "uniques":["[3] free [Artist] units appear"],
+		"isWonder": true,
+		"requiredTech": "Gunpowder"
+	},
+	////// Enlightenment 
+	{
+		"name": "Museum",
+		"requiredBuilding":"Theater Square Project",
+		"culture": 3,
+		"maintenance": 1,
+		"hurryCostModifier": 50,
+		"requiredTech": "Humanism"
+	},
+	{
+		"name": "Salon",
+		"uniques":["[+15]% [Culture] [in this city]"],
+		"maintenance": 1,
+		"hurryCostModifier": 50,
+		"requiredTech": "Humanism"
+	},
+	{
+		"name": "Cloth Mill",
+		"gold": 2,
+		"hurryCostModifier": 50,
+		"requiredTech": "Manufacturing"
+	},
+	{
+		"name": "Corporation",
+		"uniques":["[+1 Gold] from [Luxury resource] tiles [in this city]"],
+		"hurryCostModifier": 50,
+		"requiredTech": "Manufacturing"
+	},
+	{
+		"name": "Archaeological Museum",
+		"requiredBuilding":"Museum",
+		"culture": 2,
+		"science": 2,
+		"maintenance": 2,
+		"hurryCostModifier": 50,
+		"requiredTech": "Natural History"
+	},
+	{
+		"name": "Bastion",
+		"requiredBuilding":"Renaissance Walls",
+		"cityHealth": 75,
+		"maintenance": 1,
+		"hurryCostModifier": 50,
+		"requiredTech": "Fortification"
+	},
+	{
+		"name": "Gunsmith",
+		"requiredBuilding":"Military Camp Project",
+		"production": 1,
+		"uniques":["[+10]% Production when constructing [Infantry] units [in this city]"],
+		"maintenance": 1,
+		"hurryCostModifier": 50,
+		"requiredTech": "Flintlock"
+	},
+	{
+		"name": "Brandenburg Gate",
+		"culture": 1,
+		"isWonder": true,
+		"uniques": ["Free [General] appears","Free [Scientist] appears","New [Melee] units start with [25] XP [in all cities]"],
+		"requiredTech": "Fortification"
+	},
+	{
+		"name": "Kronborg",
+		"culture": 2,
+		"isWonder": true,
+		"uniques": ["[+25]% Strength for cities"],
+		"requiredTech": "Fortification"
+	},
+	{
+		"name": "Louvre",
+		"culture": 4,
+		"happiness": 1,
+		"isWonder": true,
+		"uniques": ["Instantly provides [5] [Artifact]"],
+		"requiredTech": "Natural History"
+	},
+	{
+		"name": "Palace of Versailles",
+		"requiredBuilding":"Garden",
+		"gold": 5,
+		"isWonder": true,
+		"uniques": ["[+1 Gold] from every [Guild]","[+2 Gold] from every [Commercial Hub Project]"],
+		"requiredTech": "Fortification"
+	},
+	{
+		"name": "Summer Palace",
+		"culture": 1,
+		"faith": 1,
+		"isWonder": true,
+		"uniques": ["[+2 Culture] from every [Temple]","Free Social Policy"],
+		"requiredTech": "Fortification"
+	},
+	{
+		"name": "Wat Phra Kaew",
+		"faith": 4,
+		"isWonder": true,
+		"uniques": ["[+2 Food] from every [Temple]"],
+		"requiredTech": "Humanism"
+	},
+	////// INDUSTRIAL
+	{
+		"name": "Coal Power Plant",
+		"requiredBuilding":"Industrial Zone Project",
+		"production": 3,
+		"uniques":["Consumes [1] [Coal]"],
+		"maintenance": 1,
+		"hurryCostModifier": 50,
+		"requiredTech": "Industrialization"
+	},
+	{
+		"name": "Coal Gasification Plant",
+		"requiredBuilding":"Coal Power Plant",
+		"production": 2,
+		"maintenance": 1,
+		"hurryCostModifier": 50,
+		"requiredTech": "Refining"
+	},
+	{
+		"name": "Zoo",
+		"happiness": 3,
+		"maintenance": 1,
+		"hurryCostModifier": 50,
+		"requiredTech": "Scientific Theory"
+	},
+	{
+		"name": "Stock Exchange",
+		"gold": 4,
+		"hurryCostModifier": 50,
+		"requiredTech": "Economics"
+	},
+	{
+		"name": "Sewer",
+		"food": 2,
+		"hurryCostModifier": 50,
+		"requiredTech": "Gas Lighting"
+	},
+	{
+		"name": "Factory",
+		"requiredBuilding":"Industrial Zone Project",
+		"production": 2,
+		"maintenance": 1,
+		"hurryCostModifier": 50,
+		"requiredTech": "Industrialization"
+	},
+	{
+		"name": "Wood Factory",
+		"requiredBuilding":"Industrial Zone Project",
+		"uniques":["Must be next to [Forest]"],
+		"production": 2,
+		"maintenance": 1,
+		"hurryCostModifier": 50,
+		"requiredTech": "Circular Saw"
+	},
+	{
+		"name": "Sugar Cane Factory",
+		"requiredBuilding":"Industrial Zone Project",
+		"uniques":["Must be next to [Jungle]"],
+		"gold": 2,
+		"production": 1,
+		"hurryCostModifier": 50,
+		"requiredTech": "Circular Saw"
+	},
+	{
+		"name": "Public School",
+		"requiredBuilding":"Campus Project",
+		"science": 3,
+		"hurryCostModifier": 50,
+		"requiredTech": "Gas Lighting"
+	},
+	{
+		"name": "Hospital",
+		"food": 2,
+		"happiness": 2,
+		"maintenance": 1,
+		"hurryCostModifier": 50,
+		"requiredTech": "Sanitation"
+	},
+	{
+		"name": "Military Academy",
+		"requiredBuilding":"Military Camp Project",
+		"uniques":["[+40]% Production when constructing [Infantry] units [in this city]","[+40]% Production when constructing [Machinegun] units [in this city]","[+40]% Production when constructing [Armored] units [in this city]","[+40]% Production when constructing [Siege] units [in this city]"],
+		"maintenance": 4,
+		"hurryCostModifier": 50,
+		"requiredTech": "Military Science"
+	},
+	{
+		"name": "Drydock",
+		"requiredBuilding":"Harbor Project",
+		"maintenance": 2,
+		"uniques":["[+20]% Production when constructing [Water] units [in this city]"],
+		"hurryCostModifier": 50,
+		"requiredTech": "Steam Power"
+	},
+	{
+		"name": "Big Ben",
+		"gold": 5,
+		"isWonder": true,
+		"uniques": ["[+2 Gold] from every [Stock Exchange]"],
+		"requiredTech": "Gas Lighting"
+	},
+	{
+		"name": "Bolshoi Theatre",
+		"culture": 5,
+		"isWonder": true,
+		"uniques": ["[+2 Culture] from every [Theater Square Project]"],
+		"requiredTech": "Gas Lighting"
+	},
+	{
+		"name": "British Museum",
+		"culture": 2,
+		"gold": 2,
+		"isWonder": true,
+		"uniques": ["Instantly provides [5] [Artifact]"],
+		"requiredTech": "Gas Lighting"
+	},
+	{
+		"name": "Crystal Palace",
+		"gold": 4,
+		"isWonder": true,
+		"uniques": ["[+25]% [Science] [in capital]"],
+		"requiredTech": "Gas Lighting"
+	},
+	{
+		"name": "Casa Rosada",
+		"gold": 3,
+		"culture": 3,
+		"isWonder": true,
+		"uniques": ["[-20]% Culture cost of adopting new Policies"],
+		"requiredTech": "Gas Lighting"
+	},
+	{
+		"name": "Neuschwanstein",
+		"happiness": 2,
+		"culture": 2,
+		"gold": 2,
+		"isWonder": true,
+		"uniques": ["[+1 Culture] from every [Medieval Walls]","[+2 Happiness] from every [Medieval Walls]"],
+		"requiredTech": "Military Science"
+	},
+	{
+		"name": "Smithsonian Institution",
+		"science": 6,
+		"isWonder": true,
+		"requiredTech": "Military Science"
+	},
+	{
+		"name": "Eiffel Tower",
+		"culture": 6,
+		"gold": 4,
+		"isWonder": true,
+		"requiredTech": "Industrialization"
+	},
+	{
+		"name": "Suez Canal",
+		"gold": 8,
+		"isWonder": true,
+		"requiredTech": "Industrialization"
+	},
+	///////// MODERN
+	{
+		"name": "Airstrip Project",
+		"production": 2,
+		"maintenance": 3,
+		"hurryCostModifier": 50,
+		"uniques": ["Never destroyed when the city is captured","Creates a [Airstrip] improvement on a specific tile"],
+		"requiredTech": "Flight"
+	},
+	{
+		"name": "Hydroelectric Dam",
+		"production": 3,
+		"gold": 3,
+		"hurryCostModifier": 50,
+		"uniques": ["Must be next to [Lakes]"],
+		"requiredTech": "Electricity"
+	},
+	{
+		"name": "Sanctuary",
+		"requiredBuilding":"Zoo",
+		"science": 2,
+		"happiness": 2,
+		"hurryCostModifier": 50,
+		"requiredTech": "Biology"
+	},
+	{
+		"name": "Oil Power Plant",
+		"requiredBuilding":"Industrial Zone Project",
+		"production": 4,
+		"maintenance": 2,
+		"hurryCostModifier": 50,
+		"uniques": ["Consumes [1] [Oil]"],
+		"requiredTech": "Electricity"
+	},
+	{
+		"name": "Seaport",
+		"requiredBuilding":"Harbor Project",
+		"food": 3,
+		"gold": 3,
+		"hurryCostModifier": 50,
+		"requiredTech": "Electricity"
+	},
+	{
+		"name": "Supermarket",
+		"requiredBuilding":"Commercial Hub Project",
+		"gold": 4,
+		"food": 2,
+		"hurryCostModifier": 50,
+		"requiredTech": "Electricity"
+	},
+	{
+		"name": "Research Lab",
+		"requiredBuilding":"Campus Project",
+		"science": 3,
+		"maintenance": 2,
+		"hurryCostModifier": 50,
+		"requiredTech": "Chemistry"
+	},
+	{
+		"name": "Aerodrome",
+		"requiredBuilding":"Airstrip Project",
+		"production": 2,
+		"maintenance": 2,
+		"uniques":["[+30]% Production when constructing [Air] units [in this city]"],
+		"hurryCostModifier": 50,
+		"requiredTech": "Flight"
+	},
+	{
+		"name": "Broadway",
+		"culture": 6,
+		"happiness": 4,
+		"isWonder": true,
+		"requiredTech": "Electricity"
+	},
+	{
+		"name": "Cristo Redentor",
+		"faith": 7,
+		"isWonder": true,
+		"requiredTech": "Electricity"
+	},
+	{
+		"name": "Kremlin",
+		"production": 5,
+		"science": 4,
+		"isWonder": true,
+		"requiredTech": "Electricity"
+	},
+	{
+		"name": "Statue of Liberty",
+		"faith": 5,
+		"happiness": 4,
+		"uniques":["[2] free [Merchant] units appear"],
+		"isWonder": true,
+		"requiredTech": "Electricity"
+	},
+    ///// ATOMIC
+	{
+		"name": "Manhattan Project",
+		"hurryCostModifier": 50,
+		"isNationalWonder": true,
+		"uniques": ["Enables nuclear weapon", "Triggers a global alert upon completion", "Cannot be hurried"],
+		"requiredTech": "Nuclear Fission"
+	},
+	{
+		"name": "Spaceport Project",
+		"science": 4,
+		"maintenance": 2,
+		"hurryCostModifier": 50,
+		"uniques": ["Creates a [Spaceport] improvement on a specific tile"],
+		"requiredTech": "Rocketry"
+	},
+	{
+		"name": "Nuclear Power Plant",
+		"requiredBuilding":"Industrial Zone Project",
+		"production": 4,
+		"maintenance": 2,
+		"hurryCostModifier": 50,
+		"uniques": ["Consumes [1] [Uranium]"],
+		"requiredTech": "Nuclear Fission"
+	},
+	{
+		"name": "Airport",
+		"requiredBuilding":"Airstrip Project",
+		"gold": 2,
+		"hurryCostModifier": 50,
+		"uniques": ["[+30]% Production when constructing [Air] units [in this city]"],
+		"requiredTech": "Advanced Flight"
+	},
+	{
+		"name": "Stadium",
+		"happiness": 3,
+		"maintenance":2,
+		"hurryCostModifier": 50,
+		"requiredTech": "Plastics"
+	},
+	{
+		"name": "Aquarium",
+		"happiness": 2,
+		"science": 2,
+		"maintenance":2,
+		"hurryCostModifier": 50,
+		"requiredTech": "Synthetic Materials"
+	},
+    {
+		"name": "Automobile Factory",
+		"requiredBuilding":"Industrial Zone Project",
+		"production": 2,
+		"gold": 2,
+		"hurryCostModifier": 50,
+		"requiredTech": "Synthetic Materials"
+	},
+	{
+		"name": "Arms Manufacturing Plant",
+		"requiredBuilding":"Military Camp Project",
+		"production": 2,
+		"maintenance":2,
+		"hurryCostModifier": 50,
+        "uniques":["[+20]% Production when constructing [Infantry] units [in this city]","[+20]% Production when constructing [Armored] units [in this city]",
+	               "[+20]% Production when constructing [Siege] units [in this city]","[+20]% Production when constructing [Machinegun] units [in this city]",
+				   "[+20]% Production when constructing [Civilian] units [in this city]","[+20]% Production when constructing [Water] units [in this city]","[+20]% Production when constructing [Air] units [in this city]"],
+		"requiredTech": "Synthetic Materials"
+	},
+	{
+		"name": "Drone Factory",
+		"requiredBuilding":"Military Camp Project",
+		"maintenance":3,
+		"hurryCostModifier": 50,
+        "uniques":["[+40]% Production when constructing [Drone] units [in this city]"],
+		"requiredTech": "Computers"
+	},
+	{
+		"name": "Tank Factory",
+		"requiredBuilding":"Military Camp Project",
+		"maintenance":3,
+		"hurryCostModifier": 50,
+        "uniques":["[+40]% Production when constructing [Armored] units [in this city]"],
+		"requiredTech": "Combined Arms"
+	},
+	{
+		"name": "Servers",
+		"requiredBuilding":"Military Camp Project",
+		"maintenance":4,
+		"happiness":3,
+		"hurryCostModifier": 50,
+		"requiredTech": "Computers"
+	},
+	{
+		"name": "Estádio do Maracanã",
+		"happiness": 6,
+		"uniques":["[3] free [Football Player] units appear"],
+		"isWonder": true,
+		"requiredTech": "Synthetic Materials"
+	},
+	{
+		"name": "Pentagon",
+		"science": 3,
+		"uniques":["[3] free [General] units appear"],
+		"isWonder": true,
+		"requiredTech": "Synthetic Materials"
+	},
+	{
+		"name": "Sydney Opera House",
+		"gold": 6,
+		"uniques":["[3] free [Musician] units appear"],
+		"isWonder": true,
+		"requiredTech": "Synthetic Materials"
+	},
+	{
+		"name": "World Bank",
+		"gold": 10,
+		"uniques":["[1] free [Merchant] units appear"],
+		"isWonder": true,
+		"requiredTech": "Synthetic Materials"
+	},
+	///// INFORMATION
+	{
+		"name": "Broadcast Tower",
+		"requiredBuilding":"Theater Square Project",
+		"culture":3,
+		"gold":3,
+		"hurryCostModifier": 50,
+		"requiredTech": "Telecommunications"
+	},
+	{
+		"name": "National Visitor Center",
+		"requiredBuilding":"Theater Square Project",
+		"culture":2,
+		"happiness":2,
+		"hurryCostModifier": 50,
+		"requiredTech": "Telecommunications"
+	},
+	{
+		"name": "Laser Factory",
+		"requiredBuilding":"Industrial Zone Project",
+		"production":4,
+		"maintenance":3,
+		"hurryCostModifier": 50,
+		"requiredTech": "Lasers"
+	},
+	{
+		"name": "Robot Factory",
+		"requiredBuilding":"Laser Factory",
+		"production":4,
+		"maintenance":1,
+		"hurryCostModifier": 50,
+		"requiredTech": "Robotics"
+	},
+	{
+		"name": "Laboratory",
+		"requiredBuilding":"Campus Project",
+		"science":4,
+		"maintenance":3,
+		"hurryCostModifier": 50,
+		"requiredTech": "Nanotechnology"
+	},
+	{
+		"name": "Particle Collider",
+		"isNationalWonder":true,
+		"science":4,
+		"production":3,
+		"hurryCostModifier": 50,
+		"requiredTech": "Nuclear Fusion"
+	},
+	{
+		"name": "CN Tower",
+		"gold": 4,
+		"culture": 4,
+		"isWonder": true,
+		"requiredTech": "Telecommunications"
+	},
+	{
+		"name": "Hubble Space Telescope",
+		"science": 5,
+		"isWonder": true,
+		"requiredTech": "Telecommunications"
+	},
+	{
+		"name": "International Space Station",
+		"science": 2,
+		"uniques":["[+3 Science] from every [Campus]"],
+		"isWonder": true,
+		"requiredTech": "Telecommunications"
+	},
+	{
+		"name": "United Nations",
+		"science": 4,
+		"culture": 4,
+		"gold": 2,
+		"isWonder": true,
+		"requiredTech": "Telecommunications"
+	},
+	{
+		"name": "Puente de la Mujer",
+		"happiness": 4,
+		"gold": 3,
+		"isWonder": true,
+		"requiredTech": "Telecommunications"
+	},
+	{
+		"name": "Burj Khalifa",
+		"science": 2,
+		"gold": 5,
+		"isWonder": true,
+		"requiredTech": "Telecommunications"
+	},
+	///////// MAGICAL STUFF
+	{
+		"name": "Dark Age",
+		"uniques":["Triggers a [Dark Age] event","Unbuildable","Cannot be purchased"]
+	},
+	{
+		"name": "United Nations",
+		"isWonder": true,
+		"culture": 1,
+		"requiredTech": "Telecommunications",
+		"uniques": ["Triggers voting for the Diplomatic Victory", "Only available <when [Diplomatic] Victory is enabled>", "Triggers a global alert upon completion"]
+	},
+	{
+		"name": "Apollo Program",
+		"cost": 750,
+		"isNationalWonder": true,
+		"uniques": ["Enables construction of Spaceship parts", "Triggers a global alert upon completion",
+			"Only available <when [Space Race] Victory is enabled>", "Cannot be hurried"],
+		"requiredTech": "Rocketry"
+	},
+	{
+		"name": "Ultimate World Bank",
+		"isNationalWonder": true,
+		"uniques": ["Unbuildable","Can be purchased with [Gold] [in all cities]","Can be purchased for [26000] [Gold] [in all cities]",
+			"Only available <when [Economic] Victory is enabled>"]
+	},
+	///////// RELIGION
+	{
+		"name": "Cathedral",
+		"cost": 0,
+		"faith": 4,
+		"uniques": ["Unbuildable", "Only available <when religion is enabled>"]
+	},
+	{
+		"name": "Monastery",
+		"cost": 0,
+		"faith": 4,
+		"uniques": ["Unbuildable", "Only available <when religion is enabled>"]
+	},
+	{
+		"name": "Mosque",
+		"cost": 0,
+		"faith": 4,
+		"uniques": ["Unbuildable", "Only available <when religion is enabled>"]
+	},
+	{
+		"name": "Pagoda",
+		"cost": 0,
+		"faith": 4,
+		"uniques": ["Unbuildable", "Only available <when religion is enabled>"]
+	},
+	{
+		"name": "Cathedral",
+		"cost": 0,
+		"faith": 4,
+		"uniques": ["Unbuildable", "Only available <when religion is enabled>"]
+	},
+	/// EXCLUSIVE ONES
+	{
+		"name": "Cathedral",
+		"cost": 0,
+		"faith": 4,
+		"uniques": ["Unbuildable", "Only available <when religion is enabled>"]
+	},
+	{
+		"name": "Daoguan",
+		"cost": 0,
+		"faith": 4,
+		"uniques": ["Unbuildable", "Only available <when religion is enabled>"]
+	},
+	{
+		"name": "Derasar",
+		"cost": 0,
+		"faith": 4,
+		"uniques": ["Unbuildable", "Only available <when religion is enabled>"]
+	},
+	{
+		"name": "Gurdwara",
+		"cost": 0,
+		"faith": 4,
+		"uniques": ["Unbuildable", "Only available <when religion is enabled>"]
+	},
+	{
+		"name": "Hof",
+		"cost": 0,
+		"faith": 4,
+		"uniques": ["Unbuildable", "Only available <when religion is enabled>"]
+	},
+	{
+		"name": "Jinja",
+		"cost": 0,
+		"faith": 4,
+		"uniques": ["Unbuildable", "Only available <when religion is enabled>"]
+	},
+	{
+		"name": "Mandi",
+		"cost": 0,
+		"faith": 4,
+		"uniques": ["Unbuildable", "Only available <when religion is enabled>"]
+	},
+	{
+		"name": "Mandir",
+		"cost": 0,
+		"faith": 4,
+		"uniques": ["Unbuildable", "Only available <when religion is enabled>"]
+	},
+	{
+		"name": "Mashriqu'l-Adhkár",
+		"cost": 0,
+		"faith": 4,
+		"uniques": ["Unbuildable", "Only available <when religion is enabled>"]
+	},
+	{
+		"name": "Meeting House",
+		"cost": 0,
+		"faith": 4,
+		"uniques": ["Unbuildable", "Only available <when religion is enabled>"]
+	},
+	{
+		"name": "Naos",
+		"cost": 0,
+		"faith": 4,
+		"uniques": ["Unbuildable", "Only available <when religion is enabled>"]
+	},
+	{
+		"name": "Nemeton",
+		"cost": 0,
+		"faith": 4,
+		"uniques": ["Unbuildable", "Only available <when religion is enabled>"]
+	},
+	{
+		"name": "Synagogue",
+		"cost": 0,
+		"faith": 4,
+		"uniques": ["Unbuildable", "Only available <when religion is enabled>"]
+	},
+	{
+		"name": "Teocalli",
+		"cost": 0,
+		"faith": 4,
+		"uniques": ["Unbuildable", "Only available <when religion is enabled>"]
+	},
+	{
+		"name": "Wat",
+		"cost": 0,
+		"faith": 4,
+		"uniques": ["Unbuildable", "Only available <when religion is enabled>"]
+	},
+	{
+		"name": "Dar-e Mehr",
+		"cost": 0,
+		"faith": 4,
+		"uniques": ["Unbuildable", "Only available <when religion is enabled>"]
+	}
+]

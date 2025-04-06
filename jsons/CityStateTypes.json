@@ -1,0 +1,55 @@
+[
+    {
+        "name": "Agrarian",
+        "friendBonusUniques": [
+            "[+3 Food]"
+        ],
+        "allyBonusUniques": [
+            "[+6 Food]"
+        ],
+        "color": [176, 237, 168]
+    },
+    {
+        "name": "Cultured",
+        "friendBonusUniques": [
+            "[+3 Culture]"
+        ],
+        "allyBonusUniques": [
+            "[+6 Culture]"
+        ],
+        "color": [166, 139, 224]
+    },
+    {
+        "name": "Maritime",
+        "friendBonusUniques": ["[+2 Food] [in capital]"],
+        "allyBonusUniques": ["[+2 Food] [in capital]", "[+1 Food] [in all cities]"],
+        "color": [116, 171, 219]
+    },
+    {
+        "name": "Mercantile",
+        "friendBonusUniques": [
+            "[+2 Happiness]"
+        ],
+        "allyBonusUniques": [
+            "[+2 Happiness]",
+            "Provides a unique luxury"
+        ],
+        "color": [248, 250, 127]
+    },
+    {
+        "name": "Militaristic",
+        "friendBonusUniques": ["Provides military units every ≈[20] turns"],
+        "allyBonusUniques": ["Provides military units every ≈[15] turns"],
+        "color": [184, 36, 31]
+    },
+    {
+        "name":"Religious",
+        "friendBonusUniques":  [
+            "[+3 Faith]"
+        ],
+        "allyBonusUniques":  [
+            "[+6 Faith]"
+        ],
+        "color": [240, 151, 186]
+    }
+]

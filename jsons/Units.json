@@ -1,0 +1,1439 @@
+[
+	{
+		"name": "Slave",
+		"unitType": "Archaic Civilian",
+		"movement": 2,
+		"strength": 2,
+		"obsoleteTech":"Economics",
+		"uniques": ["Unbuildable","Can be purchased for [40] [Gold] [in all cities]","Limited to [4] per Civilization",
+"Only available <starting from the [Ancient Era]>","Can build [Land] improvements on tiles", "Automation is a primary action","Never appears as a Barbarian unit"],
+		"cost": 70
+	},
+	{
+		"name": "Trail Seeker",
+		"upgradesTo": "Ancient Settler",
+		"unitType": "Archaic Civilian",
+		"movement": 2,
+		"cost": 106,
+		"promotions":["Ignore terrain cost"],
+		"uniques": ["Only available <during the [Neolithic Era]>","Founds a new city <by consuming this unit>", "Excess Food converted to Production when under construction",
+			"Requires at least [2] population","Never appears as a Barbarian unit"],
+		"hurryCostModifier": 20
+	},
+	{
+		"name": "Hunter-Gatherer",
+		"unitType": "Archaic Civilian",
+		"upgradesTo": "Axeman",
+		"obsoleteTech": "Stone Tools",
+		"movement": 2,
+		"strength": 8,
+		"cost": 25,
+		"uniques": ["Can build [Land] improvements on tiles",   
+		"Never appears as a Barbarian unit"],
+		"promotions": ["Ignore terrain cost"],
+		"attackSound": "arrow"
+	},
+	{
+		"name": "Axeman",
+		"unitType": "Archaic Infantry",
+		"upgradesTo": "Warrior",
+		"obsoleteTech": "Agriculture",
+		"movement": 2,
+		"strength": 10,
+		"requiredTech": "Stone Tools",
+		"cost": 30,
+		"promotions":["Ignore terrain cost"],
+		"uniques": [ "Never appears as a Barbarian unit"],
+		"attackSound": "nonmetalhit"
+	},
+	{
+		"name": "Neolithic Trader",
+		"unitType": "Archaic Civilian",
+		"obsoleteTech": "Agriculture",
+		"movement": 2,
+		"requiredTech": "Stone Tools",
+		"cost": 50,
+		"promotions":["Ignore terrain cost"],
+		"uniques": ["Gain [60] [Gold] <(modified by game speed)> <by consuming this unit>", "Never appears as a Barbarian unit"],
+		"attackSound": "nonmetalhit"
+	},
+	{
+		"name": "Slinger",
+		"unitType": "Archaic Infantry",
+		"upgradesTo": "Archer",
+		"obsoleteTech": "Archery",
+		"movement": 2,
+		"strength": 7,
+		"rangedStrength": 9,
+		"requiredTech": "Stone Tools",
+		"cost": 26,
+		"promotions":["Ignore terrain cost"],
+		"uniques": ["Never appears as a Barbarian unit"],
+		"attackSound": "nonmetalhit"
+	},
+	{
+		"name": "Raft",
+		"upgradesTo": "Galley",
+		"obsoleteTech": "Sailing",
+		"unitType": "Archaic Navy",
+		"movement": 2,
+		"strength": 10,
+		"rangedStrength": 15,
+		"requiredTech": "Fishing",
+		"cost": 26,
+		"uniques": ["Can build [Water] improvements on tiles","Can build [Land] improvements on tiles", "Never appears as a Barbarian unit"],
+		"attackSound": "arrow"
+	},
+////////// ANCIENT ERA	
+{
+	"name": "Ancient Settler",
+	"upgradesTo": "Founder",
+	"unitType": "Archaic Civilian",
+	"movement": 3,
+	"cost": 106,
+	"uniques": ["Only available <during the [Ancient Era]>","Founds a new city <by consuming this unit>", "Excess Food converted to Production when under construction",
+		"Requires at least [2] population","Never appears as a Barbarian unit"],
+	"hurryCostModifier": 20
+},
+{
+	"name": "Villager",
+	"upgradesTo": "Laborer",
+	"unitType": "Archaic Civilian",
+	"movement": 2,
+	"strength": 8,
+	"uniques": ["Only available <during the [Ancient Era]>","Can build [Land] improvements on tiles", "Automation is a primary action","Never appears as a Barbarian unit"],
+	"cost": 70
+},
+{
+	"name": "Warrior",
+	"upgradesTo":"Spearman",
+	"unitType": "Archaic Infantry",
+	"obsoleteTech": "Bronze Working",
+	"movement": 2,
+	"strength": 15,
+	"cost": 50,
+	"uniques": ["Only available <starting from the [Ancient Era]>","Never appears as a Barbarian unit"],
+	"attackSound": "nonmetalhit"
+},
+{
+	"name": "Spearman",
+	"upgradesTo":"Swordsman",
+	"unitType": "Archaic Infantry",
+	"movement": 2,
+	"strength": 25,
+	"requiredTech": "Bronze Working",
+	"obsoleteTech": "Iron Working",
+	"cost": 60,
+	"uniques": ["[+30]% Strength <vs [Archaic Cavalry] units>","Consumes [1] [Bronze]","Never appears as a Barbarian unit"],
+	"attackSound": "metalhit"
+},
+{
+	"name": "Chariot",
+	"unitType": "Archaic Cavalry",
+	"movement": 3,
+	"strength": 25,
+	"requiredTech": "Wheel",
+	"cost": 80,
+	"uniques": ["Consumes [1] [Bronze]","[+20]% Strength <when fighting in [Open terrain] tiles>","No defensive terrain bonus","Rough terrain penalty","Never appears as a Barbarian unit"],
+	"attackSound": "nonmetalhit"
+},
+{
+	"name": "Scout",
+	"unitType": "Archaic Infantry",
+	"movement": 3,
+	"strength": 9,
+	"requiredTech": "Wolf Domestication",
+	"cost": 30,
+	"uniques": ["Never appears as a Barbarian unit"],
+	"attackSound": "nonmetalhit"
+},
+{
+	"name": "Archer",
+	"unitType": "Archaic Infantry",
+	"movement": 2,
+	"rangedStrength": 15,
+	"strength": 6,
+	"requiredTech": "Archery",
+	"cost": 50,
+	"uniques": ["Only available <starting from the [Ancient Era]>","Never appears as a Barbarian unit"],
+	"attackSound": "nonmetalhit"
+},
+{
+	"name": "Galley",
+	"upgradesTo":"Quadrireme",
+	"unitType": "Archaic Navy",
+	"movement": 3,
+	"strength": 20,
+	"requiredTech": "Sailing",
+	"cost": 50,
+	"uniques": ["Never appears as a Barbarian unit"],
+	"attackSound": "arrow"
+},
+{
+	"name": "Fishermen Boat",
+	"unitType": "Archaic Navy",
+	"movement": 3,
+	"requiredTech": "Sailing",
+	"cost": 20,
+	"uniques": ["Can build [Water] improvements on tiles","Can build [Land] improvements on tiles", "Never appears as a Barbarian unit"],
+	"attackSound": "arrow"
+},
+/// CLASSICAL ERA
+{
+	"name": "Founder",
+	"upgradesTo": "Frontiersman",
+	"unitType": "Archaic Civilian",
+	"movement": 3,
+	"cost": 106,
+	"uniques": ["Only available <during the [Classical Era]>","Founds a new city <by consuming this unit>", "Excess Food converted to Production when under construction",
+		"Requires at least [2] population","Never appears as a Barbarian unit"],
+	"hurryCostModifier": 20
+},
+{
+	"name": "Laborer",
+	"upgradesTo": "Serf",
+	"unitType": "Archaic Civilian",
+	"movement": 2,
+	"strength": 11,
+	"uniques": ["Only available <during the [Classical Era]>","Can build [Land] improvements on tiles", "Automation is a primary action","Never appears as a Barbarian unit"],
+	"cost": 70
+},
+{
+	"name": "Quadrireme",
+	"upgradesTo":"Cog",
+	"unitType": "Archaic Navy",
+	"obsoleteTech": "Buttress",
+	"movement": 3,
+	"strength": 30,
+	"rangedStrength": 30,
+	"requiredTech": "Optics",
+	"cost": 70,
+	"uniques": ["Never appears as a Barbarian unit"],
+	"attackSound": "arrow"
+},
+{
+	"name": "Swordsman",
+	"upgradesTo":"Man-At-Arms",
+	"unitType": "Archaic Infantry",
+	"movement": 2,
+	"strength": 35,
+	"requiredTech": "Iron Working",
+	"obsoleteTech": "Military Tactics",
+	"cost": 70,
+	"uniques": ["Consumes [1] [Iron]","Never appears as a Barbarian unit"],
+	"attackSound": "metalhit"
+},
+{
+	"name": "Skirmisher",
+	"upgradesTo":"Crossbowman",
+	"unitType": "Archaic Infantry",
+	"movement": 3,
+	"strength": 15,
+	"rangedStrength": 25,
+	"obsoleteTech": "Machinery",
+	"cost": 50,
+	"uniques": ["Only available <starting from the [Classical Era]>","Never appears as a Barbarian unit"],
+	"attackSound": "nonmetalhit"
+},
+{
+	"name": "Horseman",
+	"upgradesTo":"Courser",
+	"unitType": "Light Cavalry",
+	"movement": 3,
+	"strength": 35,
+	"requiredTech": "Horseback Riding",
+	"obsoleteTech": "Stirrups",
+	"cost": 80,
+	"uniques": ["Consumes [1] [Horses]","[+20]% Strength <when fighting in [Open terrain] tiles>","No defensive terrain bonus","Rough terrain penalty","Never appears as a Barbarian unit"],
+	"attackSound": "nonmetalhit"
+},
+{
+	"name": "Catapult",
+	"upgradesTo":"Trebuchet",
+	"unitType": "Siege",
+	"movement": 2,
+	"strength": 15,
+	"rangedStrength": 38,
+	"requiredTech": "Construction",
+	"obsoleteTech": "Military Engineering",
+	"cost": 87,
+	"uniques": ["[+20]% Strength <vs cities> <when attacking>", "No defensive terrain bonus",
+			"Must set up to ranged attack","Never appears as a Barbarian unit"],
+	"attackSound": "nonmetalhit"
+},
+///// Medieval stuff
+{
+	"name": "Frontiersman",
+	"upgradesTo": "Envoy",
+	"unitType": "Archaic Civilian",
+	"movement": 3,
+	"cost": 106,
+	"uniques": ["Only available <during the [Medieval Era]>","Founds a new city <by consuming this unit>", "Excess Food converted to Production when under construction",
+		"Requires at least [2] population","Never appears as a Barbarian unit"],
+	"hurryCostModifier": 20
+},
+{
+	"name": "Serf",
+	"upgradesTo": "Engineer",
+	"unitType": "Archaic Civilian",
+	"movement": 2,
+	"strength": 11,
+	"uniques": ["Only available <during the [Medieval Era]>","Can build [Land] improvements on tiles", "Automation is a primary action","Never appears as a Barbarian unit"],
+	"cost": 70
+},
+{
+	"name": "Crossbowman",
+	"unitType": "Archaic Infantry",
+	"movement": 2,
+	"strength": 25,
+	"rangedStrength": 36,
+	"cost": 60,
+	"requiredTech": "Machinery",
+	"uniques": ["Never appears as a Barbarian unit"],
+	"attackSound": "nonmetalhit"
+},
+{
+	"name": "Man-At-Arms",
+	"upgradesTo":"Musketeer",
+	"obsoleteTech":"Gunpowder",
+	"unitType": "Archaic Infantry",
+	"movement": 2,
+	"strength": 42,
+	"requiredTech": "Military Tactics",
+	"cost": 70,
+	"uniques": ["Consumes [1] [Iron]","Never appears as a Barbarian unit"],
+	"attackSound": "metalhit"
+},
+{
+	"name": "Pikeman",
+	"upgradesTo":"Pike and Shot",
+	"obsoleteTech":"Gunpowder",
+	"unitType": "Archaic Infantry",
+	"movement": 2,
+	"strength": 36,
+	"requiredTech": "Military Tactics",
+	"cost": 70,
+	"uniques": ["[+35]% Strength <vs [Light Cavalry] units>","[+35]% Strength <vs [Heavy Cavalry] units>","Consumes [1] [Iron]","Never appears as a Barbarian unit"],
+	"attackSound": "metalhit"
+},
+{
+	"name": "Warrior Monk",
+	"obsoleteTech":"Gunpowder",
+	"unitType": "Archaic Infantry",
+	"movement": 3,
+	"strength": 36,
+	"religiousStrength":500,
+	"uniques": ["[-100]% maintenance costs","Can Spread Religion <for [4] movement> <[2] times> <after which this unit is consumed>","Unbuildable","Cannot be purchased","Never appears as a Barbarian unit"],
+	"attackSound": "nonmetalhit"
+},
+{
+	"name": "Military Engineer",
+	"unitType": "Archaic Infantry",
+	"movement": 2,
+	"strength": 25,
+	"requiredTech": "Military Engineering",
+	"cost": 50,
+	"uniques": ["Can build [Land] improvements on tiles","Never appears as a Barbarian unit"],
+	"attackSound": "metalhit"
+},
+{
+	"name": "Trebuchet",
+	"upgradesTo":"Cannon",
+	"obsoleteTech":"Siege Tactics",
+	"unitType": "Siege",
+	"movement": 2,
+	"strength": 25,
+	"rangedStrength": 40,
+	"requiredTech": "Military Engineering",
+	"cost": 97,
+	"uniques": ["[+20]% Strength <vs cities> <when attacking>", "No defensive terrain bonus",
+			"Must set up to ranged attack","Never appears as a Barbarian unit"],
+	"attackSound": "nonmetalhit"
+},
+{
+	"name": "Knight",
+	"upgradesTo":"Lancer",
+	"unitType": "Heavy Cavalry",
+	"movement": 3,
+	"strength": 50,
+	"requiredTech": "Stirrups",
+	"cost": 90,
+	"uniques": ["Consumes [1] [Horses]","Consumes [1] [Iron]","[+20]% Strength <when fighting in [Open terrain] tiles>","No defensive terrain bonus","Rough terrain penalty","Never appears as a Barbarian unit"],
+	"attackSound": "nonmetalhit"
+},
+{
+	"name": "Courser",
+	"upgradesTo":"Dragoon",
+	"obsoleteTech":"Flintlock",
+	"unitType": "Light Cavalry",
+	"movement": 4,
+	"strength": 40,
+	"requiredTech": "Stirrups",
+	"cost": 80,
+	"uniques": ["Consumes [1] [Horses]","[+20]% Strength <when fighting in [Open terrain] tiles>","No defensive terrain bonus","Rough terrain penalty","Never appears as a Barbarian unit"],
+	"attackSound": "nonmetalhit"
+},
+{
+	"name": "Cog",
+	"upgradesTo":"Privateer",
+	"obsoleteTech":"Astronomy",
+	"unitType": "Raider Navy",
+	"movement": 3,
+	"strength": 45,
+	"requiredTech": "Buttress",
+	"cost": 70,
+	"uniques": ["Never appears as a Barbarian unit"],
+	"attackSound": "arrow"
+},
+{
+	"name": "Caravel",
+	"upgradesTo":"Frigate",
+	"obsoleteTech":"Square Rigging",
+	"unitType": "War Navy",
+	"movement": 3,
+	"strength": 56,
+	"requiredTech": "Cartography",
+	"cost": 90,
+	"uniques": ["Never appears as a Barbarian unit"],
+	"attackSound": "arrow"
+},
+////// Renaissance 
+{
+	"name": "Envoy",
+	"upgradesTo": "Surveyor",
+	"unitType": "Civilian",
+	"movement": 3,
+	"cost": 106,
+	"uniques": ["Only available <during the [Renaissance Era]>","Founds a new city <by consuming this unit>", "Excess Food converted to Production when under construction",
+		"Requires at least [2] population","Never appears as a Barbarian unit"],
+	"hurryCostModifier": 20
+},
+{
+	"name": "Engineer",
+	"upgradesTo": "Factory Worker",
+	"unitType": "Civilian",
+	"movement": 2,
+	"strength": 7,
+	"uniques": ["Only available <during the [Renaissance Era]>","Can build [Land] improvements on tiles", "Automation is a primary action","Never appears as a Barbarian unit"],
+	"cost": 70
+},
+{
+	"name": "Privateer",
+	"upgradesTo":"Sloop-of-War",
+	"obsoleteTech":"Warships",
+	"unitType": "Raider Navy",
+	"movement": 3,
+	"strength": 62,
+	"requiredTech": "Astronomy",
+	"cost": 145,
+	"uniques": ["Upon capturing a city, receive [3] times its [Food] production as [Gold] immediately","May capture killed [Wounded] units <with [40]% chance>","Never appears as a Barbarian unit"],
+	"attackSound": "arrow"
+},
+{
+	"name": "Frigate",
+	"upgradesTo":"Ship of the Line",
+	"obsoleteTech":"Warships",
+	"unitType": "War Navy",
+	"movement": 3,
+	"strength": 69,
+	"requiredTech": "Square Rigging",
+	"cost": 140,
+	"uniques": ["Never appears as a Barbarian unit"],
+	"attackSound": "arrow"
+},
+{
+	"name": "Fire Ship",
+	"upgradesTo":"Ship of the Line",
+	"obsoleteTech":"Warships",
+	"unitType": "War Navy",
+	"movement": 3,
+	"strength": 78,
+	"requiredTech": "Square Rigging",
+	"cost": 130,
+	"uniques": ["Self-destructs when attacking","Never appears as a Barbarian unit"],
+	"attackSound": "arrow"
+},
+{
+	"name": "Explorer",
+	"unitType": "Archaic Infantry",
+	"movement": 3,
+	"strength": 37,
+	"requiredTech": "Cartography",
+    "obsoleteTech":"Gunpowder",
+	"cost": 90,
+	"uniques": ["[+35]% Strength <vs [Barbarian] units>","Eliminates combat penalty for attacking across a coast","Never appears as a Barbarian unit"],
+	"attackSound": "metalhit"
+},
+{
+	"name": "Musketeer",
+	"upgradesTo":"Line Infantry",
+	"obsoleteTech":"Flintlock",
+	"unitType": "Infantry",
+	"movement": 2,
+	"strength": 50,
+	"requiredTech": "Gunpowder",
+	"cost": 120,
+	"uniques": ["Consumes [1] [Niter]","Never appears as a Barbarian unit"],
+	"attackSound": "shot"
+},
+{
+	"name": "Swivel Gun",
+	"upgradesTo":"Line Infantry",
+	"obsoleteTech":"Flintlock",
+	"unitType": "Infantry",
+	"movement": 2,
+	"strength": 45,
+	"rangedStrength": 45,
+	"requiredTech": "Gunpowder",
+	"cost": 120,
+	"uniques": ["Consumes [1] [Niter]","[+20]% Strength <vs cities> <when attacking>","Never appears as a Barbarian unit"],
+	"attackSound": "shot"
+},
+{
+	"name": "Pike and Shot",
+	"upgradesTo":"Late Pikeman",
+	"obsoleteTech":"Flintlock",
+	"unitType": "Infantry",
+	"movement": 2,
+	"strength": 50,
+	"requiredTech": "Gunpowder",
+	"cost": 170,
+	"uniques": ["Consumes [1] [Niter]","[+30]% Strength <vs [Heavy Cavalry] units>","Never appears as a Barbarian unit"],
+	"attackSound": "shot"
+},
+{
+	"name": "Cannon",
+	"upgradesTo":"Field Artillery",
+	"obsoleteTech":"Field Warfare",
+	"unitType": "Siege",
+	"movement": 2,
+	"strength": 60,
+	"requiredTech": "Siege Tactics",
+	"cost": 160,
+	"uniques": ["Consumes [1] [Niter]","[+20]% Strength <vs cities> <when attacking>", "No defensive terrain bonus",
+			"Must set up to ranged attack","Never appears as a Barbarian unit"],
+	"attackSound": "shot"
+},
+{
+	"name": "Lancer",
+	"upgradesTo":"Cuirassier",
+	"obsoleteTech":"Imperialism",
+	"unitType": "Heavy Cavalry",
+	"movement": 3,
+	"strength": 60,
+	"cost": 90,
+	"uniques": ["Only available <starting from the [Renaissance Era]>","Consumes [1] [Horses]","[+20]% Strength <when fighting in [Open terrain] tiles>","No defensive terrain bonus","Rough terrain penalty","Never appears as a Barbarian unit"],
+	"attackSound": "metalhit"
+},
+//// Enlightenment 
+{
+	"name": "Sloop-of-War",
+	"upgradesTo":"Torpedo Boat",
+	"obsoleteTech":"Steam Power",
+	"unitType": "Raider Navy",
+	"movement": 3,
+	"strength": 72,
+	"requiredTech": "Warships",
+	"cost": 145,
+	"uniques": ["Upon capturing a city, receive [3] times its [Food] production as [Gold] immediately","May capture killed [Wounded] units <with [40]% chance>","Never appears as a Barbarian unit"],
+	"attackSound": "arrow"
+},
+{
+	"name": "Ship of the Line",
+	"upgradesTo":"Ironclad",
+	"obsoleteTech":"Industrialization",
+	"unitType": "War Navy",
+	"movement": 3,
+	"strength": 79,
+	"rangedStrength": 79,
+	"requiredTech": "Warships",
+	"cost": 140,
+	"uniques": ["Never appears as a Barbarian unit"],
+	"attackSound": "arrow"
+},
+{
+	"name": "Field Artillery",
+	"upgradesTo":"Armstrong Gun",
+	"obsoleteTech":"Ballistics",
+	"unitType": "Siege",
+	"movement": 2,
+	"strength": 70,
+	"requiredTech": "Field Warfare",
+	"cost": 160,
+	"uniques": ["Consumes [1] [Niter]","[+20]% Strength <vs cities> <when attacking>", "No defensive terrain bonus",
+			"Must set up to ranged attack","Never appears as a Barbarian unit"],
+	"attackSound": "shot"
+},
+{
+	"name": "Line Infantry",
+	"upgradesTo":"Ranger",
+	"obsoleteTech":"Military Science",
+	"unitType": "Infantry",
+	"movement": 2,
+	"strength": 70,
+	"requiredTech": "Flintlock",
+	"cost": 160,
+	"uniques": ["Consumes [1] [Niter]","Never appears as a Barbarian unit"],
+	"attackSound": "shot"
+},
+{
+	"name": "Late Pikeman",
+	"upgradesTo":"Ranger",
+	"obsoleteTech":"Military Science",
+	"unitType": "Infantry",
+	"movement": 2,
+	"strength": 40,
+	"requiredTech": "Flintlock",
+	"cost": 100,
+	"uniques": ["[+60]% Strength <vs [Light Cavalry] units>","Never appears as a Barbarian unit"],
+	"attackSound": "shot"
+},
+{
+	"name": "Cuirassier",
+    "upgradesTo":"Cavalry",
+    "obsoleteTech":"Military Science",
+	"unitType": "Heavy Cavalry",
+	"movement": 3,
+	"strength": 72,
+	"requiredTech": "Imperialism",
+	"cost": 190,
+	"uniques": ["Consumes [1] [Horses]","[+20]% Strength <when fighting in [Open terrain] tiles>","No defensive terrain bonus","Rough terrain penalty","Never appears as a Barbarian unit"],
+	"attackSound": "metalhit"
+},
+{
+	"name": "Dragoon",
+	"upgradesTo":"Cavalry",
+    "obsoleteTech":"Military Science",
+	"unitType": "Light Cavalry",
+	"movement": 3,
+	"strength": 70,
+	"requiredTech": "Flintlock",
+	"cost": 190,
+	"uniques": ["Consumes [1] [Horses]","Consumes [1] [Niter]","[+30]% Strength <vs [Heavy Cavalry] units>","[+20]% Strength <when fighting in [Open terrain] tiles>","No defensive terrain bonus","Rough terrain penalty","Never appears as a Barbarian unit"],
+	"attackSound": "shot"
+},
+////////// INDUSTRIAL
+
+{
+	"name": "Surveyor",
+	"unitType": "Civilian",
+	"movement": 3,
+	"cost": 106,
+	"uniques": ["Only available <starting from the [Industrial Era]>","Can pass through impassable tiles","Founds a new city <by consuming this unit>", "Excess Food converted to Production when under construction",
+		"Requires at least [2] population","Never appears as a Barbarian unit"],
+	"hurryCostModifier": 20
+},
+{
+	"name": "Factory Worker",
+	"unitType": "Civilian",
+	"movement": 2,
+	"strength": 7,
+	"uniques": ["Only available <starting from the [Industrial Era]>","Can pass through impassable tiles","Can build [Land] improvements on tiles", "Automation is a primary action","Never appears as a Barbarian unit"],
+	"cost": 70
+},
+{
+	"name": "Canal Builder",
+	"unitType": "Civilian",
+	"movement": 2,
+	"requiredTech": "Industrialization",
+	"strength": 7,
+	"uniques": ["Turn this tile into a [Canal] tile <by consuming this unit>", "Automation is a primary action","Never appears as a Barbarian unit"],
+	"cost": 70
+},
+{
+	"name": "Ironclad",
+	"upgradesTo":"Steam Frigate",
+	"obsoleteTech":"Steam Power",
+	"unitType": "War Navy",
+	"movement": 3,
+	"strength": 80,
+	"requiredTech": "Industrialization",
+	"cost": 140,
+	"uniques": ["Consumes [1] [Coal]","Never appears as a Barbarian unit"],
+	"attackSound": "tankshot"
+},
+{
+	"name": "Steam Frigate",
+	"upgradesTo":"Destroyer",
+	"obsoleteTech":"Steel",
+	"unitType": "War Navy",
+	"movement": 4,
+	"strength": 90,
+	"requiredTech": "Steam Power",
+	"cost": 140,
+	"uniques": ["Consumes [1] [Coal]","Never appears as a Barbarian unit"],
+	"attackSound": "tankshot"
+},
+{
+	"name": "Torpedo Boat",
+	"upgradesTo":"Destroyer",
+	"obsoleteTech":"Steel",
+	"unitType": "Raider Navy",
+	"movement": 4,
+	"strength": 85,
+	"requiredTech": "Steam Power",
+	"cost": 79,
+	"uniques": ["Consumes [1] [Coal]","Self-destructs when attacking","Blast radius [2]","Never appears as a Barbarian unit"],
+	"attackSound": "tankshot"
+},
+{
+	"name": "Medic",
+	"requiredTech": "Military Science",
+	"upgradesTo":"Supply Convoy",
+	"obsoleteTech":"Replaceable Parts",
+	"unitType": "Civilian",
+	"movement": 2,
+	"uniques": ["All adjacent units heal [+10] HP when healing","Automation is a primary action","Never appears as a Barbarian unit"],
+	"cost": 160
+},
+{
+	"name": "Cavalry",
+	"upgradesTo":"Armored Car",
+	"obsoleteTech":"Steel",
+	"unitType": "Light Cavalry",
+	"movement": 3,
+	"strength": 80,
+	"requiredTech": "Military Science",
+	"cost": 220,
+	"uniques": ["Consumes [1] [Horses]","[+20]% Strength <when fighting in [Open terrain] tiles>","No defensive terrain bonus","Rough terrain penalty","Never appears as a Barbarian unit"],
+	"attackSound": "metalhit"
+},
+{
+	"name": "Ranger",
+	"upgradesTo":"Great War Sniper",
+	"obsoleteTech":"Replaceable Parts",
+	"unitType": "Infantry",
+	"movement": 2,
+	"strength": 60,
+	"rangedStrength": 80,
+	"requiredTech": "Military Science",
+	"cost": 190,
+	"uniques": ["Consumes [1] [Niter]","Never appears as a Barbarian unit"],
+	"attackSound": "shot"
+},
+{
+	"name": "Rifleman",
+	"upgradesTo":"Great War Infantry",
+	"obsoleteTech":"Replaceable Parts",
+	"unitType": "Infantry",
+	"movement": 2,
+	"strength": 85,
+	"requiredTech": "Rifling",
+	"cost": 190,
+	"uniques": ["Consumes [1] [Niter]","Never appears as a Barbarian unit"],
+	"attackSound": "shot"
+},
+{
+	"name": "Early Machinegun",
+	"upgradesTo":"Great War Machinegun",
+	"obsoleteTech":"Replaceable Parts",
+	"unitType": "Machinegun",
+	"movement": 2,
+	"strength": 60,
+	"rangedStrength": 95,
+	"requiredTech": "Ballistics",
+	"cost": 220,
+	"uniques": ["Consumes [1] [Niter]","Never appears as a Barbarian unit"],
+	"attackSound": "shot"
+},
+{
+	"name": "Armstrong Gun",
+	"upgradesTo":"Artillery",
+	"obsoleteTech":"Steel",
+	"unitType": "Siege",
+	"movement": 2,
+	"strength": 40,
+	"rangedStrength": 95,
+	"requiredTech": "Ballistics",
+	"cost": 250,
+	"uniques": ["Consumes [1] [Niter]","[+20]% Strength <vs cities> <when attacking>", "No defensive terrain bonus",
+			"Must set up to ranged attack","Never appears as a Barbarian unit"],
+	"attackSound": "shot"
+},
+//// MODERN ERA
+{
+	"name": "Battleship",
+	"unitType": "War Navy",
+	"movement": 5,
+	"strength": 110,
+	"rangedStrength": 130,
+	"requiredTech": "Steel",
+	"cost": 290,
+	"uniques": ["Consumes [1] [Oil]","Never appears as a Barbarian unit"],
+	"attackSound": "tankshot"
+},
+{
+	"name": "Carrier",
+	"unitType": "Aircraft Carrier",
+	"movement": 5,
+	"strength": 100,
+	"requiredTech": "Flight",
+	"cost": 310,
+	"uniques": ["Consumes [1] [Oil]","Cannot attack", "Can carry [2] [Aircraft] units","Never appears as a Barbarian unit"],
+	"attackSound": "tankshot"
+},
+{
+	"name": "Destroyer",
+	"unitType": "War Navy",
+	"movement": 5,
+	"strength": 170,
+	"requiredTech": "Steel",
+	"cost": 310,
+	"uniques": ["Consumes [1] [Oil]","Never appears as a Barbarian unit"],
+	"attackSound": "tankshot"
+},
+{
+	"name": "Submarine",
+	"unitType": "Submarine",
+	"movement": 5,
+	"strength": 200,
+	"requiredTech": "Chemistry",
+	"cost": 380,
+	"uniques": ["Consumes [1] [Oil]","Never appears as a Barbarian unit"],
+	"attackSound": "tankshot"
+},
+{
+	"name": "Great War Infantry",
+	"upgradesTo":"Infantry",
+	"obsoleteTech":"Plastics",
+	"unitType": "Infantry",
+	"movement": 2,
+	"strength": 90,
+	"requiredTech": "Replaceable Parts",
+	"cost": 250,
+	"uniques": ["Never appears as a Barbarian unit"],
+	"attackSound": "shot"
+},
+{
+	"name": "Flamethrower",
+	"upgradesTo":"Infantry",
+	"obsoleteTech":"Plastics",
+	"unitType": "Infantry",
+	"movement": 2,
+	"strength": 50,
+	"rangedStrength": 120,
+	"requiredTech": "Replaceable Parts",
+	"cost": 290,
+	"uniques": ["Never appears as a Barbarian unit"],
+	"attackSound": "shot"
+},
+{
+	"name": "Supply Convoy",
+	"unitType": "Civilian",
+	"movement": 4,
+	"requiredTech": "Replaceable Parts",
+	"cost": 320,
+	"uniques": ["All adjacent units heal [+20] HP when healing","Never appears as a Barbarian unit"],
+	"attackSound": "shot"
+},
+{
+	"name": "Great War Machinegun",
+	"unitType": "Machinegun",
+	"movement": 2,
+	"strength": 65,
+	"rangedStrength": 115,
+	"requiredTech": "Replaceable Parts",
+	"cost": 290,
+	"uniques": ["Consumes [1] [Oil]","Never appears as a Barbarian unit"],
+	"attackSound": "shot"
+},
+{
+	"name": "Observation Balloon",
+	"unitType": "Civilian",
+	"movement": 4,
+	"requiredTech": "Replaceable Parts",
+	"cost": 290,
+	"uniques": ["[+2] Sight","Never appears as a Barbarian unit"],
+	"promotions":["Ignore terrain cost"],
+	"attackSound": "shot"
+},
+{
+	"name": "Great War Sniper",
+	"upgradesTo":"Infantry",
+	"obsoleteTech":"Plastics",
+	"unitType": "Infantry",
+	"movement": 3,
+	"strength": 70,
+	"rangedStrength": 95,
+	"requiredTech": "Replaceable Parts",
+	"cost": 290,
+	"uniques": ["Never appears as a Barbarian unit"],
+	"attackSound": "shot"
+},
+{
+	"name": "Armored Car",
+	"upgradesTo":"Landship",
+	"obsoleteTech":"Combustion",
+	"unitType": "Armored",
+	"movement": 3,
+	"strength": 115,
+	"requiredTech": "Steel",
+	"cost": 300,
+	"uniques": ["Consumes [1] [Oil]","[+20]% Strength <when fighting in [Open terrain] tiles>","No defensive terrain bonus","Rough terrain penalty","Never appears as a Barbarian unit"],
+	"attackSound": "tankshot"
+},
+{
+	"name": "Anti-Tank Gun",
+	"unitType": "Infantry",
+	"movement": 3,
+	"strength": 125,
+	"requiredTech": "Combustion",
+	"cost": 390,
+	"uniques": ["Consumes [1] [Oil]","[+60]% Strength <vs [Armored] units>","Never appears as a Barbarian unit"],
+	"attackSound": "tankshot"
+},
+{
+	"name": "Landship",
+	"upgradesTo":"Tank",
+	"obsoleteTech":"Combined Arms",
+	"unitType": "Armored",
+	"movement": 3,
+	"strength": 185,
+	"requiredTech": "Combustion",
+	"cost": 390,
+	"uniques": ["Consumes [1] [Oil]","[+20]% Strength <when fighting in [Open terrain] tiles>","No defensive terrain bonus","Rough terrain penalty","Never appears as a Barbarian unit"],
+	"attackSound": "tankshot"
+},
+{
+	"name": "Flame Tank",
+	"upgradesTo":"Tank",
+	"obsoleteTech":"Combined Arms",
+	"unitType": "Armored",
+	"movement": 3,
+	"strength": 105,
+	"rangedStrength": 185,
+	"requiredTech": "Combustion",
+	"cost": 400,
+	"uniques": ["Consumes [1] [Oil]","No defensive terrain bonus","Rough terrain penalty","Never appears as a Barbarian unit"],
+	"attackSound": "tankshot"
+},
+{
+	"name": "Artillery",
+	"unitType": "Siege",
+	"movement": 2,
+	"strength": 80,
+	"rangedStrength": 115,
+	"requiredTech": "Steel",
+	"cost": 300,
+	"uniques": ["Consumes [1] [Oil]","[+20]% Strength <vs cities> <when attacking>", "No defensive terrain bonus",
+			"Must set up to ranged attack","Never appears as a Barbarian unit"],
+	"attackSound": "tankshot"
+},
+{
+	"name": "Biplane",
+	"upgradesTo":"Fighter",
+	"obsoleteTech":"Advanced Flight",
+	"unitType": "Fighter",
+	"movement": 1,
+	"strength": 90,
+	"rangedStrength": 90,
+	"range": 5,
+	"interceptRange": 5,
+	"cost": 325,
+	"requiredTech": "Flight",
+	"requiredResource": "Oil",
+	"uniques": ["Can only be built <in cities with a [Airstrip Project]>","[50]% chance to intercept air attacks", "[+150]% Strength <vs [Bomber] units>"],
+	"attackSound": "machinegun"
+},
+//// ATOMIC ERA
+{
+	"name": "Infantry",
+	"unitType": "Infantry",
+	"movement": 2,
+	"strength": 140,
+	"requiredTech": "Plastics",
+	"cost": 300,
+	"uniques": ["Never appears as a Barbarian unit"],
+	"attackSound": "shot"
+},
+{
+	"name": "Helicopter",
+	"unitType": "Helicopter",
+	"movement": 4,
+	"strength": 140,
+	"requiredTech": "Advanced Flight",
+	"cost": 300,
+	"uniques": ["Consumes [1] [Aluminum]","[+30]% Strength <vs [Armored] units>","Never appears as a Barbarian unit"],
+	"attackSound": "shot"
+},
+{
+	"name": "Drone",
+	"unitType": "Drone",
+	"movement": 5,
+	"strength": 170,
+	"requiredTech": "Computers",
+	"cost": 300,
+	"uniques": ["Consumes [1] [Aluminum]","[+30]% Strength <vs [Armored] units>","Never appears as a Barbarian unit"],
+	"attackSound": "shot"
+},
+{
+	"name": "Spec Ops",
+	"unitType": "Infantry",
+	"movement": 2,
+	"strength": 140,
+	"rangedStrength": 150,
+	"requiredTech": "Plastics",
+	"cost": 375,
+	"uniques": ["[0] Movement point cost to disembark","[0] Movement point cost to embark","May Paradrop up to [3] tiles from inside friendly territory","Never appears as a Barbarian unit"],
+	"attackSound": "shot"
+},
+{
+	"name": "Command Machinegun",
+	"unitType": "Machinegun",
+	"movement": 2,
+	"strength": 95,
+	"rangedStrength": 155,
+	"requiredTech": "Advanced Ballistics",
+	"cost": 400,
+	"uniques": ["Consumes [1] [Oil]","Never appears as a Barbarian unit"],
+	"attackSound": "shot"
+},
+{
+	"name": "Anti-Aircraft Gun",
+	"unitType": "Siege",
+	"movement": 2,
+	"interceptRange": 2,
+	"strength": 60,
+	"cost": 375,
+	"requiredTech": "Advanced Ballistics",
+	"uniques": ["[100]% chance to intercept air attacks", "[+150]% Strength <vs [Air] units>", "[+150]% Strength <vs [Helicopter] units>", "Never appears as a Barbarian unit"],
+	"attackSound": "machinegun"
+},
+{
+	"name": "Tank",
+	"unitType": "Armored",
+	"movement": 3,
+	"strength": 195,
+	"requiredTech": "Combined Arms",
+	"cost": 500,
+	"uniques": ["Consumes [1] [Oil]","[+20]% Strength <when fighting in [Open terrain] tiles>","No defensive terrain bonus","Rough terrain penalty","Never appears as a Barbarian unit"],
+	"attackSound": "tankshot"
+},
+{
+	"name": "Bomber",
+	"unitType": "Fighter",
+	"movement": 1,
+	"strength": 90,
+	"rangedStrength": 90,
+	"range": 5,
+	"interceptRange": 5,
+	"cost": 325,
+	"requiredTech": "Advanced Flight",
+	"requiredResource": "Aluminum",
+	"uniques": ["Can only be built <in cities with a [Airstrip Project]>","[50]% chance to intercept air attacks", "[+20]% Strength <vs cities> <when attacking>"],
+	"attackSound": "machinegun"
+},
+{
+	"name": "Fighter",
+	"unitType": "Fighter",
+	"movement": 1,
+	"strength": 120,
+	"rangedStrength": 120,
+	"range": 5,
+	"interceptRange": 5,
+	"cost": 325,
+	"requiredTech": "Advanced Flight",
+	"requiredResource": "Aluminum",
+	"uniques": ["Can only be built <in cities with a [Airstrip Project]>","[50]% chance to intercept air attacks", "[+150]% Strength <vs [Bomber] units>"],
+	"attackSound": "machinegun"
+},
+{
+	"name": "Guided Missile",
+	"unitType": "Missile",
+	"movement": 1,
+	"strength": 60,
+	"rangedStrength": 60,
+	"range": 8,
+	"cost": 150,
+	"requiredTech": "Rocketry",
+	"uniques": ["[-100]% maintenance costs"],
+	"attackSound": "missile"
+},
+{
+	"name": "Atomic Bomb",
+	"unitType": "Atomic Bomber",
+	"movement": 1,
+	"strength": 150,
+	"rangedStrength": 150,
+	"range": 10,
+	"cost": 600,
+	"requiredTech": "Nuclear Fission",
+	"requiredResource": "Uranium",
+	"uniques": ["Nuclear weapon of Strength [1]", "Only available <if [Manhattan Project] is constructed>", "Self-destructs when attacking",
+		"Blast radius [2]"],
+	"attackSound": "nuke"
+},
+//// INFORMATION ERA
+{
+	"name": "Modern Carrier",
+	"unitType": "Aircraft Carrier",
+	"movement": 5,
+	"strength": 150,
+	"requiredTech": "Guidance Systems",
+	"cost": 310,
+	"uniques": ["Consumes [1] [Oil]","Cannot attack", "Can carry [4] [Aircraft] units","Never appears as a Barbarian unit"],
+	"attackSound": "tankshot"
+},
+{
+	"name": "Missile Destroyer",
+	"unitType": "War Navy",
+	"movement": 5,
+	"strength": 260,
+	"requiredTech": "Guidance Systems",
+	"cost": 310,
+	"uniques": ["Consumes [1] [Oil]","Never appears as a Barbarian unit"],
+	"attackSound": "tankshot"
+},
+{
+	"name": "Missile Cruiser",
+	"unitType": "War Navy",
+	"movement": 5,
+	"strength": 160,
+	"rangedStrength": 260,
+	"requiredTech": "Guidance Systems",
+	"cost": 270,
+	"uniques": ["Consumes [1] [Oil]","Never appears as a Barbarian unit"],
+	"attackSound": "tankshot"
+},
+{
+	"name": "Nuclear Submarine",
+	"unitType": "Submarine",
+	"movement": 4,
+	"strength": 305,
+	"requiredTech": "Nuclear Fusion",
+	"cost": 380,
+	"uniques": ["Consumes [1] [Uranium]","Never appears as a Barbarian unit"],
+	"attackSound": "tankshot"
+},
+{
+	"name": "Modern Anti Tank",
+	"unitType": "Siege",
+	"movement": 2,
+	"strength": 119,
+	"rangedStrength": 110,
+	"requiredTech": "Composites",
+	"cost": 420,
+	"uniques": ["Consumes [1] [Oil]","[+65]% Strength <vs [Armored] units>","No defensive terrain bonus","Never appears as a Barbarian unit"],
+	"attackSound": "tankshot"
+},
+{
+	"name": "Mobile SAM",
+	"unitType": "Siege",
+	"movement": 2,
+	"interceptRange": 2,
+	"strength": 90,
+	"cost": 375,
+	"requiredTech": "Guidance Systems",
+	"uniques": ["[100]% chance to intercept air attacks", "[+160]% Strength <vs [Air] units>", "[+160]% Strength <vs [Helicopter] units>", "Never appears as a Barbarian unit"],
+	"attackSound": "machinegun"
+},
+{
+	"name": "Rocket Artillery",
+	"unitType": "Siege",
+	"movement": 3,
+	"strength": 115,
+	"rangedStrength": 215,
+	"requiredTech": "Composites",
+	"cost": 300,
+	"uniques": ["Consumes [1] [Oil]","[+100]% Strength <vs cities> <when attacking>", "No defensive terrain bonus",
+			"Must set up to ranged attack","Never appears as a Barbarian unit"],
+	"attackSound": "tankshot"
+},
+{
+	"name": "Modern Armor",
+	"unitType": "Armored",
+	"movement": 3,
+	"strength": 235,
+	"requiredTech": "Composites",
+	"cost": 500,
+	"uniques": ["Consumes [1] [Oil]","[+20]% Strength <when fighting in [Open terrain] tiles>","No defensive terrain bonus","Rough terrain penalty","Never appears as a Barbarian unit"],
+	"attackSound": "tankshot"
+},
+{
+	"name": "Laser Drone",
+	"unitType": "Drone",
+	"movement": 5,
+	"strength": 230,
+	"requiredTech": "Lasers",
+	"cost": 450,
+	"uniques": ["Consumes [1] [Aluminum]","[+15]% Strength <vs [Armored] units>","Never appears as a Barbarian unit"],
+	"attackSound": "shot"
+},
+{
+	"name": "Mechanized Infantry",
+	"unitType": "Infantry",
+	"movement": 2,
+	"strength": 195,
+	"requiredTech": "Composites",
+	"cost": 420,
+	"uniques": ["Never appears as a Barbarian unit"],
+	"attackSound": "shot"
+},
+{
+	"name": "Jet Bomber",
+	"unitType": "Fighter",
+	"movement": 1,
+	"strength": 120,
+	"rangedStrength": 120,
+	"range": 5,
+	"interceptRange": 5,
+	"cost": 325,
+	"requiredTech": "Stealth Technology",
+	"requiredResource": "Aluminum",
+	"uniques": ["Can only be built <in cities with a [Airstrip Project]>","[50]% chance to intercept air attacks", "[+20]% Strength <vs cities> <when attacking>"],
+	"attackSound": "machinegun"
+},
+{
+	"name": "Jet Fighter",
+	"unitType": "Fighter",
+	"movement": 1,
+	"strength": 150,
+	"rangedStrength": 150,
+	"range": 5,
+	"interceptRange": 5,
+	"cost": 325,
+	"requiredTech": "Stealth Technology",
+	"requiredResource": "Aluminum",
+	"uniques": ["Can only be built <in cities with a [Airstrip Project]>","[50]% chance to intercept air attacks", "[+150]% Strength <vs [Bomber] units>"],
+	"attackSound": "machinegun"
+},
+{
+	"name": "Hydrogen Bomb",
+	"unitType": "Atomic Bomber",
+	"movement": 1,
+	"strength": 250,
+	"rangedStrength": 250,
+	"range": 10,
+	"cost": 800,
+	"requiredTech": "Nuclear Fusion",
+	"uniques": ["Blast radius [3]","Destroys tile improvements when attacking","Only available <if [Manhattan Project] is constructed>", "Self-destructs when attacking",
+		"Blast radius [2]"],
+	"attackSound": "nuke"
+},
+//// GREAT PEOPLE
+	{
+		"name": "Artist",
+		"unitType": "Civilian",
+		"uniques": [
+            "Gain [200] [Culture] <by consuming this unit>",
+            "Great Person - [Culture]", "Unbuildable", "Uncapturable"],
+		"movement": 2
+	},
+	{
+		"name": "Doctor",
+		"unitType": "Civilian",
+		"cost":100,
+		"uniques": [
+            "Instantly consumes [5] [Plague] <by consuming this unit>",
+            "Great Person - [Culture]", "Unbuildable", "Uncapturable"],
+		"movement": 2
+	},
+	{
+		"name": "Archaeologist",
+		"unitType": "Civilian",
+		"uniques": [
+            "Instantly provides [1] [Artifact] <by consuming this unit>",
+            "Great Person - [Culture]", "Unbuildable", "Uncapturable"],
+		"cost":100,
+		"movement": 2
+	},
+	{
+		"name": "Naturalist",
+		"unitType": "Civilian",
+		"uniques": [
+            "Instantly provides [1] [Conservation Points] <by consuming this unit>",
+            "Great Person - [Culture]", "Unbuildable", "Uncapturable"],
+		"cost":100,
+		"movement": 2
+	},
+	{
+		"name": "Writer",
+		"unitType": "Civilian",
+		"uniques": [
+            "Instantly provides [1] [Literary Work] <by consuming this unit>",
+            "Great Person - [Culture]", "Unbuildable", "Uncapturable"],
+		"cost":100,
+		"movement": 2
+	},
+	{
+		"name": "Musician",
+		"unitType": "Civilian",
+		"uniques": [
+            "Instantly provides [1] [Composition] <by consuming this unit>",
+            "Great Person - [Culture]", "Unbuildable", "Uncapturable"],
+		"cost":100,
+		"movement": 2
+	},
+	{
+		"name": "Scientist",
+		"unitType": "Civilian",
+		"uniques": ["Can hurry technology research",
+            "Great Person - [Science]", "Unbuildable", "Uncapturable"],
+		"movement": 2
+	},
+	{
+		"name": "Merchant",
+		"unitType": "Civilian",
+		"uniques": ["Can undertake a trade mission with City-State, giving a large sum of gold and [30] Influence",
+            "Gain [400] [Gold] <by consuming this unit>",
+			"Great Person - [Gold]", "Unbuildable", "Uncapturable"],
+		"movement": 2
+	},
+	{
+		"name": "Football Player",
+		"unitType": "Civilian",
+		"uniques": ["Can undertake a trade mission with City-State, giving a large sum of gold and [70] Influence",
+            "Gain [200] [Gold] <by consuming this unit>",
+			"Great Person - [Gold]", "Unbuildable", "Uncapturable"],
+		"movement": 2
+	},
+	{
+		"name": "Builder",
+		"unitType": "Civilian",
+		"uniques": ["Can speed up construction of a building",
+            "Great Person - [Production]", "Unbuildable", "Uncapturable"],
+		"movement": 2
+	},
+	{
+		"name": "General",
+		"unitType": "Civilian",
+		"uniques": [
+            "[+20]% Strength bonus for [Land] units within [2] tiles",
+			"Great Person - [War]", "Unbuildable", "Uncapturable"],
+		"movement": 2
+	},
+	{
+		"name": "Admiral",
+		"unitType": "Civilian",
+		"uniques": [
+            "[+20]% Strength bonus for [Water] units within [2] tiles",
+			"Great Person - [War]", "Unbuildable", "Uncapturable"],
+		"movement": 2
+	},
+	{
+		"name": "Prophet",
+		"unitType": "Civilian",
+		"uniques": [
+            "Can instantly construct a [Holy site] improvement <by consuming this unit> <if it hasn't used other actions yet>",
+            "Can Spread Religion <for [2] movement> <[4] times> <after which this unit is consumed>",
+			"Removes other religions when spreading religion",
+            "May found a religion <by consuming this unit> <if it hasn't used other actions yet>",
+            "May enhance a religion <by consuming this unit>  <if it hasn't used other actions yet>",
+			"May enter foreign tiles without open borders", "[-1] Sight", "Great Person - [Faith]",
+			"Unbuildable", "Religious Unit", "Only available <when religion is enabled>",
+			"Takes your religion over the one in their birth city"],
+		"movement": 2,
+		"religiousStrength": 1000
+	},
+	{
+		"name": "Missionary",
+		"unitType": "Civilian",
+		"uniques": [
+            "Can Spread Religion <for [4] movement> <[2] times> <after which this unit is consumed>",
+            "May enter foreign tiles without open borders, but loses [250] religious strength each turn it ends there",
+			"Can be purchased with [Faith] [in all cities in which the majority religion is a major religion]",
+			"[-1] Sight", "Unbuildable", "Religious Unit", "Only available <when religion is enabled>"],
+		"movement": 4,
+		"religiousStrength": 1000
+	},
+	{
+		"name": "Inquisitor",
+		"unitType": "Civilian",
+		"uniques": ["Prevents spreading of religion to the city it is next to",
+			"Can remove other religions from cities <in [Friendly] tiles> <once> <after which this unit is consumed>",
+            "Can be purchased with [Faith] [in all cities in which the majority religion is a major religion]",
+			"[+1] Sight", "Only available <when religion is enabled>", "Unbuildable", "Religious Unit"
+		],
+		"movement": 3
+	},
+	//////// BARBARIANS
+	{
+		"name": "Orca",
+		"uniqueTo": "Barbarians",
+		"obsoleteTech": "Agriculture",
+		"unitType": "Sea Animal",
+		"movement": 3,
+		"strength": 15,
+		"requiredTech": "Fishing",
+		"cost": 26,
+		"attackSound": "arrow"
+	},
+	{
+		"name": "Cave Hyena",
+		"replaces": "Hunter-Gatherer",
+		"uniqueTo": "Barbarians",
+		"unitType": "Land Animal",
+		"obsoleteTech": "Agriculture",
+		"movement": 2,
+		"strength": 10,
+		"cost": 25,
+		"promotions": ["Ignore terrain cost"],
+		"attackSound": "arrow"
+	},
+	{
+		"name": "Mammoth",
+		"uniqueTo": "Barbarians",
+		"unitType": "Land Animal",
+		"obsoleteTech": "Agriculture",
+		"movement": 1,
+		"strength": 15,
+		"cost": 25,
+		"promotions": ["Ignore terrain cost"],
+		"attackSound": "arrow"
+	},
+	{
+		"name": "Arctodus",
+		"replaces": "Axeman",
+		"uniqueTo": "Barbarians",
+		"unitType": "Land Animal",
+		"upgradesTo": "Warrior",
+		"obsoleteTech": "Agriculture",
+		"movement": 2,
+		"strength": 15,
+		"requiredTech": "Stone Tools",
+		"cost": 30,
+		"promotions":["Ignore terrain cost"],
+		"attackSound": "nonmetalhit"
+	},
+	/// SPACE STUFF
+	{
+		"name": "SS Booster",
+		"unitType": "Civilian",
+		"movement": 2,
+		"cost": 750,
+		"requiredTech": "Rocketry",
+		"requiredResource": "Aluminum",
+		"uniques": ["Spaceship part", "Cannot be purchased", "Only available <if [Apollo Program] is constructed>", "Uncapturable", "Can be added to [The Spaceship] in the Capital", "Limited to [3] per Civilization"]
+		// costs 1500 in BNW
+	},
+	{
+		"name": "SS Cockpit",
+		"unitType": "Civilian",
+		"movement": 2,
+		"cost": 750,
+		"requiredTech": "Rocketry",
+		"requiredResource": "Aluminum",
+		"uniques": ["Spaceship part", "Cannot be purchased", "Only available <if [Apollo Program] is constructed>", "Uncapturable", "Can be added to [The Spaceship] in the Capital", "Limited to [1] per Civilization"]
+		// costs 1500 in BNW
+	},
+	{
+		"name": "SS Engine",
+		"unitType": "Civilian",
+		"movement": 2,
+		"cost": 750,
+		"requiredTech": "Rocketry",
+		"requiredResource": "Aluminum",
+		"uniques": ["Spaceship part", "Cannot be purchased", "Only available <if [Apollo Program] is constructed>", "Uncapturable", "Can be added to [The Spaceship] in the Capital", "Limited to [1] per Civilization"]
+		// costs 1500 in BNW
+	},
+	{
+		"name": "SS Stasis Chamber",
+		"unitType": "Civilian",
+		"movement": 2,
+		"cost": 750,
+		"requiredTech": "Rocketry",
+		"requiredResource": "Aluminum",
+		"uniques": ["Spaceship part", "Cannot be purchased", "Only available <if [Apollo Program] is constructed>", "Uncapturable", "Can be added to [The Spaceship] in the Capital", "Limited to [1] per Civilization"]
+		// costs 1500 in BNW
+	}
+]

@@ -1,0 +1,241 @@
+[
+    {
+        "name": "Civilian",
+        "uniques":["[-100]% maintenance costs","[This Unit] gains the [Poisoned] status for [3] turn(s) <upon losing at least [5] HP in a single attack> <vs [Poisonous Archer] units> <with [60]% chance>",
+                   "[This Unit] gains the [On Fire] status for [5] turn(s) <upon losing at least [50] HP in a single attack> <vs [Flame Tank] units> <with [60]% chance>",
+                   "[This Unit] gains the [On Fire] status for [5] turn(s) <upon losing at least [50] HP in a single attack> <vs [Flamethrower] units> <with [60]% chance>",
+                   "[This Unit] gains the [Soft Injury] status for [5] turn(s) <upon losing at least [5] HP in a single attack> <with [15]% chance>",
+                   "[This Unit] gains the [Medium Injury] status for [10] turn(s) <upon losing at least [10] HP in a single attack> <with [15]% chance>",
+                   "[This Unit] gains the [Open Wound] status for [15] turn(s) <upon losing at least [20] HP in a single attack> <with [15]% chance>"],
+        "movementType": "Land"
+    },
+    {
+        "name": "Water Civilian",
+        "movementType": "Water"
+    },
+    {
+        "name": "Sea Animal",
+        "movementType": "Water"
+    },
+    {
+        "name": "Land Animal",
+        "movementType": "Land"
+    },
+    {
+        "name": "Archaic Civilian",
+        "uniques":["[This Unit] gains the [Poisoned] status for [3] turn(s) <upon losing at least [5] HP in a single attack> <vs [Poisonous Archer] units> <with [60]% chance>",
+                   "[This Unit] gains the [Soft Injury] status for [5] turn(s) <upon losing at least [5] HP in a single attack> <with [15]% chance>",
+                   "[This Unit] gains the [On Fire] status for [5] turn(s) <upon losing at least [50] HP in a single attack> <vs [Flamethrower] units> <with [60]% chance>",
+                   "[This Unit] gains the [On Fire] status for [5] turn(s) <upon losing at least [50] HP in a single attack> <vs [Flame Tank] units> <with [60]% chance>",
+                   "[This Unit] gains the [Medium Injury] status for [10] turn(s) <upon losing at least [10] HP in a single attack> <with [15]% chance>",
+                   "[This Unit] gains the [Open Wound] status for [15] turn(s) <upon losing at least [20] HP in a single attack> <with [15]% chance>"],
+        "movementType": "Land"
+    },
+    {
+        "name": "Archaic Infantry",
+        "uniques":["[This Unit] gains the [Poisoned] status for [3] turn(s) <upon losing at least [5] HP in a single attack> <vs [Poisonous Archer] units> <with [60]% chance>",
+                   "[This Unit] gains the [Soft Injury] status for [5] turn(s) <upon losing at least [5] HP in a single attack> <with [15]% chance>",
+                   "[This Unit] gains the [On Fire] status for [5] turn(s) <upon losing at least [50] HP in a single attack> <vs [Flamethrower] units> <with [60]% chance>",
+                   "[This Unit] gains the [On Fire] status for [5] turn(s) <upon losing at least [50] HP in a single attack> <vs [Flame Tank] units> <with [60]% chance>",
+                   "[This Unit] gains the [Medium Injury] status for [10] turn(s) <upon losing at least [10] HP in a single attack> <with [15]% chance>",
+                   "[This Unit] gains the [Open Wound] status for [15] turn(s) <upon losing at least [20] HP in a single attack> <with [15]% chance>"],
+        "movementType": "Land"
+    },
+    {
+        "name": "Poisonous Archer",
+        "uniques":["[This Unit] gains the [Poisoned] status for [3] turn(s) <upon losing at least [5] HP in a single attack> <vs [Poisonous Archer] units> <with [60]% chance>",
+                   "[This Unit] gains the [Soft Injury] status for [5] turn(s) <upon losing at least [5] HP in a single attack> <with [15]% chance>",
+                   "[This Unit] gains the [On Fire] status for [5] turn(s) <upon losing at least [50] HP in a single attack> <vs [Flamethrower] units> <with [60]% chance>",
+                   "[This Unit] gains the [On Fire] status for [5] turn(s) <upon losing at least [50] HP in a single attack> <vs [Flame Tank] units> <with [60]% chance>",
+                   "[This Unit] gains the [Medium Injury] status for [10] turn(s) <upon losing at least [10] HP in a single attack> <with [15]% chance>",
+                   "[This Unit] gains the [Open Wound] status for [15] turn(s) <upon losing at least [20] HP in a single attack> <with [15]% chance>"],
+        "movementType": "Land"
+    },
+    {
+        "name": "Archaic Cavalry",
+        "uniques":["[This Unit] gains the [Poisoned] status for [3] turn(s) <upon losing at least [5] HP in a single attack> <vs [Poisonous Archer] units> <with [60]% chance>",
+                   "[This Unit] gains the [Soft Injury] status for [5] turn(s) <upon losing at least [5] HP in a single attack> <with [15]% chance>",
+                   "[This Unit] gains the [On Fire] status for [5] turn(s) <upon losing at least [50] HP in a single attack> <vs [Flamethrower] units> <with [60]% chance>",
+                   "[This Unit] gains the [On Fire] status for [5] turn(s) <upon losing at least [50] HP in a single attack> <vs [Flame Tank] units> <with [60]% chance>",
+                   "[This Unit] gains the [Medium Injury] status for [10] turn(s) <upon losing at least [10] HP in a single attack> <with [15]% chance>",
+                   "[This Unit] gains the [Open Wound] status for [15] turn(s) <upon losing at least [20] HP in a single attack> <with [15]% chance>"],
+        "movementType": "Land"
+    },
+    {
+        "name": "Archaic Navy",
+        "uniques":["[This Unit] gains the [Poisoned] status for [3] turn(s) <upon losing at least [40] HP in a single attack> <vs [Fire Ship] units> <with [100]% chance>",
+                   "[This Unit] gains the [Hull Breach] status for [5] turn(s) <upon losing at least [5] HP in a single attack> <with [15]% chance>",
+                   "[This Unit] gains the [Shattered Deck] status for [10] turn(s) <upon losing at least [10] HP in a single attack> <with [15]% chance>",
+                   "[This Unit] gains the [Fire on Board] status for [15] turn(s) <upon losing at least [20] HP in a single attack> <with [15]% chance>"],
+        "movementType": "Water"
+    },
+    {
+        "name": "War Navy",
+        "uniques":["[This Unit] gains the [Poisoned] status for [3] turn(s) <upon losing at least [40] HP in a single attack> <vs [Fire Ship] units> <with [100]% chance>",
+                   "[This Unit] gains the [Hull Breach] status for [5] turn(s) <upon losing at least [5] HP in a single attack> <with [15]% chance>",
+                   "[This Unit] gains the [Shattered Deck] status for [10] turn(s) <upon losing at least [10] HP in a single attack> <with [15]% chance>",
+                   "[This Unit] gains the [Fire on Board] status for [15] turn(s) <upon losing at least [20] HP in a single attack> <with [15]% chance>"],
+        "movementType": "Water"
+    },
+    {
+        "name": "Raider Navy",
+        "uniques":["[This Unit] gains the [Poisoned] status for [3] turn(s) <upon losing at least [40] HP in a single attack> <vs [Fire Ship] units> <with [100]% chance>",
+                   "[This Unit] gains the [Hull Breach] status for [5] turn(s) <upon losing at least [5] HP in a single attack> <with [15]% chance>",
+                   "[This Unit] gains the [Shattered Deck] status for [10] turn(s) <upon losing at least [10] HP in a single attack> <with [15]% chance>",
+                   "[This Unit] gains the [Fire on Board] status for [15] turn(s) <upon losing at least [20] HP in a single attack> <with [15]% chance>"],
+        "movementType": "Water"
+    },
+    {
+        "name": "Infantry",
+        "uniques":["[This Unit] gains the [Poisoned] status for [3] turn(s) <upon losing at least [5] HP in a single attack> <vs [Poisonous Archer] units> <with [60]% chance>",
+                   "[This Unit] gains the [Soft Injury] status for [5] turn(s) <upon losing at least [5] HP in a single attack> <with [15]% chance>",
+                   "[This Unit] gains the [On Fire] status for [5] turn(s) <upon losing at least [50] HP in a single attack> <vs [Flamethrower] units> <with [60]% chance>",
+                   "[This Unit] gains the [On Fire] status for [5] turn(s) <upon losing at least [50] HP in a single attack> <vs [Flame Tank] units> <with [60]% chance>",
+                   "[This Unit] gains the [Medium Injury] status for [10] turn(s) <upon losing at least [10] HP in a single attack> <with [15]% chance>",
+                   "[This Unit] gains the [Open Wound] status for [15] turn(s) <upon losing at least [20] HP in a single attack> <with [15]% chance>"],
+        "movementType": "Land"
+    },
+    {
+        "name": "Light Cavalry",
+        "uniques":["[This Unit] gains the [Poisoned] status for [3] turn(s) <upon losing at least [5] HP in a single attack> <vs [Poisonous Archer] units> <with [60]% chance>",
+                   "[This Unit] gains the [Soft Injury] status for [5] turn(s) <upon losing at least [5] HP in a single attack> <with [15]% chance>",
+                   "[This Unit] gains the [On Fire] status for [5] turn(s) <upon losing at least [50] HP in a single attack> <vs [Flamethrower] units> <with [60]% chance>",
+                   "[This Unit] gains the [On Fire] status for [5] turn(s) <upon losing at least [50] HP in a single attack> <vs [Flame Tank] units> <with [60]% chance>",
+                   "[This Unit] gains the [Medium Injury] status for [10] turn(s) <upon losing at least [10] HP in a single attack> <with [15]% chance>",
+                   "[This Unit] gains the [Open Wound] status for [15] turn(s) <upon losing at least [20] HP in a single attack> <with [15]% chance>"],
+        "movementType": "Land"
+    },
+    {
+        "name": "Heavy Cavalry",
+        "uniques":["[This Unit] gains the [Poisoned] status for [3] turn(s) <upon losing at least [5] HP in a single attack> <vs [Poisonous Archer] units> <with [60]% chance>",
+                   "[This Unit] gains the [Soft Injury] status for [5] turn(s) <upon losing at least [5] HP in a single attack> <with [15]% chance>",
+                   "[This Unit] gains the [On Fire] status for [5] turn(s) <upon losing at least [50] HP in a single attack> <vs [Flamethrower] units> <with [60]% chance>",
+                   "[This Unit] gains the [On Fire] status for [5] turn(s) <upon losing at least [50] HP in a single attack> <vs [Flame Tank] units> <with [60]% chance>",
+                   "[This Unit] gains the [Medium Injury] status for [10] turn(s) <upon losing at least [10] HP in a single attack> <with [15]% chance>",
+                   "[This Unit] gains the [Open Wound] status for [15] turn(s) <upon losing at least [20] HP in a single attack> <with [15]% chance>"],
+        "movementType": "Land"
+    },
+    {
+        "name": "Camel",
+        "uniques":["[This Unit] gains the [Poisoned] status for [3] turn(s) <upon losing at least [5] HP in a single attack> <vs [Poisonous Archer] units> <with [60]% chance>",
+                   "[This Unit] gains the [Soft Injury] status for [5] turn(s) <upon losing at least [5] HP in a single attack> <with [15]% chance>",
+                   "[This Unit] gains the [On Fire] status for [5] turn(s) <upon losing at least [50] HP in a single attack> <vs [Flamethrower] units> <with [60]% chance>",
+                   "[This Unit] gains the [On Fire] status for [5] turn(s) <upon losing at least [50] HP in a single attack> <vs [Flame Tank] units> <with [60]% chance>",
+                   "[This Unit] gains the [Medium Injury] status for [10] turn(s) <upon losing at least [10] HP in a single attack> <with [15]% chance>",
+                   "[This Unit] gains the [Open Wound] status for [15] turn(s) <upon losing at least [20] HP in a single attack> <with [15]% chance>"],
+        "movementType": "Land"
+    },
+    {
+        "name": "Elephant",
+        "uniques":["[This Unit] gains the [Poisoned] status for [3] turn(s) <upon losing at least [5] HP in a single attack> <vs [Poisonous Archer] units> <with [60]% chance>",
+                   "[This Unit] gains the [Soft Injury] status for [5] turn(s) <upon losing at least [5] HP in a single attack> <with [15]% chance>",
+                   "[This Unit] gains the [On Fire] status for [5] turn(s) <upon losing at least [50] HP in a single attack> <vs [Flamethrower] units> <with [60]% chance>",
+                   "[This Unit] gains the [On Fire] status for [5] turn(s) <upon losing at least [50] HP in a single attack> <vs [Flame Tank] units> <with [60]% chance>",
+                   "[This Unit] gains the [Medium Injury] status for [10] turn(s) <upon losing at least [10] HP in a single attack> <with [15]% chance>",
+                   "[This Unit] gains the [Open Wound] status for [15] turn(s) <upon losing at least [20] HP in a single attack> <with [15]% chance>"],
+        "movementType": "Land"
+    },
+    {
+        "name": "Armored",
+        "uniques":["[This Unit] gains the [On Fire] status for [5] turn(s) <upon losing at least [50] HP in a single attack> <vs [Flame Tank] units> <with [60]% chance>",
+        "[This Unit] gains the [On Fire] status for [5] turn(s) <upon losing at least [50] HP in a single attack> <vs [Flamethrower] units> <with [60]% chance>",
+                   "[This Unit] gains the [Engine Failure] status for [10] turn(s) <upon losing at least [10] HP in a single attack> <with [15]% chance>"],
+        "movementType": "Land"
+    },
+    {
+        "name": "Machinegun",
+        "uniques":["[This Unit] gains the [On Fire] status for [5] turn(s) <upon losing at least [50] HP in a single attack> <vs [Flame Tank] units> <with [60]% chance>",
+        "[This Unit] gains the [On Fire] status for [5] turn(s) <upon losing at least [50] HP in a single attack> <vs [Flamethrower] units> <with [60]% chance>",
+                   "[This Unit] gains the [Engine Failure] status for [10] turn(s) <upon losing at least [10] HP in a single attack> <with [15]% chance>"],
+        "movementType": "Land"
+    },
+    {
+        "name": "Siege",
+        "uniques":["[This Unit] gains the [On Fire] status for [5] turn(s) <upon losing at least [50] HP in a single attack> <vs [Flame Tank] units> <with [60]% chance>",
+        "[This Unit] gains the [On Fire] status for [5] turn(s) <upon losing at least [50] HP in a single attack> <vs [Flamethrower] units> <with [60]% chance>",
+                   "[This Unit] gains the [Engine Failure] status for [10] turn(s) <upon losing at least [10] HP in a single attack> <with [15]% chance>"],
+        "movementType": "Land"
+    },
+    {
+        "name": "Submarine",
+        "movementType": "Water",
+        "uniques": ["[This Unit] gains the [Engine Failure] status for [5] turn(s) <upon losing at least [5] HP in a single attack> <with [15]% chance>","Can enter ice tiles", "Invisible to non-adjacent units", "Can see invisible [Submarine] units"]
+    },
+    {
+        "name": "Aircraft Carrier",
+        "uniques":["[This Unit] gains the [Engine Failure] status for [5] turn(s) <upon losing at least [5] HP in a single attack> <with [15]% chance>",
+                   "[This Unit] gains the [Hull Breach] status for [5] turn(s) <upon losing at least [5] HP in a single attack> <with [15]% chance>",
+                   "[This Unit] gains the [Shattered Deck] status for [10] turn(s) <upon losing at least [10] HP in a single attack> <with [15]% chance>",
+                   "[This Unit] gains the [Fire on Board] status for [15] turn(s) <upon losing at least [20] HP in a single attack> <with [15]% chance>"],
+        "movementType": "Water"
+    },
+    {
+        "name": "Fighter",
+        "movementType": "Air",
+        "uniques": ["Aircraft", "[+4] Sight", "Can see over obstacles", "Can perform Air Sweep"]
+    },
+    {
+        "name": "Bomber",
+        "movementType": "Air",
+        "uniques": ["Aircraft"]
+    },
+    {
+        "name": "Atomic Bomber",
+        "movementType": "Air",
+        "uniques": ["Aircraft"]
+    },
+    {
+        "name": "Missile",
+        "movementType": "Air",
+        "uniques": ["Self-destructs when attacking", "Cannot be intercepted"]
+    },
+    {
+        "name": "Helicopter",
+        "movementType": "Land",
+        "uniques": ["[This Unit] gains the [Engine Failure] status for [5] turn(s) <upon losing at least [5] HP in a single attack> <with [15]% chance>","Can pass through impassable tiles"]
+    },
+    {
+        "name": "Drone",
+        "movementType": "Land",
+        "uniques": ["[This Unit] gains the [Engine Failure] status for [5] turn(s) <upon losing at least [5] HP in a single attack> <with [15]% chance>","Can pass through impassable tiles"]
+    },
+
+    // Deprecated unit types required for mods without a UnitTypes.json file to work
+
+    {
+        "name": "Melee",
+        "movementType": "Land"
+    },
+    {
+        "name": "Ranged",
+        "movementType": "Land"
+    },
+    {
+        "name": "Armor",
+        "movementType": "Land"
+    },
+    {
+        "name": "WaterCivilian",
+        "movementType": "Water"
+    },
+    {
+        "name": "WaterMelee",
+        "movementType": "Water"
+    },
+    {
+        "name": "WaterRanged",
+        "movementType": "Water"
+    },
+    {
+        "name": "WaterSubmarine",
+        "movementType": "Water"
+    },
+    {
+        "name": "WaterAircraftCarrier",
+        "movementType": "Water"
+    },
+    {
+        "name": "AtomicBomber",
+        "movementType": "Air"
+    }
+]

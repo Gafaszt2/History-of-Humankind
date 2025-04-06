@@ -1,0 +1,762 @@
+[
+	{
+		"columnNumber": 0,
+		"era": "Neolithic Era",
+		"techCost": 20,
+		"buildingCost": 40,
+		"wonderCost": 60,
+		"techs": [
+			{
+				"name": "Fire",
+				"row": 6,
+				"quote": "'Where tillage begins, other arts follow. The farmers therefore are the founders of human civilization.' - Daniel Webster",
+				"uniques": ["Starting tech"]
+			}
+		]
+	},
+	{
+		"columnNumber": 1,
+		"era": "Neolithic Era",
+		"techCost": 65,
+		"buildingCost": 60,
+		"wonderCost": 60,
+		"techs": [
+			{
+				"name": "Fishing",
+				"row": 2,
+				"prerequisites": ["Fire"],
+				"quote": "Sharpened tools for spear fishing in rivers or coastal waters"
+			},
+			{
+				"name": "Selective Cultivation",
+				"row": 5,
+				"prerequisites": ["Fire"],
+				"quote": "Early techniques for planting and nurturing herbs with desirable traits"
+			},
+			{
+				"name": "Collar",
+				"row": 7,
+				"prerequisites": ["Fire"],
+				"quote": "Training larger animals for pulling sleds or simple carts"
+			},
+			{
+				"name": "Stone Tools",
+				"row": 8,
+				"prerequisites": ["Fire"],
+				"quote": "Crafting sharp-edged tools and weapons from flint and other stones"
+			}
+
+		]
+	},
+	{
+		"columnNumber": 2,
+		"era": "Ancient Era",
+		"techCost": 85,
+		"buildingCost": 75,
+		"wonderCost": 85,
+		"techs": [
+			{
+				"name": "Sailing",
+				"row": 1,
+				"prerequisites": ["Fishing"],
+				"quote": "Building simple rafts from logs bound together, ideal for short water journeys"
+			},
+			{
+				"name": "Astrology",
+				"row": 2,
+				"uniques":["May buy [Prophet] units for [50] [Faith] [in all cities] at an increasing price ([500])"],
+				"prerequisites": ["Stone Tools"],
+				"quote": "Early practices of watching stars, moon phases, and celestial patterns"
+			},
+			{
+				"name": "Pottery",
+				"row": 6,
+				"prerequisites": ["Selective Cultivation"],
+				"quote": "The ability to locate and collect clay from riverbanks and other natural sources"
+			},
+			{
+				"name": "Agriculture",
+				"row": 5,
+				"prerequisites": ["Selective Cultivation"],
+				"quote": "Cereals like barley, wheat (including emmer and einkorn), and millet were widely grown. Legumes such as lentils and peas also became staples"
+			},
+			{
+				"name": "Mining",
+				"row": 8,
+				"prerequisites": ["Stone Tools"],
+				"quote": "The earliest form of mining, where resources like flint and ochre were gathered from the surface"
+			},
+			{
+				"name": "Wolf Domestication",
+				"row": 7,
+				"prerequisites": ["Collar"],
+				"quote": "The early stages of domesticating wolves, leading to the first dogs as companions and protectors"
+			}
+
+		]
+	},
+	{
+		"columnNumber": 3,
+		"era": "Ancient Era",
+		"techCost": 105,
+		"buildingCost": 85,
+		"wonderCost": 85,
+		"techs": [
+			{
+				"name": "Writing",
+				"row": 6,
+				"uniques":["May buy [Missionary] units for [150] [Faith] [in all cities] at an increasing price ([150])"],
+				"prerequisites": ["Mining","Pottery"],
+				"quote": "The creation of written language represents a monumental step in human communication, enabling record-keeping, the transmission of knowledge, and the fostering of cultural development."
+			},
+			{
+				"name": "Irrigation",
+				"row": 7,
+				"uniques":["[+1 Food] from every [Farmstead]"],
+				"prerequisites": ["Pottery","Agriculture"],
+				"quote": "By controlling the flow of water to crops, Irrigation vastly improves agricultural productivity, allowing civilizations to support larger populations and sustain complex societies."
+			},
+			{
+				"name": "Archery",
+				"row": 8,
+				"prerequisites": ["Wolf Domestication"],
+				"quote": "A skill essential for both hunting and defense, Archery introduces ranged combat capabilities, giving an edge in battles and expanding the scope of military strategy."
+			},
+			{
+				"name": "Bronze Working",
+				"row": 9,
+                "uniques": ["May buy [General] units for [150] [Faith] [in all cities] at an increasing price ([200])"],
+				"prerequisites": ["Mining","Wolf Domestication"],
+				"quote": "The alloying of copper with tin to create bronze ushers in a new era of tools, weapons, and artistry, marking the dawn of more advanced craftsmanship and metallurgy."
+			},
+			{
+				"name": "Wheel",
+				"row": 4,
+				"uniques": ["May buy [Builder] units for [150] [Faith] [in all cities] at an increasing price ([200])"],
+				"prerequisites": ["Wolf Domestication","Mining"],
+				"quote": "The invention of the wheel revolutionizes transport and logistics, enabling the movement of goods, people, and armies over greater distances with efficiency."
+			}
+
+		]
+	},
+	{
+		"columnNumber": 4,
+		"era": "Classical Era",
+		"techCost": 125,
+		"buildingCost": 85,
+		"wonderCost": 100,
+		"techs": [
+			{
+				"name": "Optics",
+				"row": 1,
+				"uniques": ["May buy [Admiral] units for [150] [Faith] [in all cities] at an increasing price ([200])","Enables embarkation for land units"],
+				"prerequisites": ["Sailing","Astrology","Wheel"],
+				"quote": "The study of light and vision, Optics enhances the ability to navigate waterways and improves observational tools, enabling further exploration and mastery of the surrounding environment."
+			},
+			{
+				"name": "Currency",
+				"row": 4,
+				"uniques": ["May buy [Merchant] units for [150] [Faith] [in all cities] at an increasing price ([200])"],
+				"prerequisites": ["Writing","Wheel"],
+				"quote": "The introduction of standardized trade systems simplifies commerce, allowing civilizations to develop bustling markets and secure economic prosperity through trade routes."
+			},
+			{
+				"name": "Horseback Riding",
+				"row": 8,
+				"prerequisites": ["Archery","Irrigation"],
+				"quote": "Mastering the art of riding and managing horses revolutionizes transport, agriculture, and warfare, enabling faster movement and more effective mounted units."
+			},
+			{
+				"name": "Iron Working",
+				"row": 9,
+				"prerequisites": ["Bronze Working"],
+				"quote": "The discovery and refinement of ironworking techniques lead to stronger tools and weapons, providing a significant advantage in construction, farming, and military endeavors."
+			}
+
+		]
+	},
+	{
+		"columnNumber": 5,
+		"era": "Classical Era",
+		"techCost": 145,
+		"buildingCost": 95,
+		"wonderCost": 100,
+		"techs": [
+			{
+				"name": "Mathematics",
+				"row": 1,
+				"uniques": ["[+1 Gold] from every [Market]","[+1] Movement <for [Water] units>"],
+				"prerequisites": ["Optics"],
+				"quote": "A discipline born from the need to measure and record, Mathematics lays the groundwork for advanced scientific and architectural achievements. Unlocks new methods for construction, trade, and problem-solving"
+			},
+			{
+				"name": "Philosophy",
+				"row": 3,
+				"uniques": ["May buy [Scientist] units for [150] [Faith] [in all cities] at an increasing price ([200])"],
+				"prerequisites": ["Optics"],
+				"quote": "A discipline born from the need to measure and record, Mathematics lays the groundwork for advanced scientific and architectural achievements. Unlocks new methods for construction, trade, and problem-solving"
+			},
+			{
+				"name": "Construction",
+				"row": 5,
+				"prerequisites": ["Iron Working","Currency"],
+				"quote": "Harnessing collective effort and innovation, Construction enables the building of larger and more complex structures, from fortifications to public works, and represents a leap in organized labor and engineering skill"
+			},
+			{
+				"name": "Civil Law",
+				"row": 4,
+				"prerequisites": ["Horseback Riding","Currency"],
+				"quote": "Establishes organized legal systems, introducing civic buildings like courthouses and strengthening government influence"
+			},
+			{
+				"name": "Drama and Poetry",
+				"row": 6,
+				"uniques": ["May buy [Artist] units for [150] [Faith] [in all cities] at an increasing price ([200])"],
+				"prerequisites": ["Currency"],
+				"quote": "Establishes organized legal systems, introducing civic buildings like courthouses and strengthening government influence"
+			},
+			{
+				"name": "Engineering",
+				"row": 7,
+				"prerequisites": ["Iron Working","Irrigation"],
+				"quote": "A practical application of scientific knowledge, Engineering unlocks powerful infrastructure improvements like aqueducts, bridges, and early siege technologies, showcasing the ingenuity of ancient civilizations"
+			}
+
+		]
+	},
+	{
+		"columnNumber": 6,
+		"era": "Medieval Era",
+		"techCost": 175,
+		"buildingCost": 105,
+		"wonderCost": 130,
+		"techs": [
+			{
+				"name": "Military Tactics",
+				"row": 6,
+				"prerequisites": ["Philosophy","Drama and Poetry"],
+				"quote": "The study of battlefield strategies and formations that maximize efficiency and coordination in combat. By mastering military tactics, armies gain the upper hand against opponents through discipline and innovation, paving the way for stronger defensive and offensive capabilities"
+			},
+			{
+				"name": "Buttress",
+				"row": 2,
+				"prerequisites": ["Mathematics","Construction"],
+				"quote": "A revolutionary architectural advancement that provides additional support to structures, especially large buildings and fortifications. The buttress strengthens walls and enables the construction of monumental works that stand the test of time, symbolizing the resilience of a civilization"
+			},
+			{
+				"name": "Apprenticeship",
+				"row": 5,
+				"uniques":["[+2 Production] [in all cities]"],
+				"prerequisites": ["Construction","Civil Law"],
+				"quote": "The formal training of young workers under skilled artisans, laying the foundation for advanced craftsmanship and innovation. Apprenticeship improves productivity in cities and helps unlock the potential of workshops, advancing your civilization's industrial capacity"
+			},
+			{
+				"name": "Machinery",
+				"row": 8,
+				"prerequisites": ["Engineering"],
+				"quote": "The invention and refinement of mechanical tools to improve efficiency in production, agriculture, and warfare. Machinery accelerates technological progress, enabling the construction of more advanced units and infrastructure essential to a thriving civilization"
+			}
+
+		]
+	},
+	{
+		"columnNumber": 7,
+		"era": "Medieval Era",
+		"techCost": 195,
+		"buildingCost": 115,
+		"wonderCost": 130,
+		"techs": [
+			{
+				"name": "Cartography",
+				"row": 2,
+				"uniques":["[+2 Gold] from every [Fish Trap]"],
+				"prerequisites": ["Buttress"],
+				"quote": "The art and science of mapmaking, enabling civilizations to chart unknown territories and navigate the seas with precision. Cartography unlocks ocean exploration, strengthening trade networks and expanding your global influence"
+			},
+			{
+				"name": "Education",
+				"row": 5,
+				"prerequisites": ["Apprenticeship"],
+				"quote": "The establishment of formal learning institutions, advancing knowledge and fostering innovation across your civilization. Education is essential for cultural and scientific progress, bringing enlightenment and prosperity to future generations"
+			},
+			{
+				"name": "Stirrups",
+				"row": 8,
+				"prerequisites": ["Military Tactics","Machinery"],
+				"quote": "A pivotal innovation in horseback riding, the stirrups provide stability and control, revolutionizing mounted combat. This advancement strengthens cavalry units, giving them superior mobility and effectiveness in battle"
+			},
+			{
+				"name": "Military Engineering",
+				"row": 6,
+				"prerequisites": ["Military Tactics"],
+				"quote": "The application of engineering principles to construct advanced fortifications and siege equipment. Military Engineering enables the design of powerful tools for warfare, ensuring your civilization's strength on the battlefield"
+			}
+
+		]
+	},
+	{
+		"columnNumber": 8,
+		"era": "Renaissance Era",
+		"techCost": 215,
+		"buildingCost": 200,
+		"wonderCost": 170,
+		"techs": [
+			{
+				"name": "Astronomy",
+				"row": 1,
+				"uniques":["[+1] Movement <for [Water] units>"],
+				"prerequisites": ["Cartography"],
+				"quote": "The study of the stars and celestial bodies, enabling civilizations to expand their understanding of the universe. Astronomy unlocks advancements in navigation, encouraging exploration and strengthening maritime empires"
+			},
+			{
+				"name": "Banking",
+				"row": 4,
+				"prerequisites": ["Cartography","Education"],
+				"quote": "The formalization of financial institutions that manage wealth and foster economic growth. Banking revolutionizes trade and commerce, providing greater stability and prosperity for your civilization"
+			},
+			{
+				"name": "Printing Press",
+				"row": 5,
+				"prerequisites": ["Education"],
+				"quote": "The invention of movable type, transforming the spread of knowledge and ideas. The Printing Press boosts cultural progress, fostering diplomacy and unity through shared ideals and information"
+			},
+			{
+				"name": "Gunpowder",
+				"row": 7,
+				"prerequisites": ["Education","Military Engineering"],
+				"quote": "Originally discovered by Chinese alchemists while seeking an elixir for immortality, Gunpowder instead became a catalyst for transformation in warfare. This potent mixture of saltpeter, sulfur, and charcoal reshaped the battlefield, giving rise to firearms, explosives, and siege weaponry that shifted the balance of power across civilizations"
+			},
+			{
+				"name": "Architecture",
+				"row": 8,
+				"prerequisites": ["Stirrups"],
+				"quote": "The mastery of design and engineering, enabling the construction of grand monuments and buildings. Architecture reflects the cultural, economic, and political might of a civilization, leaving a legacy for future generations"
+			}
+
+		]
+	},
+	{
+		"columnNumber": 9,
+		"era": "Renaissance Era",
+		"techCost": 255,
+		"buildingCost": 200,
+		"wonderCost": 170,
+		"techs": [
+			{
+				"name": "Square Rigging",
+				"row": 2,
+				"prerequisites": ["Astronomy"],
+				"quote": "Square Rigging revolutionized maritime exploration and warfare by enabling ships to harness the power of the wind more efficiently. This technique emerged as sailors in the Age of Exploration experimented with sail designs, transforming trade routes and naval dominance by accident as much as intent. With square sails, the oceans became highways for civilizations to expand their influence and wealth"
+			},
+			{
+				"name": "Metal Casting",
+				"row": 6,
+				"prerequisites": ["Military Engineering","Banking","Printing Press"],
+				"quote": "Metal Casting began as artisans discovered the potential of molten metals, pouring them into molds for tools and sculptures. What started as a method for crafting beautiful ornaments soon became the backbone of industrial and military advancements. This breakthrough paved the way for durable weapons, machinery, and infrastructure—foundations of thriving civilizations"
+			},
+			{
+				"name": "Siege Tactics",
+				"row": 8,
+				"prerequisites": ["Gunpowder","Architecture"],
+				"quote": "Born from the necessity to conquer heavily fortified cities, Siege Tactics developed as a blend of innovation and desperation. Engineers devised clever tools such as battering rams and siege towers, often improving designs in the heat of battle. These strategies turned once-impenetrable defenses into stepping stones for ambitious empires"
+			}
+
+		]
+	},
+	{
+		"columnNumber": 10,
+		"era": "Enlightenment Era",
+		"techCost": 295,
+		"buildingCost": 200,
+		"wonderCost": 230,
+		"techs": [
+			{
+				"name":"Imperialism",
+				"row": 8,
+				"uniques":["[+1 Gold] from every [Crop Field]"],
+				"prerequisites": ["Metal Casting","Siege Tactics"],
+				"quote": "Driven by the pursuit of power and resources, Imperialism emerged as ambitious civilizations sought to dominate distant lands. Often justified by ideologies of superiority, this policy reshaped the world map, for better or worse, as empires expanded their reach through exploration, conquest, and colonization"
+			},
+			{
+				"name": "Warships",
+				"row": 1,
+				"prerequisites": ["Square Rigging"],
+				"quote": "The evolution of seafaring vessels into tools of warfare came as a result of necessity and innovation. Originally designed for trade and exploration, ships were repurposed with reinforced hulls and powerful armaments, turning the tides of naval supremacy and global control"
+			},
+			{
+				"name": "Flintlock",
+				"row": 7,
+				"prerequisites": ["Gunpowder","Metal Casting"],
+				"quote": "Born from experiments to improve firearm reliability, Flintlock technology replaced older matchlocks with a spark-ignition system. This advancement transformed warfare by providing quicker, more efficient weaponry, empowering soldiers with greater precision and mobility on the battlefield"
+			},
+			{
+				"name": "Humanism",
+				"row": 3,
+				"prerequisites": ["Printing Press"],
+				"quote": "Emerging from the rediscovery of classical texts, Humanism placed human intellect and creativity at the center of cultural and intellectual life. This philosophy celebrated the potential of individuals and inspired advancements in art, science, and governance, reshaping societies through reason and enlightenment"
+			}
+
+		]
+	},
+	{
+		"columnNumber": 11,
+		"era": "Enlightenment Era",
+		"techCost": 315,
+		"buildingCost": 200,
+		"wonderCost": 230,
+		"techs": [
+			{
+				"name": "Fortification",
+				"row": 8,
+				"prerequisites": ["Imperialism"],
+				"quote": "Fortification evolved as civilizations adapted to relentless sieges and growing threats. Techniques like moats and bastions emerged from trial and error, turning cities into nearly impregnable strongholds. These advancements reflected the ingenuity of engineers determined to defend their homes"
+			},
+			{
+				"name": "Natural History",
+				"row": 1,
+				"uniques":["May buy [Archaeologist] units for [100] [Gold] [in all cities] at an increasing price ([500])","May buy [Archaeologist] units for [100] [Faith] [in all cities] at an increasing price ([500])"],
+				"prerequisites": ["Humanism"],
+				"quote": "Sparked by the curiosity of explorers and scientists, Natural History emerged as a study of the Earth's plants, animals, and landscapes. Efforts to classify and understand the natural world not only broadened knowledge but also laid the groundwork for conservation and ecological awareness"
+			},
+			{
+				"name": "Manufacturing",
+				"row": 7,
+				"prerequisites": ["Imperialism","Warships"],
+				"quote": "The systematic organization of labor and materials led to the rise of Manufacturing. What started with artisans refining techniques in workshops became the backbone of industrial powerhouses, producing goods on a scale never seen before"
+			},
+			{
+				"name": "Field Warfare",
+				"row": 3,
+				"prerequisites": ["Warships","Flintlock"],
+				"quote": "Field Warfare grew from the evolution of battlefield strategies as armies adapted to open terrain. Commanders refined tactics to deploy troops and cavalry effectively, transforming battles into dynamic tests of strategy and skill"
+			}
+
+		]
+	},
+	{
+		"columnNumber": 12,
+		"era": "Industrial Era",
+		"techCost": 355,
+		"buildingCost": 200,
+		"wonderCost": 330,
+		"techs": [
+			{
+				"name": "Gas Lighting",
+				"row": 8,
+				"prerequisites": ["Manufacturing"],
+				"quote": "Gas Lighting began as an experimental use of natural gas to illuminate public spaces and homes. Its success brightened cities, extended productive hours, and transformed urban life, paving the way for modern energy solutions"
+			},
+			{
+				"name": "Circular Saw",
+				"row": 1,
+				"uniques":["[+2 Production] from every [Lumber Mill]"],
+				"prerequisites": ["Manufacturing","Fortification"],
+				"quote": "The Circular Saw originated from the inventive minds of woodworkers aiming to improve efficiency. This mechanical marvel revolutionized lumber processing, speeding up construction and contributing to the rapid development of cities."
+			},
+			{
+				"name": "Scientific Theory",
+				"row": 7,
+				"uniques":["[+1 Food] from every [Crop Field]"],
+				"prerequisites": ["Natural History"],
+				"quote": "The culmination of centuries of observation, experimentation, and reasoning, Scientific Theory unified knowledge into systematic principles. It became the foundation of modern science, driving innovation and shaping humanity's understanding of the universe."
+			},
+			{
+				"name": "Industrialization",
+				"row": 3,
+				"uniques":["[+2 Production] from every [Industrial Zone]"],
+				"prerequisites": ["Manufacturing"],
+				"quote": "Industrialization marked a seismic shift in human history as economies transitioned from agrarian to mechanized production. Powered by technological breakthroughs, it transformed societies, bringing both unprecedented growth and profound challenges"
+			},
+			{
+				"name": "Ballistics",
+				"row": 4,
+				"prerequisites": ["Field Warfare","Fortification"],
+				"quote": "Ballistics emerged from the quest to understand projectile motion, driven by the need for more effective artillery. By mastering trajectories and impact forces, civilizations developed weapons that altered the dynamics of warfare"
+			},
+			{
+				"name": "Military Science",
+				"row": 6,
+				"prerequisites": ["Field Warfare"],
+				"quote": "Military Science arose as scholars and generals sought to formalize the study of warfare. By analyzing past conflicts and innovating new strategies, they shaped the way wars were fought, ensuring preparedness for future challenges"
+			}
+
+		]
+	},
+	{
+		"columnNumber": 13,
+		"era": "Industrial Era",
+		"techCost": 380,
+		"buildingCost": 250,
+		"wonderCost": 330,
+		"techs": [
+			{
+				"name": "Steam Power",
+				"row": 8,
+				"prerequisites": ["Industrialization","Circular Saw"],
+				"quote": "Steam Power emerged from the accidental discovery that heated water could drive mechanical motion. Perfected through experimentation, it became the engine of industrial progress, powering locomotives, factories, and ships while transforming global trade and production"
+			},
+			{
+				"name": "Refining",
+				"row": 1,
+				"prerequisites": ["Gas Lighting","Industrialization"],
+				"quote": "Refining began as blacksmiths and chemists searched for ways to purify raw materials for better usability. This process laid the foundation for industries that could produce high-quality fuels and metals, fueling technological innovation and industrial expansion"
+			},
+			{
+				"name": "Sanitation",
+				"row": 7,
+				"prerequisites": ["Scientific Theory","Circular Saw"],
+				"quote": "The realization that hygiene could prevent disease transformed cities and societies. Advances in water systems, waste disposal, and medical knowledge reshaped urban living, making sanitation essential for thriving populations"
+			},
+			{
+				"name": "Economics",
+				"row": 3,
+				"uniques":["[+2 Gold] [in all cities]"],
+				"prerequisites": ["Gas Lighting"],
+				"quote": "Economics evolved as civilizations sought to understand and manage resources, trade, and production. The development of economic theories and systems helped societies navigate wealth distribution and maintain stability during times of prosperity and hardship"
+			},
+			{
+				"name": "Rifling",
+				"row": 6,
+				"prerequisites": ["Military Science","Ballistics"],
+				"quote": "Rifling emerged from the discovery that spiral grooves in gun barrels increased accuracy and range. Initially developed for hunting, this innovation revolutionized warfare by empowering soldiers with precision weaponry that changed the dynamics of battle"
+			}
+
+		]
+	},
+	{
+		"columnNumber": 14,
+		"era": "Modern Era",
+		"techCost": 400,
+		"buildingCost": 250,
+		"wonderCost": 390,
+		"techs": [
+			{
+				"name": "Steel",
+				"row": 8,
+				"prerequisites": ["Refining","Steam Power"],
+				"quote": "Steel production began with the accidental discovery that adding carbon to iron created a stronger, more durable material. This breakthrough fueled construction projects, military advancements, and infrastructure development, shaping the modern world"
+			},
+			{
+				"name": "Flight",
+				"row": 1,
+				"prerequisites": ["Refining"],
+				"quote": "Flight was inspired by the dream of conquering the skies. Through trial, error, and scientific exploration, pioneers developed machines that defied gravity, forever altering transportation, warfare, and human imagination"
+			},
+			{
+				"name": "Electricity",
+				"row": 7,
+				"prerequisites": ["Refining","Economics"],
+				"quote": "Electricity, once seen as a mysterious force, was harnessed through experiments with static and currents. Its practical applications revolutionized industries, communication, and daily life, becoming the lifeblood of modern civilization"
+			},
+			{
+				"name": "Replaceable Parts",
+				"row": 5,
+				"prerequisites": ["Ballistics"],
+				"quote": "Replaceable Parts emerged from the quest for efficiency in manufacturing. Inventors realized that standardized components could speed up production and repair, revolutionizing industries and paving the way for mass production"
+			},
+			{
+				"name": "Biology",
+				"row": 4,
+				"uniques":["May buy [Naturalist] units for [200] [Gold] [in all cities] at an increasing price ([100])"],
+				"prerequisites": ["Sanitation"],
+				"quote": "Biology grew from the curiosity to understand life itself. Pioneering studies in anatomy, evolution, and ecosystems provided the knowledge to improve medicine, agriculture, and environmental stewardship"
+			}
+
+
+		]
+	},
+	{
+		"columnNumber": 15,
+		"era": "Modern Era",
+		"techCost": 450,
+		"buildingCost": 300,
+		"wonderCost": 390,
+		"techs": [
+			{
+				"name": "Chemistry",
+				"row": 9,
+				"uniques":["[+2 Science] [in all cities]"],
+				"prerequisites": ["Biology","Electricity"],
+				"quote": "A discipline born from the need to measure and record, Mathematics lays the groundwork for advanced scientific and architectural achievements. Unlocks new methods for construction, trade, and problem-solving"
+			},
+			{
+				"name": "Radio",
+				"row": 2,
+			    "uniques":["[+2 Culture] [in all cities]"],
+				"prerequisites": ["Flight"],
+				"quote": "A discipline born from the need to measure and record, Mathematics lays the groundwork for advanced scientific and architectural achievements. Unlocks new methods for construction, trade, and problem-solving"
+			},
+			{
+				"name": "Combustion",
+				"row": 3,
+				"prerequisites": ["Replaceable Parts","Electricity"],
+				"quote": "Establishes organized legal systems, introducing civic buildings like courthouses and strengthening government influence"
+			}
+
+		]
+	},
+	{
+		"columnNumber": 16,
+		"era": "Atomic Era",
+		"techCost": 490,
+		"buildingCost": 300,
+		"wonderCost": 390,
+		"techs": [
+			{
+				"name": "Combined Arms",
+				"row": 8,
+				"prerequisites": ["Combustion","Steel"],
+				"quote": "A discipline born from the need to measure and record, Mathematics lays the groundwork for advanced scientific and architectural achievements. Unlocks new methods for construction, trade, and problem-solving"
+			},
+			{
+				"name": "Advanced Flight",
+				"row": 1,
+				"prerequisites": ["Chemistry","Radio"],
+				"quote": "A discipline born from the need to measure and record, Mathematics lays the groundwork for advanced scientific and architectural achievements. Unlocks new methods for construction, trade, and problem-solving"
+			},
+			{
+				"name": "Advanced Ballistics",
+				"row": 7,
+				"prerequisites": ["Replaceable Parts","Steel","Electricity"],
+				"quote": "A discipline born from the need to measure and record, Mathematics lays the groundwork for advanced scientific and architectural achievements. Unlocks new methods for construction, trade, and problem-solving"
+			},
+			{
+				"name": "Plastics",
+				"row": 3,
+				"prerequisites": ["Chemistry","Combustion"],
+				"quote": "A discipline born from the need to measure and record, Mathematics lays the groundwork for advanced scientific and architectural achievements. Unlocks new methods for construction, trade, and problem-solving"
+			},
+			{
+				"name": "Rocketry",
+				"row": 6,
+				"prerequisites": ["Radio","Steel","Replaceable Parts"],
+				"quote": "Establishes organized legal systems, introducing civic buildings like courthouses and strengthening government influence"
+			}
+
+		]
+	},
+	{
+		"columnNumber": 17,
+		"era": "Atomic Era",
+		"techCost": 520,
+		"buildingCost": 300,
+		"wonderCost": 390,
+		"techs": [
+			{
+				"name": "Computers",
+				"row": 7,
+				"prerequisites": ["Rocketry","Combined Arms"],
+				"quote": "A discipline born from the need to measure and record, Mathematics lays the groundwork for advanced scientific and architectural achievements. Unlocks new methods for construction, trade, and problem-solving"
+			},
+			{
+				"name": "Nuclear Fission",
+				"row": 3,
+				"prerequisites": ["Advanced Ballistics","Advanced Flight","Rocketry"],
+				"quote": "A discipline born from the need to measure and record, Mathematics lays the groundwork for advanced scientific and architectural achievements. Unlocks new methods for construction, trade, and problem-solving"
+			},
+			{
+				"name": "Synthetic Materials",
+				"row": 5,
+				"prerequisites": ["Plastics","Combined Arms"],
+				"quote": "A discipline born from the need to measure and record, Mathematics lays the groundwork for advanced scientific and architectural achievements. Unlocks new methods for construction, trade, and problem-solving"
+			}
+		]
+	},
+	{
+		"columnNumber": 18,
+		"era": "Information Era",
+		"techCost": 620,
+		"buildingCost": 300,
+		"wonderCost": 390,
+		"techs": [
+			{
+				"name": "Telecommunications",
+				"row": 7,
+				"prerequisites": ["Computers"],
+				"quote": "A discipline born from the need to measure and record, Mathematics lays the groundwork for advanced scientific and architectural achievements. Unlocks new methods for construction, trade, and problem-solving"
+			},
+			{
+				"name": "Satellites",
+				"row": 3,
+				"uniques":["Reveals the entire map","Gain [200]-[300] [Science]"],
+				"prerequisites": ["Nuclear Fission"],
+				"quote": "A discipline born from the need to measure and record, Mathematics lays the groundwork for advanced scientific and architectural achievements. Unlocks new methods for construction, trade, and problem-solving"
+			},
+			{
+				"name": "Lasers",
+				"row": 5,
+				"prerequisites": ["Synthetic Materials"],
+				"quote": "A discipline born from the need to measure and record, Mathematics lays the groundwork for advanced scientific and architectural achievements. Unlocks new methods for construction, trade, and problem-solving"
+			},
+			{
+				"name": "The Internet",
+				"row": 6,
+				"uniques":["Empire enters a [50]-turn Golden Age","Gain [200]-[300] [Culture]"],
+				"prerequisites": ["Computers"],
+				"quote": "A discipline born from the need to measure and record, Mathematics lays the groundwork for advanced scientific and architectural achievements. Unlocks new methods for construction, trade, and problem-solving"
+			},
+			{
+				"name": "Composites",
+				"row": 2,
+				"prerequisites": ["Nuclear Fission","Synthetic Materials"],
+				"quote": "A discipline born from the need to measure and record, Mathematics lays the groundwork for advanced scientific and architectural achievements. Unlocks new methods for construction, trade, and problem-solving"
+			},
+			{
+				"name": "Guidance Systems",
+				"row": 9,
+				"prerequisites": ["Computers"],
+				"quote": "A discipline born from the need to measure and record, Mathematics lays the groundwork for advanced scientific and architectural achievements. Unlocks new methods for construction, trade, and problem-solving"
+			}
+		]
+	},
+			{
+		"columnNumber": 19,
+		"era": "Information Era",
+		"techCost": 620,
+		"buildingCost": 300,
+		"wonderCost": 390,
+		"techs": [
+			{
+				"name": "Stealth Technology",
+				"row": 7,
+				"prerequisites": ["Satellites","Telecommunications"],
+				"quote": "A discipline born from the need to measure and record, Mathematics lays the groundwork for advanced scientific and architectural achievements. Unlocks new methods for construction, trade, and problem-solving"
+			},
+			{
+				"name": "Robotics",
+				"row": 3,
+				"uniques":["[+10]% Strength <for [All] units>"],
+				"prerequisites": ["Lasers","Composites"],
+				"quote": "A discipline born from the need to measure and record, Mathematics lays the groundwork for advanced scientific and architectural achievements. Unlocks new methods for construction, trade, and problem-solving"
+			},
+			{
+				"name": "Nuclear Fusion",
+				"row": 2,
+				"prerequisites": ["Guidance Systems"],
+				"quote": "A discipline born from the need to measure and record, Mathematics lays the groundwork for advanced scientific and architectural achievements. Unlocks new methods for construction, trade, and problem-solving"
+			},
+			{
+				"name": "Nanotechnology",
+				"row": 5,
+				"prerequisites": ["The Internet","Lasers"],
+				"quote": "A discipline born from the need to measure and record, Mathematics lays the groundwork for advanced scientific and architectural achievements. Unlocks new methods for construction, trade, and problem-solving"
+			}
+		]
+	},
+			{
+		"columnNumber": 20,
+		"era": "Information Era",
+		"techCost": 620,
+		"buildingCost": 300,
+		"wonderCost": 390,
+		"techs": [
+			{
+				"name": "Future Technology",
+				"row": 5,
+				"uniques":["[+10]% Strength <for [All] units>","Can be continually researched"],
+				"prerequisites": ["Nanotechnology","Nuclear Fusion","Robotics","Stealth Technology"],
+				"quote": "A discipline born from the need to measure and record, Mathematics lays the groundwork for advanced scientific and architectural achievements. Unlocks new methods for construction, trade, and problem-solving"
+			}
+		]
+	}
+]

@@ -1,0 +1,15 @@
+[
+        {
+                "name": "Dark Age",
+                "text": "As the sun dips low and the world becomes veiled in shadows, a dark age begins. The land itself seems to mourn—its vitality drained, its people weighed down by despair. Crops wither, waters grow stagnant, and the air is thick with an ominous stillness.
+
+Yet, even in this encroaching darkness, there is opportunity. Those who endure may discover strength forged in adversity, wisdom borne of struggle, and resilience born from the depths of hardship. This is not the end—it is a test of fortitude, a chapter waiting to be rewritten.",
+                "choices":[
+                        {
+                                "text": "Oh No!",
+                                "uniques": ["[-2 Happiness] <for [25] turns>","[-20]% [Food] [in all cities] <for [25] turns>","[-10]% [Science] [in all cities] <for [25] turns>","[-10]% [Production] [in all cities] <for [25] turns>"]
+                        }
+                ]
+        }
+
+]

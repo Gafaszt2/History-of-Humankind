@@ -1,0 +1,737 @@
+[
+	//Spectator
+	{
+		"name": "Spectator",
+		"outerColor": [255,255,255]
+//		"innerColor": [255,255,255]
+	},
+
+	{
+		"name": "Çatalhöyük",
+		"leaderName": "Çete Reisi",
+		"adjective": ["Çatalhöyük"],
+		"startBias": ["None"],
+		"preferredVictoryType": "Domination",
+
+		"startIntroPart1": "",
+		"startIntroPart2": "",
+
+        "declaringWar": "Enough! The patience of my people has run dry. For every spear you raise against us, we shall answer with ten! Prepare yourselves, for the earth will tremble beneath the march of our warriors, and the echoes of your defiance shall fade into nothingness!",
+		"attacked": "Speak plainly, for your actions speak louder than your words. If your intent is harm, know that my people will see through it. We do not seek conflict, but neither will we shrink from it.",
+		"defeated": "The stars betray us, but I will not bow to their will! Hear me, my people, this defeat is but a shadow over our light. We will rise from this ruin, clawing back the honor stolen from us. Let the world tremble, for we will not fade quietly into the night!",
+		"introduction": "I am the chosen guardian of my people and the speaker of our ancestral wisdom. We come in peace, with open hands and minds, seeking the kinship of those who share this land beneath the great sky",
+
+		"neutralHello": "Greetings, traveler. May the winds guide you and the earth provide for your journey. What brings you to our lands?",
+		"hateHello": "You dare step into our domain unbidden? Speak quickly, for my patience thins like the setting sun. Choose your words wisely, lest they be your last.",
+
+		"tradeRequest": "Our offer reaches you like the first light of dawn. Speak of what you seek and what you bring, and together we shall build a bond as steady as the stones of the earth.",
+
+		"outerColor": [227, 194, 168],
+		"innerColor": [51, 41, 33],
+		"uniqueName": "The Proto-City",
+		"uniques":["[+2 Food] [in capital]"],
+		"cities": ["Çatalhöyük", "Alisar", "Höyük", "Melid"]
+	},
+	{
+		"name": "Badarian",
+		"leaderName": "Shasu",
+		"adjective": ["Badarian"],
+		"startBias": ["River"],
+		"preferredVictoryType": "Domination",
+
+		"startIntroPart1": "",
+		"startIntroPart2": "",
+
+        "declaringWar": "Enough! The patience of my people has run dry. For every spear you raise against us, we shall answer with ten! Prepare yourselves, for the earth will tremble beneath the march of our warriors, and the echoes of your defiance shall fade into nothingness!",
+		"attacked": "Speak plainly, for your actions speak louder than your words. If your intent is harm, know that my people will see through it. We do not seek conflict, but neither will we shrink from it.",
+		"defeated": "The stars betray us, but I will not bow to their will! Hear me, my people, this defeat is but a shadow over our light. We will rise from this ruin, clawing back the honor stolen from us. Let the world tremble, for we will not fade quietly into the night!",
+		"introduction": "I am the chosen guardian of my people and the speaker of our ancestral wisdom. We come in peace, with open hands and minds, seeking the kinship of those who share this land beneath the great sky",
+
+		"neutralHello": "Greetings, traveler. May the winds guide you and the earth provide for your journey. What brings you to our lands?",
+		"hateHello": "You dare step into our domain unbidden? Speak quickly, for my patience thins like the setting sun. Choose your words wisely, lest they be your last.",
+
+		"tradeRequest": "Our offer reaches you like the first light of dawn. Speak of what you seek and what you bring, and together we shall build a bond as steady as the stones of the earth.",
+
+		"outerColor": [242, 228, 65],
+		"innerColor": [34, 2, 74],
+		"uniqueName": "Predynastic Egypt",
+		"uniques":["[+1 Culture] from [River] tiles [in capital]"],
+		"cities": ["El Badari", "Mostagedda", "Deir Tasa", "Hammamia"]
+	},
+	{
+		"name": "Hakra",
+		"leaderName": "Sarapanach",
+		"adjective": ["Hakra"],
+		"startBias": ["River"],
+		"preferredVictoryType": "Domination",
+
+		"startIntroPart1": "",
+		"startIntroPart2": "",
+
+        "declaringWar": "Enough! The patience of my people has run dry. For every spear you raise against us, we shall answer with ten! Prepare yourselves, for the earth will tremble beneath the march of our warriors, and the echoes of your defiance shall fade into nothingness!",
+		"attacked": "Speak plainly, for your actions speak louder than your words. If your intent is harm, know that my people will see through it. We do not seek conflict, but neither will we shrink from it.",
+		"defeated": "The stars betray us, but I will not bow to their will! Hear me, my people, this defeat is but a shadow over our light. We will rise from this ruin, clawing back the honor stolen from us. Let the world tremble, for we will not fade quietly into the night!",
+		"introduction": "I am the chosen guardian of my people and the speaker of our ancestral wisdom. We come in peace, with open hands and minds, seeking the kinship of those who share this land beneath the great sky",
+
+		"neutralHello": "Greetings, traveler. May the winds guide you and the earth provide for your journey. What brings you to our lands?",
+		"hateHello": "You dare step into our domain unbidden? Speak quickly, for my patience thins like the setting sun. Choose your words wisely, lest they be your last.",
+
+		"tradeRequest": "Our offer reaches you like the first light of dawn. Speak of what you seek and what you bring, and together we shall build a bond as steady as the stones of the earth.",
+
+		"outerColor": [179, 97, 255],
+		"innerColor": [255, 255, 255],
+		"uniqueName": "Wares of Gheggar",
+		"uniques":["[+1 Culture] from every [Campfire]"],
+		"cities": ["Bhirrana", "Kunal", "Dholavira", "Girwas", "Farmana", "Rakhigarhi"]
+	},
+	{
+		"name": "Clovis",
+		"leaderName": "Uraj Baan",
+		"adjective": ["Clovis"],
+		"startBias": ["Tundra"],
+		"preferredVictoryType": "Domination",
+
+		"startIntroPart1": "",
+		"startIntroPart2": "",
+
+        "declaringWar": "Enough! The patience of my people has run dry. For every spear you raise against us, we shall answer with ten! Prepare yourselves, for the earth will tremble beneath the march of our warriors, and the echoes of your defiance shall fade into nothingness!",
+		"attacked": "Speak plainly, for your actions speak louder than your words. If your intent is harm, know that my people will see through it. We do not seek conflict, but neither will we shrink from it.",
+		"defeated": "The stars betray us, but I will not bow to their will! Hear me, my people, this defeat is but a shadow over our light. We will rise from this ruin, clawing back the honor stolen from us. Let the world tremble, for we will not fade quietly into the night!",
+		"introduction": "I am the chosen guardian of my people and the speaker of our ancestral wisdom. We come in peace, with open hands and minds, seeking the kinship of those who share this land beneath the great sky",
+
+		"neutralHello": "Greetings, traveler. May the winds guide you and the earth provide for your journey. What brings you to our lands?",
+		"hateHello": "You dare step into our domain unbidden? Speak quickly, for my patience thins like the setting sun. Choose your words wisely, lest they be your last.",
+
+		"tradeRequest": "Our offer reaches you like the first light of dawn. Speak of what you seek and what you bring, and together we shall build a bond as steady as the stones of the earth.",
+
+		"outerColor": [105, 141, 219],
+		"innerColor": [16, 22, 36],
+		"uniqueName": "Progenitors of the Americas",
+		"uniques":["[+1 Culture] from every [Forest]"],
+		"cities": ["Blackwater Draw", "Clovis", "Casper", "Murray Springs", "Monte Verde", "Meadowcroft Rockshelter", "Cactus Hill", "Paisley Caves", "Topper", "Bodo Bison Skulls"]
+	},
+	{
+		"name": "Jomon",
+		"leaderName": "Kur",
+		"adjective": ["Jomon"],
+		"startBias": ["Grassland"],
+		"preferredVictoryType": "Domination",
+
+		"startIntroPart1": "",
+		"startIntroPart2": "",
+
+        "declaringWar": "Enough! The patience of my people has run dry. For every spear you raise against us, we shall answer with ten! Prepare yourselves, for the earth will tremble beneath the march of our warriors, and the echoes of your defiance shall fade into nothingness!",
+		"attacked": "Speak plainly, for your actions speak louder than your words. If your intent is harm, know that my people will see through it. We do not seek conflict, but neither will we shrink from it.",
+		"defeated": "The stars betray us, but I will not bow to their will! Hear me, my people, this defeat is but a shadow over our light. We will rise from this ruin, clawing back the honor stolen from us. Let the world tremble, for we will not fade quietly into the night!",
+		"introduction": "I am the chosen guardian of my people and the speaker of our ancestral wisdom. We come in peace, with open hands and minds, seeking the kinship of those who share this land beneath the great sky",
+
+		"neutralHello": "Greetings, traveler. May the winds guide you and the earth provide for your journey. What brings you to our lands?",
+		"hateHello": "You dare step into our domain unbidden? Speak quickly, for my patience thins like the setting sun. Choose your words wisely, lest they be your last.",
+
+		"tradeRequest": "Our offer reaches you like the first light of dawn. Speak of what you seek and what you bring, and together we shall build a bond as steady as the stones of the earth.",
+
+		"outerColor": [185, 237, 95],
+		"innerColor": [77, 97, 44],
+		"uniqueName": "Cord-Marked",
+		"uniques":["[+1 Culture] from every [Granary]"],
+		"cities": ["Kakinoshima", "Kitakogane", "Ofune", "Irie", "Kiusu", "Takasago", "Odai", "Tagoyano"]
+	},
+	{
+		"name": "Sesklo",
+		"leaderName": "Archigós",
+		"adjective": ["Sesklo"],
+		"startBias": ["Hill"],
+		"preferredVictoryType": "Domination",
+
+		"startIntroPart1": "",
+		"startIntroPart2": "",
+
+        "declaringWar": "Enough! The patience of my people has run dry. For every spear you raise against us, we shall answer with ten! Prepare yourselves, for the earth will tremble beneath the march of our warriors, and the echoes of your defiance shall fade into nothingness!",
+		"attacked": "Speak plainly, for your actions speak louder than your words. If your intent is harm, know that my people will see through it. We do not seek conflict, but neither will we shrink from it.",
+		"defeated": "The stars betray us, but I will not bow to their will! Hear me, my people, this defeat is but a shadow over our light. We will rise from this ruin, clawing back the honor stolen from us. Let the world tremble, for we will not fade quietly into the night!",
+		"introduction": "I am the chosen guardian of my people and the speaker of our ancestral wisdom. We come in peace, with open hands and minds, seeking the kinship of those who share this land beneath the great sky",
+
+		"neutralHello": "Greetings, traveler. May the winds guide you and the earth provide for your journey. What brings you to our lands?",
+		"hateHello": "You dare step into our domain unbidden? Speak quickly, for my patience thins like the setting sun. Choose your words wisely, lest they be your last.",
+
+		"tradeRequest": "Our offer reaches you like the first light of dawn. Speak of what you seek and what you bring, and together we shall build a bond as steady as the stones of the earth.",
+
+		"outerColor": [182, 207, 199],
+		"innerColor": [29, 33, 32],
+		"uniqueName": "Hills of Sesklo",
+		"uniques":["All newly-trained [Land] units [in all cities] receive the [Ignore terrain cost] promotion"],
+		"cities": ["Sesklo", "Argissa Magoula"]
+	},
+	{
+		"name": "Ubaid",
+		"leaderName": "Ur-Saĝ",
+		"adjective": ["Ubaid"],
+		"startBias": ["River"],
+		"preferredVictoryType": "Domination",
+
+		"startIntroPart1": "",
+		"startIntroPart2": "",
+
+        "declaringWar": "Enough! The patience of my people has run dry. For every spear you raise against us, we shall answer with ten! Prepare yourselves, for the earth will tremble beneath the march of our warriors, and the echoes of your defiance shall fade into nothingness!",
+		"attacked": "Speak plainly, for your actions speak louder than your words. If your intent is harm, know that my people will see through it. We do not seek conflict, but neither will we shrink from it.",
+		"defeated": "The stars betray us, but I will not bow to their will! Hear me, my people, this defeat is but a shadow over our light. We will rise from this ruin, clawing back the honor stolen from us. Let the world tremble, for we will not fade quietly into the night!",
+		"introduction": "I am the chosen guardian of my people and the speaker of our ancestral wisdom. We come in peace, with open hands and minds, seeking the kinship of those who share this land beneath the great sky",
+
+		"neutralHello": "Greetings, traveler. May the winds guide you and the earth provide for your journey. What brings you to our lands?",
+		"hateHello": "You dare step into our domain unbidden? Speak quickly, for my patience thins like the setting sun. Choose your words wisely, lest they be your last.",
+
+		"tradeRequest": "Our offer reaches you like the first light of dawn. Speak of what you seek and what you bring, and together we shall build a bond as steady as the stones of the earth.",
+
+		"outerColor": [111, 232, 146],
+		"innerColor": [10, 20, 13],
+		"uniqueName": "Flint of Mesopotamia",
+		"uniques":["[+1 Culture] from every [Quarry]"],
+		"cities": ["Tell al-'Ubaid", "Tell el-'Oueili", "Tell Abu Shahrain", "Hadji Muhammed", "Choga Mami", "Tell Abada", "Tepe Gawra"]
+	},
+	{
+		"name": "Yangshao",
+		"leaderName": "Cūn Zhǎng",
+		"adjective": ["Yangshao"],
+		"startBias": ["River"],
+		"preferredVictoryType": "Domination",
+
+		"startIntroPart1": "",
+		"startIntroPart2": "",
+
+        "declaringWar": "Enough! The patience of my people has run dry. For every spear you raise against us, we shall answer with ten! Prepare yourselves, for the earth will tremble beneath the march of our warriors, and the echoes of your defiance shall fade into nothingness!",
+		"attacked": "Speak plainly, for your actions speak louder than your words. If your intent is harm, know that my people will see through it. We do not seek conflict, but neither will we shrink from it.",
+		"defeated": "The stars betray us, but I will not bow to their will! Hear me, my people, this defeat is but a shadow over our light. We will rise from this ruin, clawing back the honor stolen from us. Let the world tremble, for we will not fade quietly into the night!",
+		"introduction": "I am the chosen guardian of my people and the speaker of our ancestral wisdom. We come in peace, with open hands and minds, seeking the kinship of those who share this land beneath the great sky",
+
+		"neutralHello": "Greetings, traveler. May the winds guide you and the earth provide for your journey. What brings you to our lands?",
+		"hateHello": "You dare step into our domain unbidden? Speak quickly, for my patience thins like the setting sun. Choose your words wisely, lest they be your last.",
+
+		"tradeRequest": "Our offer reaches you like the first light of dawn. Speak of what you seek and what you bring, and together we shall build a bond as steady as the stones of the earth.",
+
+		"outerColor": [252, 195, 58],
+		"innerColor": [115, 88, 25],
+		"uniqueName": "Middle of Yellow River",
+		"uniques":["[+1 Food] from every [River]"],
+		"cities": ["Shuanghuaishu", "Banpo", "Jiangzhai"]
+	},
+	//// CITY STATES
+	// AGRARIAN
+	{
+		"name": "Buni",
+		"adjective": ["Buni"],
+		"cityStateType": "Agrarian",
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "Congratulations, conqueror. This tribe serves you now.",
+		"outerColor": [0, 0, 0],
+		"innerColor": [155, 232, 67],
+		"cities": ["Buni"]
+	},
+	{
+		"name": "Hamburg",
+		"adjective": ["Hamburg"],
+		"cityStateType": "Agrarian",
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "Congratulations, conqueror. This tribe serves you now.",
+		"outerColor": [0, 0, 0],
+		"innerColor": [153, 173, 130],
+		"cities": ["Hamburg"]
+	},
+	{
+		"name": "Kuhikugu",
+		"adjective": ["Kuhikugu"],
+		"cityStateType": "Agrarian",
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "Congratulations, conqueror. This tribe serves you now.",
+		"outerColor": [0, 0, 0],
+		"innerColor": [39, 184, 17],
+		"cities": ["Kuhikugu"]
+	},
+	{
+		"name": "Kulangsu",
+		"adjective": ["Kulangsu"],
+		"cityStateType": "Agrarian",
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "Congratulations, conqueror. This tribe serves you now.",
+		"outerColor": [0, 0, 0],
+		"innerColor": [129, 212, 133],
+		"cities": ["Kulangsu"]
+	},
+	{
+		"name": "Nineveh",
+		"adjective": ["Nineveh"],
+		"cityStateType": "Agrarian",
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "Congratulations, conqueror. This tribe serves you now.",
+		"outerColor": [0, 0, 0],
+		"innerColor": [213, 247, 214],
+		"cities": ["Nineveh"]
+	},
+	{
+		"name": "Tae Rak",
+		"adjective": ["Tae Rak"],
+		"cityStateType": "Agrarian",
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "Congratulations, conqueror. This tribe serves you now.",
+		"outerColor": [0, 0, 0],
+		"innerColor": [84, 227, 108],
+		"cities": ["Tae Rak"]
+	},
+	{
+		"name": "Urfa",
+		"adjective": ["Urfa"],
+		"cityStateType": "Agrarian",
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "Congratulations, conqueror. This tribe serves you now.",
+		"outerColor": [0, 0, 0],
+		"innerColor": [84, 133, 92],
+		"cities": ["Urfa"]
+	},
+	// CULTURED
+	{
+		"name": "Beikthano",
+		"adjective": ["Beikthano"],
+		"cityStateType": "Cultured",
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We only wanted to do philosophy, until you appeared.",
+		"outerColor": [0, 0, 0],
+		"innerColor": [185, 148, 224],
+		"cities": ["Beikthano"]
+	},
+	{
+		"name": "Hamoukar",
+		"adjective": ["Hamoukar"],
+		"cityStateType": "Cultured",
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We only wanted to do philosophy, until you appeared.",
+		"outerColor": [0, 0, 0],
+		"innerColor": [118, 79, 158],
+		"cities": ["Hamoukar"]
+	},
+	{
+		"name": "Huaca Prieta",
+		"adjective": ["Huaca Prieta"],
+		"cityStateType": "Cultured",
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We only wanted to do philosophy, until you appeared.",
+		"outerColor": [0, 0, 0],
+		"innerColor": [170, 61, 224],
+		"cities": ["Huaca Prieta"]
+	},
+	{
+		"name": "Kition",
+		"adjective": ["Kition"],
+		"cityStateType": "Cultured",
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We only wanted to do philosophy, until you appeared.",
+		"outerColor": [0, 0, 0],
+		"innerColor": [236, 113, 245],
+		"cities": ["Kition"]
+	},
+	{
+		"name": "Mari",
+		"adjective": ["Mari"],
+		"cityStateType": "Cultured",
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We only wanted to do philosophy, until you appeared.",
+		"outerColor": [0, 0, 0],
+		"innerColor": [145, 0, 156],
+		"cities": ["Mari"]
+	},
+	{
+		"name": "Tell Brak",
+		"adjective": ["Tell Brak"],
+		"cityStateType": "Cultured",
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We only wanted to do philosophy, until you appeared.",
+		"outerColor": [0, 0, 0],
+		"innerColor": [183, 147, 186],
+		"cities": ["Tell Brak"]
+	},
+	{
+		"name": "Vungu",
+		"adjective": ["Vungu"],
+		"cityStateType": "Cultured",
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We only wanted to do philosophy, until you appeared.",
+		"outerColor": [0, 0, 0],
+		"innerColor": [115, 59, 120],
+		"cities": ["Vungu"]
+	},
+	// Maritime
+	{
+		"name": "Amalfi",
+		"adjective": ["Amalfi"],
+		"cityStateType": "Maritime",
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We only wanted to do sail the seas, until you appeared.",
+		"outerColor": [0, 0, 0],
+		"innerColor": [115, 173, 235],
+		"cities": ["Amalfi"]
+	},
+	{
+		"name": "Ancona",
+		"adjective": ["Ancona"],
+		"cityStateType": "Maritime",
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We only wanted to do sail the seas, until you appeared.",
+		"outerColor": [0, 0, 0],
+		"innerColor": [17, 128, 247],
+		"cities": ["Ancona"]
+	},
+	{
+		"name": "Danzig",
+		"adjective": ["Danzig"],
+		"cityStateType": "Maritime",
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We only wanted to do sail the seas, until you appeared.",
+		"outerColor": [0, 0, 0],
+		"innerColor": [44, 232, 229],
+		"cities": ["Danzig"]
+	},
+	{
+		"name": "Genoa",
+		"adjective": ["Genoa"],
+		"cityStateType": "Maritime",
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We only wanted to do sail the seas, until you appeared.",
+		"outerColor": [0, 0, 0],
+		"innerColor": [150, 227, 226],
+		"cities": ["Genoa"]
+	},
+	{
+		"name": "Pechina",
+		"adjective": ["Pechina"],
+		"cityStateType": "Maritime",
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We only wanted to do sail the seas, until you appeared.",
+		"outerColor": [0, 0, 0],
+		"innerColor": [62, 86, 135],
+		"cities": ["Pechina"]
+	},
+	{
+		"name": "Salé",
+		"adjective": ["Salé"],
+		"cityStateType": "Maritime",
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We only wanted to do sail the seas, until you appeared.",
+		"outerColor": [0, 0, 0],
+		"innerColor": [98, 146, 245],
+		"cities": ["Salé"]
+	},
+	{
+		"name": "Trieste",
+		"adjective": ["Trieste"],
+		"cityStateType": "Maritime",
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We only wanted to do sail the seas, until you appeared.",
+		"outerColor": [0, 0, 0],
+		"innerColor": [51, 75, 255],
+		"cities": ["Trieste"]
+	},
+	// Merchant
+	{
+		"name": "Damo",
+		"adjective": ["Damo"],
+		"cityStateType": "Mercantile",
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We only wanted to trade, until you appeared.",
+		"outerColor": [0, 0, 0],
+		"innerColor": [242, 242, 116],
+		"cities": ["Damo"]
+	},
+	{
+		"name": "Janjira",
+		"adjective": ["Janjira"],
+		"cityStateType": "Mercantile",
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We only wanted to trade, until you appeared.",
+		"outerColor": [0, 0, 0],
+		"innerColor": [176, 176, 130],
+		"cities": ["Janjira"]
+	},
+	{
+		"name": "Kraków",
+		"adjective": ["Kraków"],
+		"cityStateType": "Mercantile",
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We only wanted to trade, until you appeared.",
+		"outerColor": [0, 0, 0],
+		"innerColor": [219, 219, 31],
+		"cities": ["Kraków"]
+	},
+	{
+		"name": "Lübeck",
+		"adjective": ["Lübeck"],
+		"cityStateType": "Mercantile",
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We only wanted to trade, until you appeared.",
+		"outerColor": [0, 0, 0],
+		"innerColor": [230, 189, 69],
+		"cities": ["Lübeck"]
+	},
+	{
+		"name": "Malao",
+		"adjective": ["Malao"],
+		"cityStateType": "Mercantile",
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We only wanted to trade, until you appeared.",
+		"outerColor": [0, 0, 0],
+		"innerColor": [235, 153, 47],
+		"cities": ["Malao"]
+	},
+	{
+		"name": "Monaco",
+		"adjective": ["Monaco"],
+		"cityStateType": "Mercantile",
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We only wanted to trade, until you appeared.",
+		"outerColor": [0, 0, 0],
+		"innerColor": [240, 135, 55],
+		"cities": ["Monaco"]
+	},
+	{
+		"name": "Singapore",
+		"adjective": ["Singapore"],
+		"cityStateType": "Mercantile",
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We only wanted to trade, until you appeared.",
+		"outerColor": [0, 0, 0],
+		"innerColor": [204, 240, 0],
+		"cities": ["Singapore"]
+	},
+	// Militarists
+	{
+		"name": "Aritim",
+		"adjective": ["Aritim"],
+		"cityStateType": "Militaristic",
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We preffer to die instead of serving you.",
+		"outerColor": [0, 0, 0],
+		"innerColor": [235, 0, 0],
+		"cities": ["Aritim"]
+	},
+	{
+		"name": "Diniktum",
+		"adjective": ["Diniktum"],
+		"cityStateType": "Militaristic",
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We preffer to die instead of serving you.",
+		"outerColor": [0, 0, 0],
+		"innerColor": [240, 84, 84],
+		"cities": ["Diniktum"]
+	},
+	{
+		"name": "Gath",
+		"adjective": ["Gath"],
+		"cityStateType": "Militaristic",
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We preffer to die instead of serving you.",
+		"outerColor": [0, 0, 0],
+		"innerColor": [194, 12, 12],
+		"cities": ["Gath"]
+	},
+	{
+		"name": "Kalašma",
+		"adjective": ["Kalašma"],
+		"cityStateType": "Militaristic",
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We preffer to die instead of serving you.",
+		"outerColor": [0, 0, 0],
+		"innerColor": [138, 78, 78],
+		"cities": ["Kalašma"]
+	},
+	{
+		"name": "Kurda",
+		"adjective": ["Kurda"],
+		"cityStateType": "Militaristic",
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We preffer to die instead of serving you.",
+		"outerColor": [0, 0, 0],
+		"innerColor": [140, 104, 104],
+		"cities": ["Kurda"]
+	},
+	{
+		"name": "Mactan",
+		"adjective": ["Mactan"],
+		"cityStateType": "Militaristic",
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We preffer to die instead of serving you.",
+		"outerColor": [0, 0, 0],
+		"innerColor": [122, 38, 38],
+		"cities": ["Mactan"]
+	},
+	{
+		"name": "Maynila",
+		"adjective": ["Maynila"],
+		"cityStateType": "Militaristic",
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We preffer to die instead of serving you.",
+		"outerColor": [0, 0, 0],
+		"innerColor": [105, 89, 89],
+		"cities": ["Maynila"]
+	},
+	// Religious
+	{
+		"name": "Basel",
+		"adjective": ["Basel"],
+		"cityStateType": "Religious",
+
+		"declaringWar": "Perish, infidel!",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "Our god won't forgive you for what you have done to us.",
+		"outerColor": [0, 0, 0],
+		"innerColor": [181, 215, 235],
+		"cities": ["Basel"]
+	},
+	{
+		"name": "Hamazi",
+		"adjective": ["Hamazi"],
+		"cityStateType": "Religious",
+
+		"declaringWar": "Perish, infidel!",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "Our god won't forgive you for what you have done to us.",
+		"outerColor": [0, 0, 0],
+		"innerColor": [125, 197, 240],
+		"cities": ["Hamazi"]
+	},
+	{
+		"name": "Isin",
+		"adjective": ["Isin"],
+		"cityStateType": "Religious",
+
+		"declaringWar": "Perish, infidel!",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "Our god won't forgive you for what you have done to us.",
+		"outerColor": [0, 0, 0],
+		"innerColor": [52, 176, 250],
+		"cities": ["Isin"]
+	},
+	{
+		"name": "Megiddo",
+		"adjective": ["Megiddo"],
+		"cityStateType": "Religious",
+
+		"declaringWar": "Perish, infidel!",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "Our god won't forgive you for what you have done to us.",
+		"outerColor": [0, 0, 0],
+		"innerColor": [119, 140, 237],
+		"cities": ["Megiddo"]
+	},
+	{
+		"name": "Nashshan",
+		"adjective": ["Nashshan"],
+		"cityStateType": "Religious",
+
+		"declaringWar": "Perish, infidel!",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "Our god won't forgive you for what you have done to us.",
+		"outerColor": [0, 0, 0],
+		"innerColor": [174, 186, 245],
+		"cities": ["Nashshan"]
+	},
+	{
+		"name": "Teotihuacan",
+		"adjective": ["Teotihuacan"],
+		"cityStateType": "Religious",
+
+		"declaringWar": "Perish, infidel!",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "Our god won't forgive you for what you have done to us.",
+		"outerColor": [0, 0, 0],
+		"innerColor": [57, 86, 230],
+		"cities": ["Teotihuacan"]
+	},
+	{
+		"name": "Vatican City",
+		"adjective": ["Vatican City"],
+		"cityStateType": "Religious",
+
+		"declaringWar": "Perish, infidel!",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "Our god won't forgive you for what you have done to us.",
+		"outerColor": [0, 0, 0],
+		"innerColor": [199, 82, 170],
+		"cities": ["Vatican City"]
+	},
+	//Barbarian
+	{
+		"name": "Barbarians",
+		"outerColor": [0,0,0],
+		"innerColor": [185,12,12],
+		"uniques": ["Can only heal by pillaging", "Excluded from map editor",
+			"[Water] units gain the [Unable to pillage tiles] promotion"]
+	}
+
+]

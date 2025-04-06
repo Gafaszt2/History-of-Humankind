@@ -1,0 +1,622 @@
+[
+	//// LUXURY
+	{
+		"name": "Gold Ore",
+		"revealedBy":"Mining",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": ["Hill"],
+		"gold": 2,
+		"improvement": "Mine",
+		"improvementStats": {"gold": 1},
+		"uniques": ["Generated on every [200] tiles <in [Hill] tiles>"]
+	},
+	{
+		"name": "Silk",
+		"revealedBy":"Agriculture",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": ["Forest"],
+		"gold": 2,
+		"improvement": "Crop Field",
+		"improvementStats": {"gold": 1},
+		"uniques": ["Generated on every [200] tiles <in [Forest] tiles>"]
+	},
+	{
+		"name": "Dyes",
+		"revealedBy":"Agriculture",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": ["Forest","Jungle"],
+		"gold": 2,
+		"improvement": "Crop Field",
+		"improvementStats": {"gold": 1},
+		"uniques": ["Generated on every [200] tiles <in [Jungle] tiles>","Generated on every [200] tiles <in [Forest] tiles>"]
+	},
+	{
+		"name": "Salt",
+		"revealedBy":"Mining",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": ["Desert"],
+		"gold": 2,
+		"improvement": "Mine",
+		"improvementStats": {"gold": 1},
+		"uniques": ["Generated on every [200] tiles <in [Desert] tiles>"]
+	},
+	{
+		"name": "Wine",
+		"revealedBy":"Agriculture",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": ["Grassland"],
+		"gold": 2,
+		"improvement": "Crop Field",
+		"improvementStats": {"gold": 1},
+		"uniques": ["Generated on every [200] tiles <in [Grassland] tiles>"]
+	},
+	{
+		"name": "Marble",
+		"revealedBy":"Mining",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": ["Grassland"],
+		"gold": 2,
+		"improvement": "Mine",
+		"improvementStats": {"gold": 1},
+		"uniques": ["Generated on every [200] tiles <in [Grassland] tiles>"]
+	},
+	{
+		"name": "Silver",
+		"revealedBy":"Mining",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": ["Grassland"],
+		"gold": 2,
+		"improvement": "Mine",
+		"improvementStats": {"gold": 1},
+		"uniques": ["Generated on every [200] tiles <in [Grassland] tiles>"]
+	},
+	{
+		"name": "Sugar",
+		"revealedBy":"Agriculture",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": ["Jungle"],
+		"gold": 2,
+		"improvement": "Crop Field",
+		"improvementStats": {"gold": 1},
+		"uniques": ["Generated on every [200] tiles <in [Jungle] tiles>"]
+	},
+	{
+		"name": "Tea",
+		"revealedBy":"Agriculture",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": ["Jungle"],
+		"gold": 2,
+		"improvement": "Crop Field",
+		"improvementStats": {"gold": 1},
+		"uniques": ["Generated on every [200] tiles <in [Jungle] tiles>"]
+	},
+	{
+		"name": "Pearls",
+		"revealedBy":"Sailing",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": ["Coast"],
+		"gold": 2,
+		"improvement": "Fish Trap",
+		"improvementStats": {"gold": 1},
+		"uniques": ["Generated on every [200] tiles <in [Coast] tiles>"]
+	},
+	{
+		"name": "Incense",
+		"revealedBy":"Astrology",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": ["Desert"],
+		"gold": 2,
+		"improvementStats": {"gold": 1},
+		"uniques": ["Generated on every [200] tiles <in [Desert] tiles>"]
+	},
+	{
+		"name": "Spices",
+		"revealedBy":"Agriculture",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": ["Forest","Jungle"],
+		"gold": 2,
+		"improvement": "Crop Field",
+		"improvementStats": {"gold": 1},
+		"uniques": ["Generated on every [200] tiles <in [Forest] tiles>","Generated on every [200] tiles <in [Jungle] tiles>"]
+	},
+	///// BONUS
+	{
+		"name": "Cassava",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Tropical"],
+		"food": 1,
+		"improvement": "Crop Field",
+		"improvementStats": {"production": 1},
+		"uniques": ["Generated on every [210] tiles <in [Tropical] tiles>"]
+	},
+	{
+		"name": "Maize",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Grassland","Plains"],
+		"food": 1,
+		"improvement": "Crop Field",
+		"improvementStats": {"production": 1},
+		"uniques": ["Generated on every [210] tiles <in [Grassland] tiles>","Generated on every [210] tiles <in [Plains] tiles>"]
+	},
+	{
+		"name": "Murnong",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Grassland"],
+		"food": 1,
+		"improvement": "Crop Field",
+		"improvementStats": {"production": 1},
+		"uniques": ["Generated on every [210] tiles <in [Grassland] tiles>"]
+	},
+	{
+		"name": "Potato",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Plains","Grassland"],
+		"food": 1,
+		"improvement": "Crop Field",
+		"improvementStats": {"production": 1},
+		"uniques": ["Generated on every [210] tiles <in [Plains] tiles>","Generated on every [210] tiles <in [Grassland] tiles>"]
+	},
+	{
+		"name": "Rice",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Tropical","Grassland","Marsh"],
+		"food": 1,
+		"improvement": "Crop Field",
+		"improvementStats": {"production": 1},
+		"uniques": ["Generated on every [210] tiles <in [Tropical] tiles>","Generated on every [210] tiles <in [Grassland] tiles>","Generated on every [210] tiles <in [Marsh] tiles>"]
+	},
+	{
+		"name": "Sweet Potato",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Tropical"],
+		"food": 1,
+		"improvement": "Crop Field",
+		"improvementStats": {"production": 1},
+		"uniques": ["Generated on every [210] tiles <in [Tropical] tiles>"]
+	},
+	{
+		"name": "Taro",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Tropical"],
+		"food": 1,
+		"improvement": "Crop Field",
+		"improvementStats": {"production": 1},
+		"uniques": ["Generated on every [210] tiles <in [Tropical] tiles>"]
+	},
+	{
+		"name": "Wheat",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Plains"],
+		"food": 1,
+		"improvement": "Crop Field",
+		"improvementStats": {"production": 1},
+		"uniques": ["Generated on every [210] tiles <in [Plains] tiles>"]
+	},
+	{
+		"name": "Rosemary",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Forest"],
+		"food": 1,
+		"improvement": "Crop Field",
+		"improvementStats": {"production": 1},
+		"uniques": ["Generated on every [210] tiles <in [Forest] tiles>"]
+	},
+	{
+		"name": "Yarrow",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Forest","Sagebrush Steppe"],
+		"food": 1,
+		"improvement": "Crop Field",
+		"improvementStats": {"production": 1},
+		"uniques": ["Generated on every [210] tiles <in [Plains] tiles>"]
+	},
+	{
+		"name": "Mallow",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Forest"],
+		"food": 1,
+		"improvement": "Crop Field",
+		"improvementStats": {"production": 1},
+		"uniques": ["Generated on every [210] tiles <in [Forest] tiles>"]
+	},
+	{
+		"name": "Garlic",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Forest"],
+		"food": 1,
+		"improvement": "Crop Field",
+		"improvementStats": {"production": 1},
+		"uniques": ["Generated on every [210] tiles <in [Forest] tiles>"]
+	},
+	{
+		"name": "Berries",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Plains","Sagebrush Steppe"],
+		"food": 1,
+		"improvement": "Crop Field",
+		"improvementStats": {"production": 1},
+		"uniques": ["Generated on every [210] tiles <in [Plains] tiles>"]
+	},
+	{
+		"name": "Figs",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Forest"],
+		"food": 1,
+		"improvement": "Crop Field",
+		"improvementStats": {"production": 1},
+		"uniques": ["Generated on every [210] tiles <in [Forest] tiles>"]
+	},
+	{
+		"name": "Hazelnuts",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Forest"],
+		"food": 1,
+		"improvement": "Crop Field",
+		"improvementStats": {"production": 1},
+		"uniques": ["Generated on every [210] tiles <in [Forest] tiles>"]
+	},
+	{
+		"name": "Bananas",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Jungle","Tropical"],
+		"food": 1,
+		"improvement": "Crop Field",
+		"improvementStats": {"production": 1},
+		"uniques": ["Generated on every [210] tiles <in [Jungle] tiles>"]
+	},
+/////// ANIMALS
+	{
+		"name": "Alligator",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Tropical","Marsh"],
+		"food": 1,
+		"improvement": "Animal Pen",
+		"improvementStats": {"production": 1},
+		"uniques": ["Generated on every [210] tiles <in [Tropical] tiles>","Generated on every [210] tiles <in [Marsh] tiles>"]
+	},
+	{
+		"name": "Cattle",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Grassland"],
+		"food": 1,
+		"improvement": "Animal Pen",
+		"improvementStats": {"production": 1},
+		"uniques": ["Generated on every [210] tiles <in [Grassland] tiles>"]
+	},
+	{
+		"name": "Pigs",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Forest"],
+		"food": 1,
+		"improvement": "Animal Pen",
+		"improvementStats": {"production": 1},
+		"uniques": ["Generated on every [210] tiles <in [Forest] tiles>"]
+	},
+	{
+		"name": "Chicken",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Grassland"],
+		"food": 1,
+		"improvement": "Animal Pen",
+		"improvementStats": {"production": 1},
+		"uniques": ["Generated on every [210] tiles <in [Grassland] tiles>"]
+	},
+	{
+		"name": "Duck",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Grassland"],
+		"food": 1,
+		"improvement": "Animal Pen",
+		"improvementStats": {"production": 1},
+		"uniques": ["Generated on every [210] tiles <in [Grassland] tiles>"]
+	},
+	{
+		"name": "Emu",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Plains"],
+		"food": 1,
+		"improvement": "Animal Pen",
+		"improvementStats": {"production": 1},
+		"uniques": ["Generated on every [210] tiles <in [Plains] tiles>"]
+	},
+	{
+		"name": "Fox",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Forest"],
+		"gold": 2,
+		"improvement": "Animal Pen",
+		"improvementStats": {"production": 1},
+		"uniques": ["Generated on every [210] tiles <in [Forest] tiles>"]
+	},
+	{
+		"name": "Goat",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Hill"],
+		"food": 1,
+		"improvement": "Animal Pen",
+		"improvementStats": {"production": 1},
+		"uniques": ["Generated on every [210] tiles <in [Hill] tiles>"]
+	},
+	{
+		"name": "Sheep",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Hill"],
+		"food": 1,
+		"improvement": "Animal Pen",
+		"improvementStats": {"production": 1},
+		"uniques": ["Generated on every [210] tiles <in [Hill] tiles>"]
+	},
+	{
+		"name": "Llama",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Hill"],
+		"food": 1,
+		"improvement": "Animal Pen",
+		"improvementStats": {"production": 1},
+		"uniques": ["Generated on every [210] tiles <in [Hill] tiles>"]
+	},
+	{
+		"name": "Kangaroo",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Savanna Woodland"],
+		"food": 1,
+		"improvement": "Animal Pen",
+		"improvementStats": {"production": 1},
+		"uniques": ["Generated on every [210] tiles <in [Savanna Woodland] tiles>"]
+	},
+	{
+		"name": "Ostrich",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Plains"],
+		"food": 1,
+		"improvement": "Animal Pen",
+		"improvementStats": {"production": 1},
+		"uniques": ["Generated on every [210] tiles <in [Plains] tiles>"]
+	},
+	{
+		"name": "Deer",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Tundra"],
+		"food": 1,
+		"improvement": "Animal Pen",
+		"improvementStats": {"production": 1},
+		"uniques": ["Generated on every [210] tiles <in [Tundra] tiles>"]
+	},
+	{
+		"name": "Elephant",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Plains","Savanna Woodland"],
+		"food": 1,
+		"improvementStats": {"production": 1},
+		"uniques": ["Generated on every [210] tiles <in [Plains] tiles>","Generated on every [210] tiles <in [Savanna Woodland] tiles>"]
+	},
+	{
+		"name": "Camel",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Desert"],
+		"food": 1,
+		"improvement": "Animal Pen",
+		"improvementStats": {"production": 1},
+		"uniques": ["Generated on every [210] tiles <in [Desert] tiles>"]
+	},
+	/////// Water
+	{
+		"name": "Coastal Fish",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Coast","Deep Coast"],
+		"food": 1,
+		"improvement": "Fish Trap",
+		"improvementStats": {"production": 1},
+		"uniques": ["Generated on every [10] tiles <in [Coast] tiles>"]
+	},
+	{
+		"name": "Sea Turtle",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Coast","Deep Coast"],
+		"food": 1,
+		"improvement": "Fish Trap",
+		"improvementStats": {"production": 1},
+		"uniques": ["Generated on every [10] tiles <in [Coast] tiles>"]
+	},
+	{
+		"name": "Sirenian",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Coast","Deep Coast"],
+		"food": 1,
+		"improvement": "Fish Trap",
+		"improvementStats": {"production": 1},
+		"uniques": ["Generated on every [10] tiles <in [Coast] tiles>"]
+	},
+	{
+		"name": "Coastal Cetacean",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Coast"],
+		"food": 1,
+		"improvement": "Fish Trap",
+		"improvementStats": {"production": 1},
+		"uniques": ["Generated on every [10] tiles <in [Coast] tiles>"]
+	},
+	{
+		"name": "Ocean Cetacean",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Ocean"],
+		"food": 1,
+		"improvement": "Fish Trap",
+		"improvementStats": {"production": 1},
+		"uniques": ["Generated on every [10] tiles <in [Ocean] tiles>"]
+	},
+	{
+		"name": "Deep Ocean Cetacean",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Deeper Ocean"],
+		"food": 1,
+		"improvement": "Fish Trap",
+		"improvementStats": {"production": 1},
+		"uniques": ["Generated on every [10] tiles <in [Deeper Ocean] tiles>"]
+	},
+	{
+		"name": "Deep Ocean Fish",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Deeper Ocean"],
+		"food": 1,
+		"improvement": "Fish Trap",
+		"improvementStats": {"production": 1},
+		"uniques": ["Generated on every [10] tiles <in [Deeper Ocean] tiles>"]
+	},
+	{
+		"name": "Ocean Fish",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Ocean","Deep Ocean"],
+		"food": 1,
+		"improvement": "Fish Trap",
+		"improvementStats": {"production": 1},
+		"uniques": ["Generated on every [10] tiles <in [Ocean] tiles>"]
+	},
+	{
+		"name": "Lake Fish",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Lakes"],
+		"food": 1,
+		"improvement": "Fish Trap",
+		"improvementStats": {"production": 1},
+		"uniques": ["Generated on every [10] tiles <in [Lakes] tiles>"]
+	},
+	/// STONE
+	{
+		"name": "Stone",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Grassland","Plains","Tundra","Sagebrush Steppe"],
+		"production": 1,
+		"improvement": "Quarry",
+		"improvementStats": {"production": 1},
+		"uniques": ["Generated on every [50] tiles <in [Grassland] tiles>","Generated on every [50] tiles <in [Plains] tiles>","Generated on every [50] tiles <in [Tundra] tiles>"]
+	},
+	/// Mercantile
+	{
+		"name": "Jewelry",
+		"resourceType": "Luxury",
+		"gold": 2,
+		"uniques": ["Can only be created by Mercantile City-States"]
+	},
+	{
+		"name": "Porcelain",
+		"resourceType": "Luxury",
+		"gold": 2,
+		"uniques": ["Can only be created by Mercantile City-States"]
+	},
+	//// Strategic
+	{
+		"name": "Plague",
+		"uniques":["Stockpiled","Not shown on world screen <before the [Medieval Era]>","Not shown on world screen <after discovering [Sanitation]>"],
+		"obsoleteTech": "Sanitation",
+		"resourceType": "Strategic"
+	},
+	{
+		"name": "Horses",
+		"food": 1,
+		"production": 1,
+		"terrainsCanBeFoundOn": ["Grassland","Plains","Sagebrush Steppe"],
+		"revealedBy": "Agriculture",
+		"resourceType": "Strategic",
+		"uniques":["Generated on every [50] tiles <in [Grassland] tiles>","Generated on every [50] tiles <in [Plains] tiles>"]
+	},
+	{
+		"name": "Ware",
+		"revealedBy": "Pottery",
+		"resourceType": "Strategic"
+	},
+	{
+		"name": "Bronze",
+	    "terrainsCanBeFoundOn": ["Grassland","Plains","Tundra","Hill","Sagebrush Steppe","Savanna Woodland"],
+		"revealedBy": "Mining",
+		"gold": 1,
+		"production": 1,
+		"improvement":"Mine",
+		"resourceType": "Strategic",
+		"uniques":["Generated on every [10] tiles <in [Hill] tiles>"]
+	},
+	{
+		"name": "Iron",
+	    "terrainsCanBeFoundOn": ["Grassland","Plains","Tundra","Hill","Sagebrush Steppe","Savanna Woodland"],
+		"revealedBy": "Iron Working",
+		"gold": 1,
+		"production": 1,
+		"improvement":"Mine",
+		"resourceType": "Strategic",
+		"uniques":["Generated on every [11] tiles <in [Hill] tiles>"]
+	},
+	{
+		"name": "Niter",
+	    "terrainsCanBeFoundOn": ["Grassland","Snow","Plains","Desert","Hill","Sagebrush Steppe","Savanna Woodland"],
+		"revealedBy": "Gunpowder",
+		"gold": 1,
+		"production": 1,
+		"improvement":"Mine",
+		"resourceType": "Strategic",
+		"uniques":["Generated on every [11] tiles <in [Hill] tiles>"]
+	},
+	{
+		"name": "Artifact",
+		"revealedBy": "Natural History",
+		"resourceType": "Strategic",
+		"uniques":["Stockpiled"]
+	},
+	{
+		"name": "Literary Work",
+		"resourceType": "Strategic",
+		"uniques":["Stockpiled","Not shown on world screen <before the [Renaissance Era]>"]
+	},
+	{
+		"name": "Composition",
+		"resourceType": "Strategic",
+		"uniques":["Stockpiled","Not shown on world screen <before the [Renaissance Era]>"]
+	},
+	{
+		"name": "Coal",
+	    "terrainsCanBeFoundOn": ["Grassland","Snow","Plains","Desert","Hill","Sagebrush Steppe","Savanna Woodland","Forest","Jungle"],
+		"revealedBy": "Industrialization",
+		"gold": 1,
+		"production": 1,
+		"improvement":"Mine",
+		"resourceType": "Strategic",
+		"uniques":["Generated on every [11] tiles <in [Hill] tiles>","Generated on every [99] tiles <in [Forest] tiles>","Generated on every [99] tiles <in [Jungle] tiles>"]
+	},
+	{
+		"name": "Oil",
+	    "terrainsCanBeFoundOn": ["Desert","Deep Coast","Deep Ocean","Snow"],
+		"revealedBy": "Refining",
+		"gold": 2,
+		"production": 1,
+		"improvedBy": ["Oil well", "Offshore Platform"],
+		"resourceType": "Strategic",
+		"uniques":["Generated on every [11] tiles <in [Desert] tiles>","Generated on every [11] tiles <in [Deep Coast] tiles>","Generated on every [11] tiles <in [Deep Ocean] tiles>","Generated on every [11] tiles <in [Snow] tiles>"]
+	},
+	{
+		"name": "Conservation Points",
+		"resourceType": "Strategic",
+		"uniques":["Stockpiled","Not shown on world screen <before the [Modern Era]>"]
+	},
+	{
+		"name": "Aluminum",
+	    "terrainsCanBeFoundOn": ["Desert","Rainforest","Plains"],
+		"revealedBy": "Advanced Flight",
+		"gold": 1,
+		"production": 1,
+		"improvement":"Mine",
+		"resourceType": "Strategic",
+		"uniques":["Generated on every [11] tiles <in [Desert] tiles>","Generated on every [99] tiles <in [Rainforest] tiles>","Generated on every [99] tiles <in [Plains] tiles>"]
+	},
+	{
+		"name": "Uranium",
+	    "terrainsCanBeFoundOn": ["Forest","Rainforest","Plains","Desert","Grassland","Tundra","Snow"],
+		"revealedBy": "Nuclear Fission",
+		"gold": 1,
+		"science": 1,
+		"production": 1,
+		"improvement":"Mine",
+		"resourceType": "Strategic",
+		"uniques":["Generated on every [11] tiles <in [Rainforest] tiles>","Generated on every [99] tiles <in [Forest] tiles>","Generated on every [99] tiles <in [Plains] tiles>",
+	                                                                    "Generated on every [99] tiles <in [Desert] tiles>","Generated on every [99] tiles <in [Grassland] tiles>",
+																	    "Generated on every [99] tiles <in [Tundra] tiles>","Generated on every [99] tiles <in [Snow] tiles>"]
+	}
+]

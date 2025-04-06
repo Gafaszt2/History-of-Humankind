@@ -1,0 +1,888 @@
+[
+	{
+		"name": "Soft Injury",
+		"innerColor": [252, 3, 3],
+		"outerColor": [28, 3, 3],
+		"uniques": ["[This Unit] takes [3] damage <upon turn end>"]
+	},
+	{
+		"name": "Poisoned",
+		"innerColor": [252, 3, 3],
+		"outerColor": [28, 3, 3],
+		"uniques": ["[This Unit] takes [5] damage <upon turn end>"]
+	},
+	{
+		"name": "Medium Injury",
+		"innerColor": [252, 3, 3],
+		"outerColor": [28, 3, 3],
+		"uniques": ["[This Unit] takes [6] damage <upon turn end>"]
+	},
+	{
+		"name": "Open Wound",
+		"innerColor": [252, 3, 3],
+		"outerColor": [28, 3, 3],
+		"uniques": ["[This Unit] takes [12] damage <upon turn end>"]
+	},
+	{
+		"name": "On Fire",
+		"innerColor": [252, 3, 3],
+		"outerColor": [28, 3, 3],
+		"uniques": ["[This Unit] takes [10] damage <upon turn end>",
+		            "[This Unit] takes [20] damage <upon ending a turn in a [Forest] tile>",
+				    "[This Unit] takes [20] damage <upon ending a turn in a [Jungle] tile>",
+				    "[This Unit] takes [20] damage <upon ending a turn in a [Marsh] tile>",
+					"[This Unit] takes [20] damage <upon ending a turn in a [Mangrove] tile>",
+				    "[This Unit] takes [20] damage <upon ending a turn in a [Rainforest] tile>"]
+	},
+	///// NAVY Injuries
+	{
+		"name": "Hull Breach",
+		"innerColor": [252, 3, 3],
+		"outerColor": [28, 3, 3],
+		"uniques": ["[This Unit] takes [3] damage <upon turn end>"]
+	},
+	{
+		"name": "Engine Failure",
+		"innerColor": [252, 3, 3],
+		"outerColor": [28, 3, 3],
+		"uniques": ["[This Unit] takes [3] damage <upon turn end>"]
+	},
+	{
+		"name": "Shattered Deck",
+		"innerColor": [252, 3, 3],
+		"outerColor": [28, 3, 3],
+		"uniques": ["[This Unit] takes [6] damage <upon turn end>"]
+	},
+	{
+		"name": "Fire on Board",
+		"innerColor": [252, 3, 3],
+		"outerColor": [28, 3, 3],
+		"uniques": ["[This Unit] takes [12] damage <upon turn end>"]
+	},
+	///// ARCHAIC INFANTRY
+	{
+		"name": "Basic Training",
+		"innerColor": [143, 227, 118],
+		"outerColor": [41, 64, 34],
+		"uniques": ["[+25]% maintenance costs"],
+		"unitTypes": ["Archaic Infantry","Infantry","Archaic Cavalry","Light Cavalry","Heavy Cavalry","Camel","Elephant","Armored","Siege","Machinegun"]
+	},
+	{
+		"name": "Open Terrain I",
+		"prerequisites": ["Basic Training"],
+		"innerColor": [128, 154, 196],
+		"outerColor": [23, 27, 33],
+		"uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles>"],
+		"unitTypes": ["Archaic Infantry","Archaic Cavalry","Light Cavalry","Heavy Cavalry","Camel","Elephant"]
+	},
+	{
+		"name": "Open Terrain II",
+		"innerColor": [128, 154, 196],
+		"outerColor": [23, 27, 33],
+		"prerequisites": ["Open Terrain I"],
+		"uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles>"],
+		"unitTypes": ["Archaic Infantry","Archaic Cavalry","Light Cavalry","Heavy Cavalry","Camel","Elephant"]
+	},
+	{
+		"name": "Open Terrain III",
+		"innerColor": [128, 154, 196],
+		"outerColor": [23, 27, 33],
+		"prerequisites": ["Open Terrain II"],
+		"uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles>"],
+		"unitTypes": ["Archaic Infantry","Archaic Cavalry","Light Cavalry","Heavy Cavalry","Camel","Elephant"]
+	},
+	{
+		"name": "Rough Terrain I",
+		"prerequisites": ["Basic Training"],
+		"innerColor": [128, 154, 196],
+		"outerColor": [23, 27, 33],
+		"uniques": ["[+15]% Strength <when fighting in [Rough terrain] tiles>"],
+		"unitTypes": ["Archaic Infantry","Archaic Cavalry","Light Cavalry","Heavy Cavalry","Camel","Elephant"]
+	},
+	{
+		"name": "Rough Terrain II",
+		"innerColor": [128, 154, 196],
+		"outerColor": [23, 27, 33],
+		"prerequisites": ["Rough Terrain I"],
+		"uniques": ["[+15]% Strength <when fighting in [Rough terrain] tiles>"],
+		"unitTypes": ["Archaic Infantry","Archaic Cavalry","Light Cavalry","Heavy Cavalry","Camel","Elephant"]
+	},
+	{
+		"name": "Rough Terrain III",
+		"innerColor": [128, 154, 196],
+		"outerColor": [23, 27, 33],
+		"prerequisites": ["Rough Terrain II"],
+		"uniques": ["[+15]% Strength <when fighting in [Rough terrain] tiles>"],
+		"unitTypes": ["Archaic Infantry","Archaic Cavalry","Light Cavalry","Heavy Cavalry","Camel","Elephant"]
+	},
+	{
+		"name": "Experience I",
+		"prerequisites": ["Basic Training"],
+		"innerColor": [128, 154, 196],
+		"outerColor": [23, 27, 33],
+		"uniques": ["[+25]% XP gained from combat"],
+		"unitTypes": ["Archaic Infantry"]
+	},
+	{
+		"name": "Experience II",
+		"innerColor": [128, 154, 196],
+		"outerColor": [23, 27, 33],
+		"prerequisites": ["Experience I"],
+		"uniques": ["[+25]% XP gained from combat"],
+		"unitTypes": ["Archaic Infantry"]
+	},
+	{
+		"name": "Experience III",
+		"innerColor": [128, 154, 196],
+		"outerColor": [23, 27, 33],
+		"prerequisites": ["Experience II"],
+		"uniques": ["[+25]% XP gained from combat"],
+		"unitTypes": ["Archaic Infantry"]
+	},
+	{
+		"name": "Advanced Training",
+		"innerColor": [59, 77, 245],
+		"outerColor": [15, 19, 54],
+		"uniques": ["[+50]% maintenance costs"],
+		"unitTypes": ["Archaic Infantry","Infantry","Archaic Cavalry","Light Cavalry","Heavy Cavalry","Camel","Elephant","Armored","Siege","Machinegun"]
+	},
+	{
+		"name": "Tropical Warfare",
+		"prerequisites": ["Advanced Training"],
+		"innerColor": [128, 154, 196],
+		"outerColor": [23, 27, 33],
+		"uniques": ["[+25]% Strength <when fighting in [Tropical] tiles>","[+25]% Strength <when fighting in [Jungle] tiles>","[+25]% Strength <when fighting in [Savanna Woodland] tiles>"],
+		"unitTypes": ["Archaic Infantry"]
+	},
+	{
+		"name": "River Warfare",
+		"innerColor": [128, 154, 196],
+		"outerColor": [23, 27, 33],
+		"prerequisites": ["Advanced Training"],
+		"uniques": ["[+35]% Strength <when fighting in [River] tiles>"],
+		"unitTypes": ["Archaic Infantry"]
+	},
+	{
+		"name": "Siege Warfare",
+		"innerColor": [128, 154, 196],
+		"outerColor": [23, 27, 33],
+		"prerequisites": ["Advanced Training"],
+		"uniques": ["[+35]% Strength <vs cities> <when attacking>"],
+		"unitTypes": ["Archaic Infantry"]
+	},
+	{
+		"name": "Elite Training",
+		"innerColor": [237, 52, 43],
+		"outerColor": [51, 13, 11],
+		"uniques": ["[+100]% maintenance costs"],
+		"unitTypes": ["Archaic Infantry","Infantry","Archaic Cavalry","Light Cavalry","Heavy Cavalry","Camel","Elephant","Armored","Siege","Machinegun"]
+	},
+	{
+		"name": "Bull Horn Formation",
+		"prerequisites": ["Elite Training"],
+		"innerColor": [128, 154, 196],
+		"outerColor": [23, 27, 33],
+		"uniques": ["[+1] Movement","[1] additional attacks per turn","[+15]% Strength <vs [Wounded] units>"],
+		"unitTypes": ["Archaic Infantry"]
+	},
+	{
+		"name": "Turtle Formation",
+		"innerColor": [128, 154, 196],
+		"outerColor": [23, 27, 33],
+		"prerequisites": ["Elite Training"],
+		"uniques": ["[+40]% Strength <when defending>"],
+		"unitTypes": ["Archaic Infantry"]
+	},
+	{
+		"name": "Experience IV",
+		"innerColor": [128, 154, 196],
+		"outerColor": [23, 27, 33],
+		"prerequisites": ["Elite Training"],
+		"uniques": ["[+75]% XP gained from combat"],
+		"unitTypes": ["Archaic Infantry"]
+	},
+	///// INFANTRY
+	{
+		"name": "Invader I",
+		"prerequisites": ["Basic Training"],
+		"innerColor": [128, 154, 196],
+		"outerColor": [23, 27, 33],
+		"uniques": ["[+25]% Strength <when fighting in [Enemy] tiles>"],
+		"unitTypes": ["Infantry"]
+	},
+	{
+		"name": "Invader II",
+		"innerColor": [128, 154, 196],
+		"outerColor": [23, 27, 33],
+		"prerequisites": ["Invader I"],
+		"uniques": ["[+25]% Strength <when fighting in [Enemy] tiles>"],
+		"unitTypes": ["Infantry"]
+	},
+	{
+		"name": "Invader III",
+		"innerColor": [128, 154, 196],
+		"outerColor": [23, 27, 33],
+		"prerequisites": ["Invader II"],
+		"uniques": ["[+15]% Strength <when fighting in [Enemy] tiles>"],
+		"unitTypes": ["Infantry"]
+	},
+	{
+		"name": "Defender I",
+		"prerequisites": ["Basic Training"],
+		"innerColor": [128, 154, 196],
+		"outerColor": [23, 27, 33],
+		"uniques": ["[+25]% Strength <when defending>"],
+		"unitTypes": ["Infantry"]
+	},
+	{
+		"name": "Defender II",
+		"innerColor": [128, 154, 196],
+		"outerColor": [23, 27, 33],
+		"prerequisites": ["Defender I"],
+		"uniques": ["[+25]% Strength <when defending>"],
+		"unitTypes": ["Infantry"]
+	},
+	{
+		"name": "Defender III",
+		"innerColor": [128, 154, 196],
+		"outerColor": [23, 27, 33],
+		"prerequisites": ["Defender II"],
+		"uniques": ["[+25]% Strength <when defending>"],
+		"unitTypes": ["Infantry"]
+	},
+	{
+		"name": "Flanking I",
+		"prerequisites": ["Basic Training"],
+		"innerColor": [128, 154, 196],
+		"outerColor": [23, 27, 33],
+		"uniques": ["[+20]% to Flank Attack bonuses"],
+		"unitTypes": ["Infantry","Siege"]
+	},
+	{
+		"name": "Flanking II",
+		"innerColor": [128, 154, 196],
+		"outerColor": [23, 27, 33],
+		"prerequisites": ["Flanking I"],
+		"uniques": ["[+20]% to Flank Attack bonuses"],
+		"unitTypes": ["Infantry","Siege"]
+	},
+	{
+		"name": "Flanking III",
+		"innerColor": [128, 154, 196],
+		"outerColor": [23, 27, 33],
+		"prerequisites": ["Flanking II"],
+		"uniques": ["[+35]% to Flank Attack bonuses"],
+		"unitTypes": ["Infantry","Siege"]
+	},
+	{
+		"name": "Entrenched I",
+		"prerequisites": ["Advanced Training"],
+		"innerColor": [128, 154, 196],
+		"outerColor": [23, 27, 33],
+		"uniques": ["[+25]% Strength <when fighting in [Enemy] tiles>"],
+		"unitTypes": ["Infantry"]
+	},
+	{
+		"name": "Entrenched II",
+		"innerColor": [128, 154, 196],
+		"outerColor": [23, 27, 33],
+		"prerequisites": ["Entrenched I"],
+		"uniques": ["[+25]% Strength <when fighting in [Enemy] tiles>"],
+		"unitTypes": ["Infantry"]
+	},
+	{
+		"name": "Entrenched III",
+		"innerColor": [128, 154, 196],
+		"outerColor": [23, 27, 33],
+		"prerequisites": ["Entrenched II"],
+		"uniques": ["[+15]% Strength <when fighting in [Enemy] tiles>"],
+		"unitTypes": ["Infantry"]
+	},
+	{
+		"name": "Veteran I",
+		"prerequisites": ["Advanced Training"],
+		"innerColor": [128, 154, 196],
+		"outerColor": [23, 27, 33],
+		"uniques": ["[+25]% Strength <when defending>"],
+		"unitTypes": ["Infantry","Machinegun"]
+	},
+	{
+		"name": "Veteran II",
+		"innerColor": [128, 154, 196],
+		"outerColor": [23, 27, 33],
+		"prerequisites": ["Veteran I"],
+		"uniques": ["[+25]% Strength <when defending>"],
+		"unitTypes": ["Infantry","Machinegun"]
+	},
+	{
+		"name": "Veteran III",
+		"innerColor": [128, 154, 196],
+		"outerColor": [23, 27, 33],
+		"prerequisites": ["Veteran II"],
+		"uniques": ["[+25]% Strength <when defending>"],
+		"unitTypes": ["Infantry","Machinegun"]
+	},
+	{
+		"name": "Siege I",
+		"prerequisites": ["Advanced Training"],
+		"innerColor": [128, 154, 196],
+		"outerColor": [23, 27, 33],
+		"uniques": ["[+20]% to Flank Attack bonuses"],
+		"unitTypes": ["Infantry"]
+	},
+	{
+		"name": "Siege II",
+		"innerColor": [128, 154, 196],
+		"outerColor": [23, 27, 33],
+		"prerequisites": ["Siege I"],
+		"uniques": ["[+20]% to Flank Attack bonuses"],
+		"unitTypes": ["Infantry"]
+	},
+	{
+		"name": "Siege III",
+		"innerColor": [128, 154, 196],
+		"outerColor": [23, 27, 33],
+		"prerequisites": ["Siege II"],
+		"uniques": ["[+35]% to Flank Attack bonuses"],
+		"unitTypes": ["Infantry"]
+	},
+	{
+		"name": "National Corps",
+		"prerequisites": ["Elite Training"],
+		"innerColor": [128, 154, 196],
+		"outerColor": [23, 27, 33],
+		"uniques": [
+	                "[+1] Movement","[1] additional attacks per turn","[+25]% Strength <vs [Wounded] units>"],
+		"unitTypes": ["Infantry"]
+	},
+	{
+		"name": "Imperial Force",
+		"innerColor": [128, 154, 196],
+		"outerColor": [23, 27, 33],
+		"prerequisites": ["Elite Training"],
+		"uniques": [
+	                "[+1] Movement","[+35]% Strength <vs [Wounded] units>"],
+		"unitTypes": ["Infantry"]
+	},
+	{
+		"name": "United Partisans",
+		"innerColor": [128, 154, 196],
+		"outerColor": [23, 27, 33],
+		"prerequisites": ["Elite Training"],
+		"uniques": [
+	                "[+25]% Strength <vs [Armored] units>"],
+		"unitTypes": ["Infantry"]
+	},
+	//////////// CAVALRY
+    {
+		"name": "Gallop I",
+		"prerequisites": ["Basic Training"],
+		"innerColor": [128, 154, 196],
+		"outerColor": [23, 27, 33],
+		"uniques": ["[+35]% XP gained from combat"],
+		"unitTypes": ["Archaic Cavalry","Light Cavalry","Heavy Cavalry","Camel","Elephant"]
+	},
+	{
+		"name": "Gallop II",
+		"innerColor": [128, 154, 196],
+		"outerColor": [23, 27, 33],
+		"prerequisites": ["Gallop I"],
+		"uniques": ["[+35]% XP gained from combat"],
+		"unitTypes": ["Archaic Cavalry","Light Cavalry","Heavy Cavalry","Camel","Elephant"]
+	},
+	{
+		"name": "Gallop III",
+		"innerColor": [128, 154, 196],
+		"outerColor": [23, 27, 33],
+		"prerequisites": ["Gallop II"],
+		"uniques": ["[+35]% XP gained from combat"],
+		"unitTypes": ["Archaic Cavalry","Light Cavalry","Heavy Cavalry","Camel","Elephant"]
+	},
+	{
+		"name": "City Protector",
+		"prerequisites": ["Advanced Training"],
+		"innerColor": [128, 154, 196],
+		"outerColor": [23, 27, 33],
+		"uniques": ["[+55]% Strength <when fighting in [Friendly] tiles>"],
+		"unitTypes": ["Archaic Cavalry","Light Cavalry","Heavy Cavalry","Camel","Elephant"]
+	},
+	{
+		"name": "Anti Infantry I",
+		"innerColor": [128, 154, 196],
+		"outerColor": [23, 27, 33],
+		"prerequisites": ["Advanced Training"],
+		"uniques": ["[+25]% Strength <vs [Archaic Infantry] units>"],
+		"unitTypes": ["Archaic Cavalry","Light Cavalry","Heavy Cavalry","Camel","Elephant"]
+	},
+	{
+		"name": "Anti Infantry II",
+		"innerColor": [128, 154, 196],
+		"outerColor": [23, 27, 33],
+		"prerequisites": ["Elite Training"],
+		"uniques": ["[+15]% Strength <vs [Archaic Infantry] units>","[+15]% Strength <vs [Infantry] units>"],
+		"unitTypes": ["Archaic Cavalry","Light Cavalry","Heavy Cavalry","Camel","Elephant"]
+	},
+	{
+		"name": "Anti Infantry III",
+		"innerColor": [128, 154, 196],
+		"outerColor": [23, 27, 33],
+		"prerequisites": ["Anti Infantry II"],
+		"uniques": ["[+35]% Strength <vs [Infantry] units>"],
+		"unitTypes": ["Archaic Cavalry","Light Cavalry","Heavy Cavalry","Camel","Elephant"]
+	},
+	///// SIEGE
+	{
+		"name": "Anti Navy I",
+		"innerColor": [128, 154, 196],
+		"outerColor": [23, 27, 33],
+		"prerequisites": ["Advanced Training"],
+		"uniques": ["[+25]% Strength <vs [Water] units>"],
+		"unitTypes": ["Siege"]
+	},
+	{
+		"name": "Anti Navy II",
+		"innerColor": [128, 154, 196],
+		"outerColor": [23, 27, 33],
+		"prerequisites": ["Anti Navy I"],
+		"uniques": ["[+25]% Strength <vs [Water] units>"],
+		"unitTypes": ["Siege"]
+	},
+	{
+		"name": "Anti Navy III",
+		"innerColor": [128, 154, 196],
+		"outerColor": [23, 27, 33],
+		"prerequisites": ["Anti Navy II"],
+		"uniques": ["[+25]% Strength <vs [Water] units>"],
+		"unitTypes": ["Siege"]
+	},
+	{
+		"name": "Anti Siege I",
+		"innerColor": [128, 154, 196],
+		"outerColor": [23, 27, 33],
+		"prerequisites": ["Advanced Training"],
+		"uniques": ["[+25]% Strength <vs [Siege] units>"],
+		"unitTypes": ["Siege"]
+	},
+	{
+		"name": "Anti Siege II",
+		"innerColor": [128, 154, 196],
+		"outerColor": [23, 27, 33],
+		"prerequisites": ["Anti Siege I"],
+		"uniques": ["[+25]% Strength <vs [Siege] units>"],
+		"unitTypes": ["Siege"]
+	},
+	{
+		"name": "Anti Siege III",
+		"innerColor": [128, 154, 196],
+		"outerColor": [23, 27, 33],
+		"prerequisites": ["Anti Siege II"],
+		"uniques": ["[+25]% Strength <vs [Siege] units>"],
+		"unitTypes": ["Siege"]
+	},
+	{
+		"name": "Double Attack",
+		"innerColor": [128, 154, 196],
+		"outerColor": [23, 27, 33],
+		"prerequisites": ["Elite Training"],
+		"uniques": ["[1] additional attacks per turn"],
+		"unitTypes": ["Siege"]
+	},
+	{
+		"name": "Besiege",
+		"innerColor": [128, 154, 196],
+		"outerColor": [23, 27, 33],
+		"prerequisites": ["Elite Training"],
+		"uniques": ["[+35]% Strength <vs cities>"],
+		"unitTypes": ["Siege"]
+	},
+	{
+		"name": "Mobility",
+		"innerColor": [128, 154, 196],
+		"outerColor": [23, 27, 33],
+		"prerequisites": ["Elite Training"],
+		"uniques": ["[+1] Movement"],
+		"unitTypes": ["Siege"]
+	},
+	///// Armored
+	{
+		"name": "Breakthrough I",
+		"prerequisites": ["Basic Training"],
+		"innerColor": [128, 154, 196],
+		"outerColor": [23, 27, 33],
+		"uniques": ["[+25]% Strength <vs [Infantry] units>","[+25]% Strength <vs [Wounded] units>"],
+		"unitTypes": ["Armored","Machinegun"]
+	},
+	{
+		"name": "Breakthrough II",
+		"innerColor": [128, 154, 196],
+		"outerColor": [23, 27, 33],
+		"prerequisites": ["Breakthrough I"],
+		"uniques": ["[+1] Movement","[+25]% Strength <vs [Wounded] units>"],
+		"unitTypes": ["Armored","Machinegun"]
+	},
+	{
+		"name": "Breakthrough III",
+		"innerColor": [128, 154, 196],
+		"outerColor": [23, 27, 33],
+		"prerequisites": ["Breakthrough II"],
+		"uniques": ["[+1] Movement","[+30]% Strength <vs [Wounded] units>"],
+		"unitTypes": ["Armored","Machinegun"]
+	},
+	{
+		"name": "Blitzkrieg",
+		"innerColor": [128, 154, 196],
+		"outerColor": [23, 27, 33],
+		"prerequisites": ["Elite Training"],
+		"uniques": ["[+1] Movement","[+30]% Strength <vs [Wounded] units>"],
+		"unitTypes": ["Armored","Machinegun"]
+	},
+	{
+		"name": "Tundra Titan",
+		"innerColor": [128, 154, 196],
+		"outerColor": [23, 27, 33],
+		"prerequisites": ["Elite Training"],
+		"uniques": ["[+1] Movement","[+60]% Strength <when fighting in [Tundra] tiles>","[+60]% Strength <when fighting in [Snow] tiles>"],
+		"unitTypes": ["Armored"]
+	},
+	{
+		"name": "Desert Fox",
+		"innerColor": [128, 154, 196],
+		"outerColor": [23, 27, 33],
+		"prerequisites": ["Elite Training"],
+		"uniques": ["[+1] Movement","[+60]% Strength <when fighting in [Desert] tiles>"],
+		"unitTypes": ["Armored"]
+	}, 
+	{
+		"name": "Advanced Turrets",
+		"innerColor": [128, 154, 196],
+		"outerColor": [23, 27, 33],
+		"prerequisites": ["Advanced Training"],
+		"uniques": ["[+35]% Strength <vs [Ranged] units> <when defending>"],
+		"unitTypes": ["Armored"]
+	},
+	{
+		"name": "Reinforced Armor Plating",
+		"innerColor": [128, 154, 196],
+		"outerColor": [23, 27, 33],
+		"prerequisites": ["Advanced Training"],
+		"uniques": ["[+25]% Strength <vs [Infantry] units>"],
+		"unitTypes": ["Armored"]
+	},
+	{
+		"name": "Improved Suspension",
+		"innerColor": [128, 154, 196],
+		"outerColor": [23, 27, 33],
+		"prerequisites": ["Advanced Training"],
+		"uniques": ["Double movement in [Jungle]","Double movement in [Forest]","Double movement in [Marsh]"],
+		"unitTypes": ["Armored"]
+	},
+	{
+		"name": "Reactive Armor",
+		"innerColor": [128, 154, 196],
+		"outerColor": [23, 27, 33],
+		"prerequisites": ["Elite Training"],
+		"uniques": ["[+25]% Strength <vs [Artillery] units>"],
+		"unitTypes": ["Armored"]
+	},
+	{
+		"name": "Infrared Optics",
+		"innerColor": [128, 154, 196],
+		"outerColor": [23, 27, 33],
+		"prerequisites": ["Elite Training"],
+		"uniques": ["[+1] Sight"],
+		"unitTypes": ["Armored"]
+	},
+	{
+		"name": "Rapid Reload Mechanism",
+		"innerColor": [128, 154, 196],
+		"outerColor": [23, 27, 33],
+		"prerequisites": ["Elite Training"],
+		"uniques": ["[1] additional attacks per turn"],
+		"unitTypes": ["Armored","Machinegun"]
+	},
+	{
+		"name": "Experimental Shells",
+		"innerColor": [128, 154, 196],
+		"outerColor": [23, 27, 33],
+		"prerequisites": ["Elite Training"],
+		"uniques": ["[+15]% Strength <vs cities>"],
+		"unitTypes": ["Armored","Machinegun"]
+	},
+    ///// ARCHAIC NAVY
+
+	{
+		"name": "Normal Admiral",
+		"innerColor": [224, 255, 110],
+		"outerColor": [32, 36, 16],
+		"uniques": ["[+25]% maintenance costs"],
+		"unitTypes": ["Archaic Navy","War Navy","Raider Navy","Submarine","Aircraft Carrier"]
+	},
+	{
+		"name": "Coastal Expertice I",
+		"innerColor": [255, 255, 255],
+		"outerColor": [0, 0, 128],
+		"prerequisites": ["Normal Admiral"],
+		"uniques": ["[+25]% Strength <when fighting in [Coast] tiles>"],
+		"unitTypes": ["Archaic Navy","War Navy","Raider Navy","Submarine","Aircraft Carrier"]
+	},
+	{
+		"name": "Coastal Expertice II",
+		"innerColor": [255, 255, 255],
+		"outerColor": [0, 0, 128],
+		"prerequisites": ["Coastal Expertice I"],
+		"uniques": ["[+25]% Strength <when fighting in [Coast] tiles>"],
+		"unitTypes": ["Archaic Navy","War Navy","Raider Navy","Submarine","Aircraft Carrier"]
+	},
+	{
+		"name": "Coastal Expertice III",
+		"innerColor": [255, 255, 255],
+		"outerColor": [0, 0, 128],
+		"prerequisites": ["Coastal Expertice II"],
+		"uniques": ["[+25]% Strength <when fighting in [Coast] tiles>"],
+		"unitTypes": ["Archaic Navy","War Navy","Raider Navy","Submarine","Aircraft Carrier"]
+	},
+    {
+		"name": "Fishing Boats",
+		"innerColor": [255, 255, 255],
+		"outerColor": [0, 0, 128],
+		"prerequisites": ["Normal Admiral"],
+		"uniques": ["Can build [Fish Trap] improvements on tiles","Can build [Offshore Platform] improvements on tiles"],
+		"unitTypes": ["Archaic Navy","War Navy","Raider Navy"]
+	},
+    {
+		"name": "Anti Sea Animals",
+		"innerColor": [255, 255, 255],
+		"outerColor": [0, 0, 128],
+		"prerequisites": ["Normal Admiral"],
+		"uniques": ["[+75]% Strength <vs [Sea Animal] units>"],
+		"unitTypes": ["Archaic Navy","War Navy","Raider Navy"]
+	},
+    {
+		"name": "Elite Admiral",
+		"innerColor": [247, 69, 185],
+		"outerColor": [56, 12, 41],
+		"uniques": ["[+50]% maintenance costs"],
+		"unitTypes": ["War Navy","Raider Navy","Submarine","Aircraft Carrier"]
+	},
+	{
+		"name": "Ocean Expertice I",
+		"innerColor": [255, 255, 255],
+		"outerColor": [0, 0, 128],
+		"prerequisites": ["Normal Admiral"],
+		"uniques": ["[+25]% Strength <when fighting in [Ocean] tiles>"],
+		"unitTypes": ["War Navy","Raider Navy","Submarine","Aircraft Carrier"]
+	},
+	{
+		"name": "Ocean Expertice II",
+		"innerColor": [255, 255, 255],
+		"outerColor": [0, 0, 128],
+		"prerequisites": ["Ocean Expertice I"],
+		"uniques": ["[+25]% Strength <when fighting in [Ocean] tiles>"],
+		"unitTypes": ["War Navy","Raider Navy","Submarine","Aircraft Carrier"]
+	},
+	{
+		"name": "Ocean Expertice III",
+		"innerColor": [255, 255, 255],
+		"outerColor": [0, 0, 128],
+		"prerequisites": ["Coastal Expertice II"],
+		"uniques": ["[+25]% Strength <when fighting in [Ocean] tiles>"],
+		"unitTypes": ["War Navy","Raider Navy","Submarine","Aircraft Carrier"]
+	},
+    {
+		"name": "Piracy",
+		"innerColor": [255, 255, 255],
+		"outerColor": [0, 0, 128],
+		"prerequisites": ["Elite Admiral"],
+		"uniques": ["[+20]% Strength <vs cities>", "Earn [60]% of the damage done to [City] units as [Gold]"],
+		"unitTypes": ["War Navy","Raider Navy","Submarine","Aircraft Carrier"]
+	},
+	{
+		"name": "Sea Support",
+		"innerColor": [255, 255, 255],
+		"outerColor": [0, 0, 128],
+		"prerequisites": ["Elite Admiral"],
+		"uniques": ["[+5]% Strength bonus for [Land] units within [2] tiles"],
+		"unitTypes": ["War Navy","Raider Navy","Submarine","Aircraft Carrier"]
+	},
+    {
+		"name": "Coastal Expertice IV",
+		"innerColor": [255, 255, 255],
+		"outerColor": [0, 0, 128],
+		"prerequisites": ["Elite Admiral"],
+		"uniques": ["[+25]% Strength <when fighting in [Coast] tiles>"],
+		"unitTypes": ["War Navy","Raider Navy","Submarine","Aircraft Carrier"]
+	},
+	{
+		"name": "Ocean Expertice IV",
+		"innerColor": [255, 255, 255],
+		"outerColor": [0, 0, 128],
+		"prerequisites": ["Elite Admiral"],
+		"uniques": ["[+25]% Strength <when fighting in [Ocean] tiles>"],
+		"unitTypes": ["War Navy","Raider Navy","Submarine","Aircraft Carrier"]
+	},
+	{
+		"name": "Flight Deck I",
+		"innerColor": [255, 255, 255],
+		"outerColor": [0, 0, 128],
+		"prerequisites": ["Elite Admiral"],
+		"uniques": ["Can carry [1] extra [Aircraft] units"],
+		"unitTypes": ["Aircraft Carrier"]
+	},
+	{
+		"name": "Flight Deck II",
+		"innerColor": [255, 255, 255],
+		"outerColor": [0, 0, 128],
+		"prerequisites": ["Flight Deck I"],
+		"uniques": ["Can carry [1] extra [Aircraft] units"],
+		"unitTypes": ["Aircraft Carrier"]
+	},
+	{
+		"name": "Flight Deck III",
+		"innerColor": [255, 255, 255],
+		"outerColor": [0, 0, 128],
+		"prerequisites": ["Flight Deck II"],
+		"uniques": ["Can carry [1] extra [Aircraft] units"],
+		"unitTypes": ["Aircraft Carrier"]
+	},
+	////////// MACHINEGUN
+	{
+		"name": "Burst I",
+		"innerColor": [128, 154, 196],
+		"outerColor": [23, 27, 33],
+		"prerequisites": ["Basic Training"],
+		"uniques": ["[+20]% Strength <vs [Water] units>"],
+		"unitTypes": ["Machinegun"]
+	},
+	{
+		"name": "Burst II",
+		"innerColor": [128, 154, 196],
+		"outerColor": [23, 27, 33],
+		"prerequisites": ["Burst I"],
+		"uniques": ["[+20]% Strength <vs [Water] units>"],
+		"unitTypes": ["Machinegun"]
+	},
+	{
+		"name": "Burst III",
+		"innerColor": [128, 154, 196],
+		"outerColor": [23, 27, 33],
+		"prerequisites": ["Burst II"],
+		"uniques": ["[+20]% Strength <vs [Water] units>"],
+		"unitTypes": ["Machinegun"]
+	},
+    ////////// AIR
+	{
+		"name": "Normal Pilot",
+		"innerColor": [33, 33, 24],
+		"outerColor": [240, 245, 166],
+		"uniques": ["[+25]% maintenance costs"],
+		"unitTypes": ["Helicopter","Fighter","Bomber","Drone"]
+	},
+	{
+		"name": "Logistics I",
+		"innerColor": [33, 33, 33],
+		"outerColor": [255, 255, 255],
+		"prerequisites": ["Normal Pilot"],
+		"uniques": ["[+20]% Strength <vs [Water] units>"],
+		"unitTypes": ["Helicopter","Fighter","Bomber","Drone"]
+	},
+	{
+		"name": "Logistics II",
+		"innerColor": [33, 33, 33],
+		"outerColor": [255, 255, 255],
+		"prerequisites": ["Logistics I"],
+		"uniques": ["[+20]% Strength <vs [Water] units>"],
+		"unitTypes": ["Helicopter","Fighter","Bomber","Drone"]
+	},
+	{
+		"name": "Logistics III",
+		"innerColor": [33, 33, 33],
+		"outerColor": [255, 255, 255],
+		"prerequisites": ["Logistics II"],
+		"uniques": ["[+20]% Strength <vs [Water] units>"],
+		"unitTypes": ["Helicopter","Fighter","Bomber","Drone"]
+	},
+	{
+		"name": "Ambush I",
+		"innerColor": [33, 33, 33],
+		"outerColor": [255, 255, 255],
+		"prerequisites": ["Normal Pilot"],
+		"uniques": ["[+20]% Strength <vs [Land] units>"],
+		"unitTypes": ["Helicopter","Fighter","Bomber","Drone"]
+	},
+	{
+		"name": "Ambush II",
+		"innerColor": [33, 33, 33],
+		"outerColor": [255, 255, 255],
+		"prerequisites": ["Ambush I"],
+		"uniques": ["[+20]% Strength <vs [Land] units>"],
+		"unitTypes": ["Helicopter","Fighter","Bomber","Drone"]
+	},
+	{
+		"name": "Ambush III",
+		"innerColor": [33, 33, 33],
+		"outerColor": [255, 255, 255],
+		"prerequisites": ["Ambush II"],
+		"uniques": ["[+20]% Strength <vs [Land] units>"],
+		"unitTypes": ["Helicopter","Fighter","Bomber","Drone"]
+	},
+	{
+		"name": "Advanced Pilot",
+		"innerColor": [28, 41, 51],
+		"outerColor": [145, 209, 255],
+		"uniques": ["[+50]% maintenance costs"],
+		"unitTypes": ["Helicopter","Fighter","Bomber","Drone"]
+	},
+	{
+		"name": "Bombardment I",
+		"innerColor": [33, 33, 33],
+		"outerColor": [255, 255, 255],
+		"prerequisites": ["Advanced Pilot"],
+		"uniques": ["[+20]% Strength <vs cities>"],
+		"unitTypes": ["Helicopter","Fighter","Bomber","Drone"]
+	},
+	{
+		"name": "Bombardment II",
+		"innerColor": [33, 33, 33],
+		"outerColor": [255, 255, 255],
+		"prerequisites": ["Bombardment I"],
+		"uniques": ["[+20]% Strength <vs cities>"],
+		"unitTypes": ["Helicopter","Fighter","Bomber","Drone"]
+	},
+	{
+		"name": "Bombardment III",
+		"innerColor": [33, 33, 33],
+		"outerColor": [255, 255, 255],
+		"prerequisites": ["Bombardment II"],
+		"uniques": ["[+20]% Strength <vs cities>"],
+		"unitTypes": ["Helicopter","Fighter","Bomber","Drone"]
+	},
+	{
+		"name": "Air Repair",
+		"innerColor": [33, 33, 33],
+		"outerColor": [255, 255, 255],
+		"prerequisites": ["Advanced Pilot"],
+		"uniques": ["Unit will heal every turn, even if it performs an action"],
+		"unitTypes": ["Helicopter","Fighter","Bomber","Drone"]
+	},
+	{
+		"name": "Operational Range",
+		"innerColor": [33, 33, 33],
+		"outerColor": [255, 255, 255],
+		"prerequisites": ["Advanced Pilot"],
+		"uniques": ["[+2] Range"],
+		"unitTypes": ["Helicopter","Fighter","Bomber","Drone"]
+	},
+
+	{
+		"name": "Rejuvenation", // only for Units that have been close to Natural Wonder Fountain of Youth
+		"uniques": ["All healing effects doubled"]
+	},
+	{
+		"name": "Ignore terrain cost",
+		"uniques": ["Ignores terrain cost"]
+	},
+	{	// For barbarian water units
+		"name": "Unable to pillage tiles",
+		"uniques": ["Unable to pillage tiles"]
+	}
+]
