@@ -17,14 +17,9 @@
         "dealDuration": 15,
         "startYear": -12000,
         "turns": [
-            {"yearsPerTurn": 480, "untilTurn":  50},
-            {"yearsPerTurn": 480, "untilTurn":  80},
-            {"yearsPerTurn": 480, "untilTurn": 100},
-            {"yearsPerTurn": 480, "untilTurn": 130},
-            {"yearsPerTurn": 480, "untilTurn": 155},
-            {"yearsPerTurn": 480, "untilTurn": 195},
-            {"yearsPerTurn": 480, "untilTurn": 260},
-            {"yearsPerTurn": 480, "untilTurn": 33000}
+            {"yearsPerTurn":  90, "untilTurn": 150},
+            {"yearsPerTurn":  48, "untilTurn": 205},
+            {"yearsPerTurn":  24, "untilTurn": 5000000000000000}
         ]
     },
     {
@@ -45,14 +40,9 @@
         "dealDuration": 25,
         "startYear": -12000,
         "turns": [
-            {"yearsPerTurn": 240, "untilTurn":  50},
-            {"yearsPerTurn": 240, "untilTurn":  80},
-            {"yearsPerTurn": 240, "untilTurn": 100},
-            {"yearsPerTurn": 240, "untilTurn": 130},
-            {"yearsPerTurn": 240, "untilTurn": 155},
-            {"yearsPerTurn": 240, "untilTurn": 195},
-            {"yearsPerTurn": 240, "untilTurn": 260},
-            {"yearsPerTurn": 240, "untilTurn": 33000}
+            {"yearsPerTurn":  75, "untilTurn": 150},
+            {"yearsPerTurn":  38, "untilTurn": 205},
+            {"yearsPerTurn":  17, "untilTurn": 5000000000000000}
         ]
     },
     {
@@ -71,16 +61,11 @@
         "religiousPressureAdjacentCity": 9,
         "peaceDealDuration": 10,
         "dealDuration": 45,
-        "startYear": -12000,
+        "startYear": -10000,
         "turns": [
-            {"yearsPerTurn": 120, "untilTurn":  50},
-            {"yearsPerTurn": 120, "untilTurn":  80},
-            {"yearsPerTurn": 120, "untilTurn": 100},
-            {"yearsPerTurn": 120, "untilTurn": 130},
-            {"yearsPerTurn": 120, "untilTurn": 155},
-            {"yearsPerTurn": 120, "untilTurn": 195},
-            {"yearsPerTurn": 120, "untilTurn": 260},
-            {"yearsPerTurn": 120, "untilTurn": 33000}
+            {"yearsPerTurn":  60, "untilTurn": 150},
+            {"yearsPerTurn":  28, "untilTurn": 205},
+            {"yearsPerTurn":  9, "untilTurn": 5000000000000000}
         ]
     },
     {
@@ -101,14 +86,9 @@
         "dealDuration": 85,
         "startYear": -12000,
         "turns": [
-            {"yearsPerTurn": 60, "untilTurn":  50},
-            {"yearsPerTurn": 60, "untilTurn":  80},
-            {"yearsPerTurn": 60, "untilTurn": 100},
-            {"yearsPerTurn": 60, "untilTurn": 130},
-            {"yearsPerTurn": 60, "untilTurn": 155},
-            {"yearsPerTurn": 60, "untilTurn": 195},
-            {"yearsPerTurn": 60, "untilTurn": 260},
-            {"yearsPerTurn": 60, "untilTurn": 33000}
+            {"yearsPerTurn":  50, "untilTurn": 150},
+            {"yearsPerTurn":  18, "untilTurn": 205},
+            {"yearsPerTurn":  5, "untilTurn": 5000000000000000}
         ]
     },
     {
@@ -129,14 +109,9 @@
         "dealDuration": 160,
         "startYear": -12000,
         "turns": [
-            {"yearsPerTurn": 30, "untilTurn":  50},
-            {"yearsPerTurn": 30, "untilTurn":  80},
-            {"yearsPerTurn": 30, "untilTurn": 100},
-            {"yearsPerTurn": 30, "untilTurn": 130},
-            {"yearsPerTurn": 30, "untilTurn": 155},
-            {"yearsPerTurn": 30, "untilTurn": 195},
-            {"yearsPerTurn": 30, "untilTurn": 260},
-            {"yearsPerTurn": 30, "untilTurn": 33000}
+            {"yearsPerTurn":  40, "untilTurn": 150},
+            {"yearsPerTurn":  9, "untilTurn": 205},
+            {"yearsPerTurn":  2, "untilTurn": 5000000000000000}
         ]
     }
 ]

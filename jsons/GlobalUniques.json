@@ -1,8 +1,13 @@
 {
     "name": "Global uniques",
     "uniques": [
-        ///// Building Rates
+        ///// Balance
+        "[100] Unit Supply",
+        "[0] Unit Supply per [1] population [in all cities]",
+        "[-65]% Production when constructing [Wonder] buildings [in all cities]",
+        "[-50]% Unhappiness from [Population] [in all cities]",
 
+        ///// Building Rates
         "Can build [all] improvements at a [+15]% rate <upon entering a new era>",
 
         ///// Gold 
@@ -17,15 +22,16 @@
 
         ////// Dark Age
         "Gain a free [Dark Age] [in capital] <starting from the [Medieval Era]>",
+
         ////// Happiness
         "[+2 Happiness] [in all cities] <upon entering a new era>",
+
         ////// Diplo Stuff
         "Enables Research agreements <starting from the [Enlightenment Era]>",
         "Enables Open Borders agreements <starting from the [Renaissance Era]>",
         "Enables Defensive Pacts <starting from the [Medieval Era]>",
 
         ////// Plague
-
         "May buy [Doctor] units for [100] [Gold] [in all cities] at an increasing price ([20]) <starting from the [Medieval Era]> <before discovering [Sanitation]> <for [Human player] Civilizations>", 
 
         "Instantly provides [3] [Plague] <starting from the [Medieval Era]> <before discovering [Sanitation]> <for [Human player] Civilizations>",

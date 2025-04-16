@@ -1071,13 +1071,13 @@
             "Scientific": 10
         },
         "uniques": ["Only available <before adopting [Nature Worship]>",
-            "[+25]% [Production] [in all cities]"
+            "[+5]% [Production] [in all cities]"
         ],
         "policies": [
             {
                 "name": "Neolithic Deforestation",
                 "uniques": [
-                    "[-50]% Yield from every [Forest]","[-50]% Yield from every [Jungle]","[+20]% [Production] [in all cities]"
+                    "[-50]% Yield from every [Forest]","[-50]% Yield from every [Jungle]","[+5]% [Production] [in all cities]"
                 ],
                 "row": 1,
                 "column": 1
@@ -1101,7 +1101,7 @@
             {
                 "name": "Domination of Nature Complete",
                 "uniques": [
-                    "[+25]% [Culture] [in all cities]","[+15]% [Production] [in all cities]"
+                    "[+15]% [Culture] [in all cities]","[+10]% [Production] [in all cities]"
                 ]
             }
         ]

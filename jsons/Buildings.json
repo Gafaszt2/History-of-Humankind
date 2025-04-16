@@ -3,6 +3,7 @@
 		"name": "Palace",
 		"isNationalWonder": true,
 		"production": 3,
+		"happiness": 1,
 		"science": 3,
 		"gold": 3,
 		"culture": 1,
@@ -166,9 +167,9 @@
 	{
 		"name": "Great Pyramid of Giza",
 		"isWonder":true,
-		"culture": 1,
+		"culture": 2,
 		"hurryCostModifier": 25,
-		"uniques": ["Must be next to [Desert]","[-80]% construction time for [All] improvements"],
+		"uniques": ["Must be next to [Desert]","[-30]% construction time for [All] improvements"],
 		"requiredTech": "Mining"
 	},
 	///// CLASSICAL
@@ -369,13 +370,6 @@
 		"isWonder": true,
 		"uniques": ["[+15]% [Food] [in all cities]"],
 		"requiredTech": "Engineering"
-	},
-	{
-		"name": "The Great Lighthouse",
-		"isWonder": true,
-		"uniques": ["Must be next to [Coast]", "[+1] Movement <for [{Military} {Water}] units>",
-			"[+1] Sight <for [{Military} {Water}] units>"],
-		"requiredTech": "Optics"
 	},
 	{
 		"name": "Parthenon",
