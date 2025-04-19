@@ -304,7 +304,7 @@
 			{
 				"name": "Astronomy",
 				"row": 1,
-				"uniques":["[+1] Movement <for [Water] units>"],
+				"uniques":["[+1] Movement <for [Water] units>","Enables [Embarked] units to enter ocean tiles"],
 				"prerequisites": ["Cartography"],
 				"quote": "The study of the stars and celestial bodies, enabling civilizations to expand their understanding of the universe. Astronomy unlocks advancements in navigation, encouraging exploration and strengthening maritime empires"
 			},

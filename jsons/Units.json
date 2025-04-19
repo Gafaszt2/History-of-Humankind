@@ -129,7 +129,9 @@
 },
 {
 	"name": "Chariot",
+	"upgradesTo":"Horseman",
 	"unitType": "Archaic Cavalry",
+	"obsoleteTech":"Horseback Riding",
 	"movement": 3,
 	"strength": 25,
 	"requiredTech": "Wheel",
@@ -139,6 +141,8 @@
 },
 {
 	"name": "Scout",
+	"upgradesTo":"Skirmisher",
+	"obsoleteTech":"Machinery",
 	"unitType": "Archaic Infantry",
 	"movement": 3,
 	"strength": 9,
@@ -149,6 +153,8 @@
 },
 {
 	"name": "Archer",
+	"upgradesTo":"Crossbowman",
+	"obsoleteTech":"Machinery",
 	"unitType": "Archaic Infantry",
 	"movement": 2,
 	"rangedStrength": 15,
@@ -160,6 +166,7 @@
 },
 {
 	"name": "Galley",
+	"obsoleteTech":"Optics",
 	"upgradesTo":"Quadrireme",
 	"unitType": "Archaic Navy",
 	"movement": 3,
@@ -283,6 +290,8 @@
 },
 {
 	"name": "Crossbowman",
+	"upgradesTo":"Musketeer",
+	"obsoleteTech":"Gunpowder",
 	"unitType": "Archaic Infantry",
 	"movement": 2,
 	"strength": 25,
@@ -328,6 +337,8 @@
 },
 {
 	"name": "Military Engineer",
+	"upgradesTo":"Musketeer",
+	"obsoleteTech":"Gunpowder",
 	"unitType": "Archaic Infantry",
 	"movement": 2,
 	"strength": 25,
@@ -352,6 +363,7 @@
 },
 {
 	"name": "Knight",
+	"obsoleteTech":"Flintlock",
 	"upgradesTo":"Lancer",
 	"unitType": "Heavy Cavalry",
 	"movement": 3,
@@ -828,6 +840,8 @@
 },
 {
 	"name": "Great War Machinegun",
+	"upgradesTo":"Command Machinegun",
+	"obsoleteTech":"Advanced Ballistics",
 	"unitType": "Machinegun",
 	"movement": 2,
 	"strength": 65,
@@ -842,6 +856,7 @@
 	"unitType": "Civilian",
 	"movement": 4,
 	"requiredTech": "Replaceable Parts",
+	"obsoleteTech":"Advanced Ballistics",
 	"cost": 290,
 	"uniques": ["[+2] Sight","Never appears as a Barbarian unit"],
 	"promotions":["Ignore terrain cost"],
@@ -1214,7 +1229,7 @@
 	{
 		"name": "Artist",
 		"unitType": "Civilian",
-		"uniques": [
+		"uniques": ["Empire enters a [3]-turn Golden Age <by consuming this unit>",
             "Gain [200] [Culture] <by consuming this unit>",
             "Great Person - [Culture]", "Unbuildable", "Uncapturable"],
 		"movement": 2
@@ -1223,7 +1238,7 @@
 		"name": "Doctor",
 		"unitType": "Civilian",
 		"cost":100,
-		"uniques": [
+		"uniques": ["Empire enters a [3]-turn Golden Age <by consuming this unit>",
             "Instantly consumes [5] [Plague] <by consuming this unit>",
             "Great Person - [Culture]", "Unbuildable", "Uncapturable"],
 		"movement": 2
@@ -1231,7 +1246,7 @@
 	{
 		"name": "Archaeologist",
 		"unitType": "Civilian",
-		"uniques": [
+		"uniques": ["Empire enters a [3]-turn Golden Age <by consuming this unit>",
             "Instantly provides [1] [Artifact] <by consuming this unit>",
             "Great Person - [Culture]", "Unbuildable", "Uncapturable"],
 		"cost":100,
@@ -1240,7 +1255,7 @@
 	{
 		"name": "Naturalist",
 		"unitType": "Civilian",
-		"uniques": [
+		"uniques": ["Empire enters a [3]-turn Golden Age <by consuming this unit>",
             "Instantly provides [1] [Conservation Points] <by consuming this unit>",
             "Great Person - [Culture]", "Unbuildable", "Uncapturable"],
 		"cost":100,
@@ -1249,7 +1264,7 @@
 	{
 		"name": "Writer",
 		"unitType": "Civilian",
-		"uniques": [
+		"uniques": ["Empire enters a [3]-turn Golden Age <by consuming this unit>",
             "Instantly provides [1] [Literary Work] <by consuming this unit>",
             "Great Person - [Culture]", "Unbuildable", "Uncapturable"],
 		"cost":100,
@@ -1258,7 +1273,7 @@
 	{
 		"name": "Musician",
 		"unitType": "Civilian",
-		"uniques": [
+		"uniques": ["Empire enters a [3]-turn Golden Age <by consuming this unit>",
             "Instantly provides [1] [Composition] <by consuming this unit>",
             "Great Person - [Culture]", "Unbuildable", "Uncapturable"],
 		"cost":100,
@@ -1267,14 +1282,14 @@
 	{
 		"name": "Scientist",
 		"unitType": "Civilian",
-		"uniques": ["Can hurry technology research",
+		"uniques": ["Empire enters a [8]-turn Golden Age <by consuming this unit>","Can hurry technology research",
             "Great Person - [Science]", "Unbuildable", "Uncapturable"],
 		"movement": 2
 	},
 	{
 		"name": "Merchant",
 		"unitType": "Civilian",
-		"uniques": ["Can undertake a trade mission with City-State, giving a large sum of gold and [30] Influence",
+		"uniques": ["Empire enters a [8]-turn Golden Age <by consuming this unit>","Can undertake a trade mission with City-State, giving a large sum of gold and [30] Influence",
             "Gain [400] [Gold] <by consuming this unit>",
 			"Great Person - [Gold]", "Unbuildable", "Uncapturable"],
 		"movement": 2
@@ -1282,7 +1297,7 @@
 	{
 		"name": "Football Player",
 		"unitType": "Civilian",
-		"uniques": ["Can undertake a trade mission with City-State, giving a large sum of gold and [70] Influence",
+		"uniques": ["Empire enters a [3]-turn Golden Age <by consuming this unit>","Can undertake a trade mission with City-State, giving a large sum of gold and [70] Influence",
             "Gain [200] [Gold] <by consuming this unit>",
 			"Great Person - [Gold]", "Unbuildable", "Uncapturable"],
 		"movement": 2
@@ -1290,14 +1305,14 @@
 	{
 		"name": "Builder",
 		"unitType": "Civilian",
-		"uniques": ["Can speed up construction of a building",
+		"uniques": ["Empire enters a [3]-turn Golden Age <by consuming this unit>","Can speed up construction of a building",
             "Great Person - [Production]", "Unbuildable", "Uncapturable"],
 		"movement": 2
 	},
 	{
 		"name": "General",
 		"unitType": "Civilian",
-		"uniques": [
+		"uniques": ["Empire enters a [8]-turn Golden Age <by consuming this unit>",
             "[+20]% Strength bonus for [Land] units within [2] tiles",
 			"Great Person - [War]", "Unbuildable", "Uncapturable"],
 		"movement": 2
@@ -1305,7 +1320,7 @@
 	{
 		"name": "Admiral",
 		"unitType": "Civilian",
-		"uniques": [
+		"uniques": ["Empire enters a [8]-turn Golden Age <by consuming this unit>",
             "[+20]% Strength bonus for [Water] units within [2] tiles",
 			"Great Person - [War]", "Unbuildable", "Uncapturable"],
 		"movement": 2

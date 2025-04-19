@@ -521,11 +521,12 @@
 		"revealedBy": "Agriculture",
 		"improvedBy": ["Animal Pen","Theater Square","Military Camp","Airstrip","Spaceport","Industrial Zone","Commercial Hub","Holy Site","Campus"],
 		"resourceType": "Strategic",
-		"uniques":["Generated on every [50] tiles <in [Grassland] tiles>","Generated on every [50] tiles <in [Plains] tiles>"]
+		"uniques":["Not shown on world screen <starting from the [Atomic Era]>","Generated on every [50] tiles <in [Grassland] tiles>","Generated on every [50] tiles <in [Plains] tiles>"]
 	},
 	{
 		"name": "Ware",
 		"revealedBy": "Pottery",
+		"uniques":["Not shown on world screen <starting from the [Medieval Era]>"],
 		"resourceType": "Strategic"
 	},
 	{

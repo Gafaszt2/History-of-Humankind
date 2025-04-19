@@ -1,6 +1,13 @@
 {
     "name": "Global uniques",
     "uniques": [
+        ///// Stock Markets
+        "[-15]% [Gold] [in all cities] <when not in a Golden Age> <with [15]% chance> <starting from the [Modern Era]>",
+        "[+15]% [Gold] [in all cities] <when not in a Golden Age> <with [15]% chance> <starting from the [Modern Era]>",
+        "[-25]% [Gold] [in all cities] <when not in a Golden Age> <with [25]% chance> <starting from the [Modern Era]>",
+        "[+25]% [Gold] [in all cities] <when not in a Golden Age> <with [25]% chance> <starting from the [Modern Era]>",
+        "[-5]% [Gold] [in all cities] <when not in a Golden Age> <with [15]% chance> <starting from the [Atomic Era]>",
+        "[+5]% [Gold] [in all cities] <when not in a Golden Age> <with [15]% chance> <starting from the [Atomic Era]>",
         ///// Balance
         "[100] Unit Supply",
         "[0] Unit Supply per [1] population [in all cities]",
