@@ -253,6 +253,7 @@
 			{
 				"name": "Machinery",
 				"row": 8,
+				"uniques":["Improves movement speed on roads"],
 				"prerequisites": ["Engineering"],
 				"quote": "The invention and refinement of mechanical tools to improve efficiency in production, agriculture, and warfare. Machinery accelerates technological progress, enabling the construction of more advanced units and infrastructure essential to a thriving civilization"
 			}
@@ -551,7 +552,7 @@
 			{
 				"name": "Replaceable Parts",
 				"row": 5,
-				"prerequisites": ["Ballistics"],
+				"prerequisites": ["Rifling"],
 				"quote": "Replaceable Parts emerged from the quest for efficiency in manufacturing. Inventors realized that standardized components could speed up production and repair, revolutionizing industries and paving the way for mass production"
 			},
 			{

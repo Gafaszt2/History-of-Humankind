@@ -127,7 +127,7 @@
             {
                 "name": "State-Owned Industries",
                 "uniques": [
-                    "[+35]% [Production] [in all cities]"
+                    "[+25]% [Production] [in all cities]"
                 ],
                 "row": 1,
                 "column": 1
@@ -215,7 +215,7 @@
             {
                 "name": "Freedom Complete",
                 "uniques": [
-                   "[+4 Production] [in capital]",
+                   "Allied City-States provide [Gold] equal to [35]% of what they produce for themselves",
                     "New [Military] units start with [15] XP [in all cities]"
                 ]
             }

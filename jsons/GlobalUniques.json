@@ -11,7 +11,7 @@
         ///// Balance
         "[100] Unit Supply",
         "[0] Unit Supply per [1] population [in all cities]",
-        "[-65]% Production when constructing [Wonder] buildings [in all cities]",
+        "[-75]% Production when constructing [Wonder] buildings [in all cities]",
         "[-50]% Unhappiness from [Population] [in all cities]",
 
         ///// Building Rates
@@ -28,12 +28,16 @@
         "[Gold] cost of purchasing [Air] units [-3]% <upon entering a new era>",
 
         ////// Dark Age
-        "Gain a free [Dark Age] [in capital] <starting from the [Medieval Era]>",
+        "Gain a free [Dark Age] [in capital] <upon entering the [Medieval Era]>",
 
         ////// Happiness
         "[+2 Happiness] [in all cities] <upon entering a new era>",
 
         ////// Diplo Stuff
+        "Enables conversion of city production to [Science] <starting from the [Medieval Era]>",
+        "Enables conversion of city production to [Culture] <starting from the [Enlightenment Era]>",
+        "Enables conversion of city production to [Gold] <starting from the [Medieval Era]>",
+        "Enables conversion of city production to [Faith] <starting from the [Medieval Era]>",
         "Enables Research agreements <starting from the [Enlightenment Era]>",
         "Enables Open Borders agreements <starting from the [Renaissance Era]>",
         "Enables Defensive Pacts <starting from the [Medieval Era]>",
@@ -86,8 +90,10 @@
         ////// Base Modifiers
         "[+35]% Science cost of researching new Technologies",
         "[-1] Sight <for [Embarked] units>",
+        "[+2] Sight <for [Embarked] units> <starting from the [Renaissance Era]>",
         "[+20]% [Culture] [in all cities] <during a Golden Age>",
         "[+20]% [Production] [in all cities] <during a Golden Age>",
+        "[+20]% Health from pillaging tiles <during a Golden Age>",
         "[+10]% growth [in all cities] <during We Love The King Day>",
         "[-25]% [Science] [in pupetted cities]",
         "[-25]% [Culture] [in pupetted cities]",

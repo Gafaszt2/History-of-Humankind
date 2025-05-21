@@ -59,21 +59,21 @@
 		"name": "Brewarrina Fish Traps",
 		"food": 2,
 		"production": 1,
-		"uniques": ["[+1 Food] from [Fish Trap] tiles [in all cities]","[+1 Food] from [Lake Fish] tiles [in all cities]"],
+		"uniques": ["Must not be next to [Tundra]","Must be next to [Lakes]","Must be next to [Plains]","[+1 Food] from [Fish Trap] tiles [in all cities]","[+1 Food] from [Lake Fish] tiles [in all cities]"],
 		"isWonder": true,
 		"requiredTech": "Fishing"
 	},
 	{
 		"name": "Göbekli Tepe",
 		"culture": 4,
-		"uniques": ["[+1 Production] from [Hill] tiles [in this city]"],
+		"uniques": ["Must not be next to [Tundra]","Must not be next to [Snow]","Must be next to [Hill]","[+1 Production] from [Hill] tiles [in this city]"],
 		"isWonder": true,
 		"requiredTech": "Stone Tools"
 	},
 	{
 		"name": "Stonehenge",
 		"faith": 3,
-		"uniques": ["[+1 Faith] per [4] population [in this city]"],
+		"uniques": ["Must be next to [Grassland]","Must be next to [Hill]","[+1 Faith] per [4] population [in this city]"],
 		"isWonder": true,
 		"requiredTech": "Stone Tools"
 	},
@@ -146,7 +146,7 @@
 		"name": "Etemenanki",
 		"isWonder":true,
 		"hurryCostModifier": 25,
-		"uniques": ["Must be next to [Marsh]","[+2 Science] from [Marsh] tiles [in this city]",
+		"uniques": ["Must not be next to [Tundra]","Must not be next to [Desert]","Must be next to [Jungle]","Must be next to [Marsh]","[+2 Science] from [Marsh] tiles [in this city]",
 			"[+1 Science] from [Flood plains] tiles [in this city]"],
 		"requiredTech": "Writing"
 	},
@@ -154,14 +154,14 @@
 		"name": "Solomon's Temple",
 		"isWonder":true,
 		"faith": 2,
-		"uniques":["[+1 Faith] from every [Temple]"],
+		"uniques":["Must not be next to [Tundra]","Must be next to [Desert]","Must be next to [River]","[+1 Faith] from every [Temple]"],
 		"hurryCostModifier": 25,
 		"requiredTech": "Astrology"
 	},
 	{
 		"name": "Ur Ziggurat",
 		"isWonder": true,
-		"uniques": ["[+5]% [Science] [in capital]", "[+1 Culture, +1 Science] from every specialist [in all cities]"],
+		"uniques": ["Must not be next to [Tundra]","Must not be next to [Snow]","Must be next to [River]","[+5]% [Science] [in capital]", "[+1 Culture, +1 Science] from every specialist [in all cities]"],
 		"requiredTech": "Astrology"
 	},
 	{
@@ -169,7 +169,7 @@
 		"isWonder":true,
 		"culture": 2,
 		"hurryCostModifier": 25,
-		"uniques": ["Must be next to [Desert]","[-30]% construction time for [All] improvements"],
+		"uniques": ["Must not be next to [Tundra]","Must not be next to [Grassland]","Must not be next to [Plains]","Must be next to [Desert]","[-30]% construction time for [All] improvements"],
 		"requiredTech": "Mining"
 	},
 	///// CLASSICAL
@@ -192,7 +192,7 @@
 		"isWonder": true,
 		"gold": 2,
 		"food": 3,
-		"uniques": ["Must be next to [Desert]","[+1 Food] from [Desert] tiles [in this city]",
+		"uniques": ["Must not be next to [Tundra]","Must not be next to [Grassland]","Must be next to [Desert]","[+1 Food] from [Desert] tiles [in this city]",
 			"[+1 Gold] from [Desert] tiles [in this city]"],
 		"hurryCostModifier": 25,
 		"requiredTech": "Currency"
@@ -257,14 +257,14 @@
 		"name": "The Oracle",
 		"culture": 4,
 		"isWonder": true,
-		"uniques": ["Free Social Policy"],
+		"uniques": ["Must not be next to [Desert]","Must be next to [Coast]","Free Social Policy"],
 		"requiredTech": "Philosophy"
 	},
 	{
 		"name": "Great Wall",
 		"culture": 4,
 		"isWonder": true,
-		"uniques": ["Enemy [Land] units must spend [1] extra movement points when inside your territory <Suppress warning [*contains a conditional on a unit movement unique*]>"],
+		"uniques": ["Must not be next to [Desert]","Must be next to [Jungle]","Enemy [Land] units must spend [1] extra movement points when inside your territory <Suppress warning [*contains a conditional on a unit movement unique*]>"],
 		"requiredTech": "Engineering"
 	},
 	{
@@ -277,7 +277,7 @@
 		"culture": 1,
 		"gold": 6,
 		"isWonder": true,
-		"uniques": ["Must be next to [Coast]", "[+1 Gold] from [Water] tiles [in this city]"],
+		"uniques": ["Must not be next to [Desert]","Must not be next to [Plains]","Must be next to [Coast]", "[+1 Gold] from [Water] tiles [in this city]"],
 		"requiredTech": "Iron Working"
 	},
 	{
@@ -307,7 +307,7 @@
 		"name": "Apadana",
 		"isWonder": true,
 		"gold": 1,
-		"uniques": ["[+100]% [Culture] from City-States"],
+		"uniques": ["Must not be next to [Tundra]","Must be next to [Hill]","[+100]% [Culture] from City-States"],
 		"requiredTech": "Philosophy"
 	},
 	{
@@ -321,34 +321,35 @@
 		"name": "Derinkuyu",
 		"isWonder": true,
 		"food": 4,
-		"uniques":["[+25]% [Food] [in capital]"],
+		"uniques":["Must not be next to [Tundra]","Must be next to [Tropical]","Must be next to [Jungle]","[+25]% [Food] [in capital]"],
 		"requiredTech": "Engineering"
 	},
 	{
 		"name": "Gate of All Nations",
 		"isWonder": true,
 		"culture": 4,
-		"uniques":["Gain a free [Consulate] [in all cities]"],
+		"uniques":["Must not be next to [Desert]","Must not be next to [Tundra]","Must be next to [Hill]","Gain a free [Consulate] [in all cities]"],
 		"requiredTech": "Construction"
 	},
 	{
 		"name": "Great Library of Alexandria",
 		"isWonder": true,
 		"science": 3,
-		"uniques":["Free Technology"],
+		"uniques":["Must not be next to [Desert]","Must be next to [Coast]","Free Technology"],
 		"requiredTech": "Philosophy"
 	},
 	{
 		"name": "King Ezana’s Stele",
 		"isWonder": true,
 		"faith": 3,
-		"uniques":["Free [Prophet] appears"],
+		"uniques":["Must not be next to [Desert]","Must be next to [Plains]","Free [Prophet] appears"],
 		"requiredTech": "Mathematics"
 	},
 	{
 		"name": "Halicarnassus Mausoleum",
 		"isWonder": true,
-		"uniques":["[+1 Science] from [Coast] tiles [in this city]",
+		"uniques":["Must be next to [Coast]","Must not be next to [Desert]","Must not be next to [Tundra]",
+		"[+1 Science] from [Coast] tiles [in this city]",
 	               "[+1 Science] from [Deep Coast] tiles [in this city]",
 				   "[+1 Science] from [Deeper Coast] tiles [in this city]",
 				   "[+1 Culture] from [Coast] tiles [in this city]",
@@ -362,20 +363,20 @@
 	{
 		"name": "Statue of Zeus",
 		"isWonder": true,
-		"uniques": ["[+15]% Strength <for [All] units> <vs cities> <when attacking>"],
+		"uniques": ["Must not be next to [Tundra]","Must be next to [Hill]","Must be next to [Grassland]","[+15]% Strength <for [All] units> <vs cities> <when attacking>"],
 		"requiredTech": "Iron Working"
 	},
 	{
 		"name": "Temple of Artemis",
 		"isWonder": true,
-		"uniques": ["[+15]% [Food] [in all cities]"],
+		"uniques": ["Must be next to [Hill]","Must be next to [Grassland]","[+15]% [Food] [in all cities]"],
 		"requiredTech": "Engineering"
 	},
 	{
 		"name": "Parthenon",
 		"isWonder": true,
 		"culture":3,
-		"uniques": ["Free [Artist] appears"],
+		"uniques": ["Must not be next to [Desert]","Must be next to [Coast]","Free [Artist] appears"],
 		"requiredTech": "Drama and Poetry"
 	},
 	{
@@ -383,14 +384,14 @@
 		"isWonder": true,
 		"gold": 4,
 		"culture": 2,
-		"uniques": ["Must be next to [Coast]"],
+		"uniques": ["Must not be next to [Tundra]","Must be next to [Coast]"],
 		"requiredTech": "Optics"
 	},
 	{
 		"name": "Hanging Gardens of Babylon",
 		"isWonder": true,
 		"food": 2,
-		"uniques": [
+		"uniques": ["Must be next to [Grassland]","Must not be next to [Tundra]",
 		"[+20]% Production when constructing [Campus Project] buildings [in all cities]",
 		"[+20]% Production when constructing [Theater Square Project] buildings [in all cities]",
 		"[+20]% Production when constructing [Commercial Hub Project] buildings [in all cities]",
@@ -406,7 +407,7 @@
 		"food": 2,
 		"production": 1,
 		"gold": 2,
-		"uniques": ["[+1 Food] from [Desert] tiles [in this city]",
+		"uniques": ["[+1 Food] from [Desert] tiles [in this city]","Must not be next to [Tundra]",
 		            "[+1 Gold] from [Desert] tiles [in this city]",
 					"[+1 Food] from [Desert] tiles [in this city] <during a Golden Age>",
 					"[+1 Food] from [Desert] tiles [in this city] <during a Golden Age>",
@@ -419,14 +420,14 @@
 		"culture": 2,
 		"faith": 2,
 		"uniques": ["[+1 Culture] from [Hill] tiles [in this city] <during a Golden Age>",
-					"Must be next to [Hill]"],
+					"Must be next to [Hill]","Must not be next to [Desert]"],
 		"requiredTech": "Engineering"
 	},
 	{
 		"name": "Terracotta Army",
 		"isWonder": true,
 		"culture": 2,
-		"uniques": ["New [Melee] units start with [15] XP [in all cities]"],
+		"uniques": ["Must not be next to [Desert]","Must be next to [Jungle]","Must be next to [Hill]","New [Melee] units start with [15] XP [in all cities]"],
 		"requiredTech": "Iron Working"
 	},
 	/////// MEDIEVAL TIMES
@@ -504,14 +505,14 @@
 		"faith": 4,
 		"food": 2,
 		"isWonder": true,
-		"uniques": ["[Faith] cost of purchasing [Missionary] units [-25]%","[Faith] cost of purchasing [Prophet] units [-25]%"],
+		"uniques": ["Must not be next to [Desert]","Must be next to [Jungle]","[Faith] cost of purchasing [Missionary] units [-25]%","[Faith] cost of purchasing [Prophet] units [-25]%"],
 		"requiredTech": "Education"
 	},
 	{
 		"name": "Borobudur",
 		"faith": 2,
 		"isWonder": true,
-		"uniques": ["[3] free [Missionary] units appear"],
+		"uniques": ["Must be next to [Hill]","[3] free [Missionary] units appear"],
 		"requiredTech": "Education"
 	},
 	{
@@ -519,48 +520,48 @@
 		"faith": 2,
 		"culture": 1,
 		"isWonder": true,
-		"uniques": ["Must be next to [Desert]","[1] free [Engineer] units appear","Gain a free [Mosque] [in this city]"],
+		"uniques": ["Must not be next to [Grassland]","Must be next to [Desert]","[1] free [Engineer] units appear","Gain a free [Mosque] [in this city]"],
 		"requiredTech": "Education"
 	},
 	{
 		"name": "Great Zimbabwe",
 		"gold": 2,
-		"uniques":["Must be next to [Plains]","[+1 Gold] from [Bonus resource] tiles [in all cities]","[+10]% [Food] [in all cities]","[+15]% [Gold] [in all cities]"],
+		"uniques":["Must not be next to [Coast]","Must be next to [Plains]","[+1 Gold] from [Bonus resource] tiles [in all cities]","[+10]% [Food] [in all cities]","[+15]% [Gold] [in all cities]"],
 		"isWonder": true,
 		"requiredTech": "Buttress"
 	},
 	{
 		"name": "Hagia Sophia",
 		"faith": 4,
-		"uniques":["[+4 Culture] from [Holy Site] tiles [in all cities]"],
+		"uniques":["Must not be next to [Desert]","Must be next to [Grassland]","[+4 Culture] from [Holy Site] tiles [in all cities]"],
 		"isWonder": true,
 		"requiredTech": "Buttress"
 	},
 	{
 		"name": "Huey Teocalli",
 		"science": 2,
-		"uniques":["Must be next to [Lakes]","[+1 Production] from [Lakes] tiles [in all cities]","[+1 Culture] from [Lakes] tiles [in all cities]","[+1 Happiness] from [Lakes] tiles [in all cities]"],
+		"uniques":["Must not be next to [Tundra]","Must be next to [Lakes]","[+1 Production] from [Lakes] tiles [in all cities]","[+1 Culture] from [Lakes] tiles [in all cities]","[+1 Happiness] from [Lakes] tiles [in all cities]"],
 		"isWonder": true,
 		"requiredTech": "Apprenticeship"
 	},
 	{
 		"name": "Kilwa Kisiwani",
 		"gold": 1,
-		"uniques":["Must be next to [Coast]","[+1 Gold] from [Coast] tiles [in this city]","[3] free [Merchant] units appear"],
+		"uniques":["Must not be next to [Tundra]","Must be next to [Coast]","[+1 Gold] from [Coast] tiles [in this city]","[3] free [Merchant] units appear"],
 		"isWonder": true,
 		"requiredTech": "Machinery"
 	},
 	{
 		"name": "Kōtoku-in",
 		"faith": 2,
-		"uniques":["[+10]% [Faith] [in all cities]","[3] free [Warrior Monk] units appear"],
+		"uniques":["Must be next to [Jungle]","[+10]% [Faith] [in all cities]","[3] free [Warrior Monk] units appear"],
 		"isWonder": true,
 		"requiredTech": "Education"
 	},
 	{
 		"name": "Kaaba",
 		"faith": 5,
-		"uniques":["[+35]% [Faith] [in all cities]"],
+		"uniques":["Must not be next to [Tundra]","Must be next to [Desert]","[+35]% [Faith] [in all cities]"],
 		"isWonder": true,
 		"requiredTech": "Education"
 	},
@@ -568,7 +569,7 @@
 		"name": "Dome of the Rock",
 		"faith": 3,
 		"culture":1,
-		"uniques":["[+15]% [Faith] [in all cities]"],
+		"uniques":["Must be next to [Desert]","[+15]% [Faith] [in all cities]"],
 		"isWonder": true,
 		"requiredTech": "Education"
 	},
@@ -576,7 +577,7 @@
 		"name": "Machu Picchu",
 		"production":1,
 		"food":1,
-		"uniques":["Must be next to [Mountain]","[+3 Production] from [Mountain] tiles [in all cities]","[+2 Food] from [Mountain] tiles [in all cities]"],
+		"uniques":["Must not be next to [Desert]","Must be next to [Mountain]","[+3 Production] from [Mountain] tiles [in all cities]","[+2 Food] from [Mountain] tiles [in all cities]"],
 		"isWonder": true,
 		"requiredTech": "Apprenticeship"
 	},
@@ -591,7 +592,7 @@
 	{
 		"name": "Pumapunku",
 		"culture":4,
-		"uniques":["[+1 Gold] from [Hill] tiles [in this city]","[+1 Gold] from [Stone] tiles [in all cities]","[+1 Gold] from [Mine] tiles [in all cities]","[+1 Gold] from [Quarry] tiles [in all cities]","[+1 Gold] from [Silver] tiles [in all cities]","[+1 Gold] from [Gold Ore] tiles [in all cities]","Must be next to [Desert]"],
+		"uniques":["Must be next to [Hill]","[+1 Gold] from [Hill] tiles [in this city]","[+1 Gold] from [Stone] tiles [in all cities]","[+1 Gold] from [Mine] tiles [in all cities]","[+1 Gold] from [Quarry] tiles [in all cities]","[+1 Gold] from [Silver] tiles [in all cities]","[+1 Gold] from [Gold Ore] tiles [in all cities]","Must be next to [Desert]"],
 		"isWonder": true,
 		"requiredTech": "Buttress"
 	},
@@ -606,14 +607,14 @@
 		"name": "Haʻamonga ʻa Maui",
 		"culture": 1,
 		"faith": 1,
-		"uniques":["Must be next to [Grassland]","[+2 Faith, +2 Culture] from [Forest] tiles without [Lumber Mill] [in all cities]","[+2 Faith, +2 Culture] from [Jungle] tiles without [Lumber Mill] [in all cities]"],
+		"uniques":["Must not be next to [Desert]","Must be next to [Forest]","Must be next to [Grassland]","[+2 Faith, +2 Culture] from [Forest] tiles without [Lumber Mill] [in all cities]","[+2 Faith, +2 Culture] from [Jungle] tiles without [Lumber Mill] [in all cities]"],
 		"isWonder": true,
 		"requiredTech": "Apprenticeship"
 	},
 	{
 		"name": "Chichén Itzá",
 		"isWonder": true,
-		"uniques": ["Must be next to [Jungle]","[+1 Culture] from [Jungle] tiles [in this city]","[+1 Culture] from [Tropical] tiles [in this city]","[+1 Culture] from [Rainforest] tiles [in this city]","[+1 Culture] from [Mangrove] tiles [in this city]",
+		"uniques": ["Must not be next to [Tundra]","Must be next to [Jungle]","[+1 Culture] from [Jungle] tiles [in this city]","[+1 Culture] from [Tropical] tiles [in this city]","[+1 Culture] from [Rainforest] tiles [in this city]","[+1 Culture] from [Mangrove] tiles [in this city]",
 	                "[+1 Production] from [Jungle] tiles [in this city]","[+1 Production] from [Tropical] tiles [in this city]","[+1 Production] from [Rainforest] tiles [in this city]","[+1 Production] from [Mangrove] tiles [in this city]"],
 		"requiredTech": "Buttress"
 	},
@@ -701,14 +702,14 @@
 		"culture": 3,
 		"gold": 4,
 		"isWonder": true,
-		"uniques": ["[Gold] cost of purchasing [Land] units [-25]%","[Gold] cost of purchasing [Water] units [-25]%"],
+		"uniques": ["Must be next to [Grassland]","[Gold] cost of purchasing [Land] units [-25]%","[Gold] cost of purchasing [Water] units [-25]%"],
 		"requiredTech": "Astronomy"
 	},
 	{
 		"name": "Agra Fort",
 		"culture": 5,
 		"isWonder": true,
-		"uniques": ["[+25]% Strength for cities"],
+		"uniques": ["Must be next to [Plains]","Must be next to [Hill]","[+25]% Strength for cities"],
 		"requiredTech": "Architecture"
 	},
 	{
@@ -716,14 +717,14 @@
 		"culture": 2,
 		"faith": 2,
 		"isWonder": true,
-		"uniques": ["[+1 Culture] from every [Medieval Walls]","[+1 Faith] from every [Medieval Walls]","Gain a free [Medieval Walls] [in this city]"],
+		"uniques": ["Must be next to [Hill]","[+1 Culture] from every [Medieval Walls]","[+1 Faith] from every [Medieval Walls]","Gain a free [Medieval Walls] [in this city]"],
 		"requiredTech": "Architecture"
 	},
 	{
 		"name": "Forbidden City",
 		"culture": 5,
 		"isWonder": true,
-		"uniques": ["Free Social Policy"],
+		"uniques": ["Must be next to [Jungle]","Must be next to [Tropical]","Free Social Policy"],
 		"requiredTech": "Printing Press"
 	},
 	{
@@ -736,21 +737,21 @@
 	{
 		"name": "Himeji Castle",
 		"culture": 3,
-        "uniques":["[3] free [Engineer] units appear"],
+        "uniques":["Must be next to [Tundra]","Must be next to [Coast]","[3] free [Engineer] units appear"],
 		"isWonder": true,
 		"requiredTech": "Architecture"
 	},
 	{
 		"name": "Leaning Tower of Pisa",
 		"gold": 3,
-        "uniques":["[1] free [Merchant] units appear","[1] free [Engineer] units appear","[1] free [Artist] units appear"],
+        "uniques":["Must be next to [Grassland]","[1] free [Merchant] units appear","[1] free [Engineer] units appear","[1] free [Artist] units appear"],
 		"isWonder": true,
 		"requiredTech": "Architecture"
 	},
 	{
 		"name": "Porcelain Tower of Nanjing",
 		"science": 2,
-        "uniques":["[2] free [Scientist] units appear","Science gained from research agreements [+40]%"],
+        "uniques":["Must be next to [Jungle]","[2] free [Scientist] units appear","Science gained from research agreements [+40]%"],
 		"isWonder": true,
 		"requiredTech": "Architecture"
 	},
@@ -759,33 +760,33 @@
 		"science": 1,
 		"gold": 1,
 		"culture": 1,
-        "uniques":["[+1 Culture] from every [Wonder]"],
+        "uniques":["Must be next to [Jungle]","[+1 Culture] from every [Wonder]"],
 		"isWonder": true,
 		"requiredTech": "Architecture"
 	},
 	{
 		"name": "Sistine Chapel",
 		"faith": 2,
-        "uniques":["[+1 Faith] from every [Temple]","[+2 Faith] from every [Holy Site]"],
+        "uniques":["Must be next to [Grassland]","[+1 Faith] from every [Temple]","[+2 Faith] from every [Holy Site]"],
 		"isWonder": true,
 		"requiredTech": "Architecture"
 	},
 	{
 		"name": "Taj Mahal",
-        "uniques":["[+30]% [Faith] [in all cities]"],
+        "uniques":["Must be next to [Plains]","Must be next to [River]","[+30]% [Faith] [in all cities]"],
 		"isWonder": true,
 		"requiredTech": "Architecture"
 	},
 	{
 		"name": "Topkapi Palace",
-        "uniques":["[+2 Faith] from [Military Camp] tiles [in all cities]","New [Melee] units start with [25] XP [in all cities]"],
+        "uniques":["Must be next to [Plains]","[+2 Faith] from [Military Camp] tiles [in all cities]","New [Melee] units start with [25] XP [in all cities]"],
 		"isWonder": true,
 		"requiredTech": "Gunpowder"
 	},
 	{
 		"name": "Uffizi",
 		"culture":3,
-        "uniques":["[3] free [Artist] units appear"],
+        "uniques":["Must be next to [Jungle]","[3] free [Artist] units appear"],
 		"isWonder": true,
 		"requiredTech": "Gunpowder"
 	},
@@ -847,7 +848,7 @@
 		"name": "Brandenburg Gate",
 		"culture": 1,
 		"isWonder": true,
-		"uniques": ["Free [General] appears","Free [Scientist] appears","New [Melee] units start with [25] XP [in all cities]"],
+		"uniques": ["Must be next to [River]","Free [General] appears","Free [Scientist] appears","New [Melee] units start with [25] XP [in all cities]"],
 		"requiredTech": "Fortification"
 	},
 	{
@@ -862,7 +863,7 @@
 		"culture": 4,
 		"happiness": 1,
 		"isWonder": true,
-		"uniques": ["Instantly provides [5] [Artifact]"],
+		"uniques": ["Must be next to [Grassland]","Instantly provides [5] [Artifact]"],
 		"requiredTech": "Natural History"
 	},
 	{
@@ -870,7 +871,7 @@
 		"requiredBuilding":"Garden",
 		"gold": 5,
 		"isWonder": true,
-		"uniques": ["[+1 Gold] from every [Guild]","[+2 Gold] from every [Commercial Hub Project]"],
+		"uniques": ["Must be next to [Grassland]","[+1 Gold] from every [Guild]","[+2 Gold] from every [Commercial Hub Project]"],
 		"requiredTech": "Fortification"
 	},
 	{
@@ -878,14 +879,14 @@
 		"culture": 1,
 		"faith": 1,
 		"isWonder": true,
-		"uniques": ["[+2 Culture] from every [Temple]","Free Social Policy"],
+		"uniques": ["Must be next to [Jungle]","Must be next to [Coast]","[+2 Culture] from every [Temple]","Free Social Policy"],
 		"requiredTech": "Fortification"
 	},
 	{
 		"name": "Wat Phra Kaew",
 		"faith": 4,
 		"isWonder": true,
-		"uniques": ["[+2 Food] from every [Temple]"],
+		"uniques": ["Must be next to [Jungle]","Must be next to [Tropical]","[+2 Food] from every [Temple]"],
 		"requiredTech": "Humanism"
 	},
 	////// INDUSTRIAL
@@ -1045,6 +1046,7 @@
 		"name": "Suez Canal",
 		"gold": 8,
 		"isWonder": true,
+		"uniques":["Must be next to [River]","Must be next to [Desert]"],
 		"requiredTech": "Industrialization"
 	},
 	///////// MODERN
