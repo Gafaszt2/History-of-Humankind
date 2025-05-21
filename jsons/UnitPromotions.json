@@ -3,31 +3,31 @@
 		"name": "Soft Injury",
 		"innerColor": [252, 3, 3],
 		"outerColor": [28, 3, 3],
-		"uniques": ["[This Unit] takes [3] damage <upon turn end>"]
+		"uniques": ["[This Unit] takes [3] damage <upon ending a turn in a [All] tile>"]
 	},
 	{
 		"name": "Poisoned",
 		"innerColor": [252, 3, 3],
 		"outerColor": [28, 3, 3],
-		"uniques": ["[This Unit] takes [5] damage <upon turn end>"]
+		"uniques": ["[This Unit] takes [5] damage <upon ending a turn in a [All] tile>"]
 	},
 	{
 		"name": "Medium Injury",
 		"innerColor": [252, 3, 3],
 		"outerColor": [28, 3, 3],
-		"uniques": ["[This Unit] takes [6] damage <upon turn end>"]
+		"uniques": ["[This Unit] takes [6] damage <upon ending a turn in a [All] tile>"]
 	},
 	{
 		"name": "Open Wound",
 		"innerColor": [252, 3, 3],
 		"outerColor": [28, 3, 3],
-		"uniques": ["[This Unit] takes [12] damage <upon turn end>"]
+		"uniques": ["[This Unit] takes [12] damage <upon ending a turn in a [All] tile>"]
 	},
 	{
 		"name": "On Fire",
 		"innerColor": [252, 3, 3],
 		"outerColor": [28, 3, 3],
-		"uniques": ["[This Unit] takes [10] damage <upon turn end>",
+		"uniques": ["[This Unit] takes [10] damage <upon ending a turn in a [All] tile>",
 		            "[This Unit] takes [20] damage <upon ending a turn in a [Forest] tile>",
 				    "[This Unit] takes [20] damage <upon ending a turn in a [Jungle] tile>",
 				    "[This Unit] takes [20] damage <upon ending a turn in a [Marsh] tile>",
@@ -39,25 +39,25 @@
 		"name": "Hull Breach",
 		"innerColor": [252, 3, 3],
 		"outerColor": [28, 3, 3],
-		"uniques": ["[This Unit] takes [3] damage <upon turn end>"]
+		"uniques": ["[This Unit] takes [3] damage <upon ending a turn in a [All] tile>"]
 	},
 	{
 		"name": "Engine Failure",
 		"innerColor": [252, 3, 3],
 		"outerColor": [28, 3, 3],
-		"uniques": ["[This Unit] takes [3] damage <upon turn end>"]
+		"uniques": ["[This Unit] takes [3] damage <upon ending a turn in a [All] tile>"]
 	},
 	{
 		"name": "Shattered Deck",
 		"innerColor": [252, 3, 3],
 		"outerColor": [28, 3, 3],
-		"uniques": ["[This Unit] takes [6] damage <upon turn end>"]
+		"uniques": ["[This Unit] takes [6] damage <upon ending a turn in a [All] tile>"]
 	},
 	{
 		"name": "Fire on Board",
 		"innerColor": [252, 3, 3],
 		"outerColor": [28, 3, 3],
-		"uniques": ["[This Unit] takes [12] damage <upon turn end>"]
+		"uniques": ["[This Unit] takes [12] damage <upon ending a turn in a [All] tile>"]
 	},
 	///// ARCHAIC INFANTRY
 	{
