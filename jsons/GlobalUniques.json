@@ -43,10 +43,10 @@
         "Enables Defensive Pacts <starting from the [Medieval Era]>",
 
         ////// Plague
-        "May buy [Doctor] units for [100] [Gold] [in all cities] at an increasing price ([20]) <starting from the [Medieval Era]> <before discovering [Sanitation]> <for [Human player] Civilizations>", 
+        "May buy [Doctor] units for [300] [Gold] [in all cities] at an increasing price ([150]) <starting from the [Medieval Era]> <before discovering [Sanitation]> <for [Human player] Civilizations>", 
 
         "Instantly provides [3] [Plague] <starting from the [Medieval Era]> <before discovering [Sanitation]> <for [Human player] Civilizations>",
-        "Instantly provides [1] [Plague] <starting from the [Medieval Era]> <upon turn end> <with [15]% chance> <before discovering [Sanitation]> <for [Human player] Civilizations>",
+        "Instantly provides [1] [Plague] <starting from the [Medieval Era]> <upon turn end> <with [30]% chance> <before discovering [Sanitation]> <for [Human player] Civilizations>",
 
         "[-5]% [Food] [in all cities] <when above [0] [Plague]> <before discovering [Sanitation]> <for [Human player] Civilizations>",
         "[-5]% [Happiness] [in all cities] <when above [0] [Plague]> <before discovering [Sanitation]> <for [Human player] Civilizations>",
@@ -60,9 +60,9 @@
         "[-25]% [Happiness] [in all cities] <when above [9] [Plague]> <before discovering [Sanitation]> <for [Human player] Civilizations>",
         "[-25]% [Production] [in all cities] <when above [9] [Plague]> <before discovering [Sanitation]> <for [Human player] Civilizations>",
 
-        "[-35]% [Food] [in all cities] <when above [11] [Plague]> <before discovering [Sanitation]> <for [Human player] Civilizations>",
-        "[-35]% [Happiness] [in all cities] <when above [11] [Plague]> <before discovering [Sanitation]> <for [Human player] Civilizations>",
-        "[-35]% [Production] [in all cities] <when above [11] [Plague]> <before discovering [Sanitation]> <for [Human player] Civilizations>",
+        "[-30]% [Food] [in all cities] <when above [11] [Plague]> <before discovering [Sanitation]> <for [Human player] Civilizations>",
+        "[-30]% [Happiness] [in all cities] <when above [11] [Plague]> <before discovering [Sanitation]> <for [Human player] Civilizations>",
+        "[-30]% [Production] [in all cities] <when above [11] [Plague]> <before discovering [Sanitation]> <for [Human player] Civilizations>",
 
         ////// Artifacts
         "[+20]% [Culture] [in all cities] <when above [0] [Artifact]>",
@@ -70,14 +70,14 @@
         "[+40]% [Culture] [in all cities] <when above [6] [Artifact]>",
 
         /////// Writer
-        "May buy [Writer] units for [100] [Faith] [in all cities] at an increasing price ([100]) <starting from the [Renaissance Era]>",
+        "May buy [Writer] units for [300] [Faith] [in all cities] at an increasing price ([200]) <starting from the [Renaissance Era]>",
         "[+1 Culture] from all [Library] buildings <when above [0] [Literary Work]>",
         "[+3 Culture] from all [Library] buildings <when above [4] [Literary Work]>",
         "[+5 Culture] from all [Library] buildings <when above [6] [Literary Work]>",
         "[+6 Culture] from all [Library] buildings <when above [12] [Literary Work]>",
 
         /////// Musician
-        "May buy [Musician] units for [100] [Faith] [in all cities] at an increasing price ([100]) <starting from the [Renaissance Era]>",
+        "May buy [Musician] units for [300] [Faith] [in all cities] at an increasing price ([200]) <starting from the [Renaissance Era]>",
         "[+1 Gold] from all [Arena] buildings <when above [0] [Composition]>",
         "[+1 Gold] from all [Amphitheater] buildings <when above [0] [Composition]>",
         "[+3 Gold] from all [Arena] buildings <when above [4] [Composition]>",

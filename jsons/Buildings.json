@@ -3,10 +3,10 @@
 		"name": "Palace",
 		"isNationalWonder": true,
 		"production": 3,
-		"happiness": 1,
-		"science": 3,
+		"happiness": 2,
+		"science": 2,
 		"gold": 3,
-		"culture": 1,
+		"culture": 2,
 		"cityStrength": 0,
 		"cost": 1,
 		"uniques": ["Indicates the capital city"]
@@ -16,11 +16,13 @@
 		"name": "Campfire",
 		"culture": 1,
 		"hurryCostModifier": 25,
+		"uniques":["Must be next to [Forest]"],
 		"requiredTech": "Fire"
 	},
 	{
 		"name": "Burial",
 		"culture": 1,
+		"uniques":["Must be next to [Hill]"],
 		"hurryCostModifier": 25,
 		"requiredTech": "Fire"
 	},
@@ -40,6 +42,7 @@
 	{
 		"name": "Smokehouse",
 		"food": 1,
+		"uniques":["Must be next to [Fish Trap]"],
 		"hurryCostModifier": 25,
 		"requiredTech": "Fishing"
 	},

@@ -6,6 +6,18 @@
         "color": "#cf8ff7"
     },
     {
+        "name": "discover ancient god",
+        "notification": "We have discovered ancient god artifact in the ruins! (+20 faith)",
+        "uniques": ["Gain [20] [Faith] <(modified by game speed)>"],
+        "color": "#cf8ff7"
+    },
+    {
+        "name": "discover scientific artifacts",
+        "notification": "We have discovered scientific artifacts in the ruins! (+20 science)",
+        "uniques": ["Gain [20] [Science] <(modified by game speed)>"],
+        "color": "#cf8ff7"
+    },
+    {
         "name": "your exploring unit receives training",
         "notification": "An ancient tribe trained us in their ways of combat!",
         "uniques": ["[This Unit] gains [10] XP", "Only available <after turn number [10]>"]

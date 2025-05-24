@@ -1229,7 +1229,7 @@
 	{
 		"name": "Artist",
 		"unitType": "Civilian",
-		"uniques": ["Empire enters a [3]-turn Golden Age <by consuming this unit>",
+		"uniques": ["Empire enters a [10]-turn Golden Age <by consuming this unit>",
             "Gain [200] [Culture] <by consuming this unit>",
             "Great Person - [Culture]", "Unbuildable", "Uncapturable"],
 		"movement": 2
@@ -1238,7 +1238,7 @@
 		"name": "Doctor",
 		"unitType": "Civilian",
 		"cost":100,
-		"uniques": ["Empire enters a [3]-turn Golden Age <by consuming this unit>",
+		"uniques": ["Empire enters a [10]-turn Golden Age <by consuming this unit>",
             "Instantly consumes [5] [Plague] <by consuming this unit>",
             "Great Person - [Culture]", "Unbuildable", "Uncapturable"],
 		"movement": 2
@@ -1246,7 +1246,7 @@
 	{
 		"name": "Archaeologist",
 		"unitType": "Civilian",
-		"uniques": ["Empire enters a [3]-turn Golden Age <by consuming this unit>",
+		"uniques": ["Empire enters a [10]-turn Golden Age <by consuming this unit>",
             "Instantly provides [1] [Artifact] <by consuming this unit>",
             "Great Person - [Culture]", "Unbuildable", "Uncapturable"],
 		"cost":100,
@@ -1255,7 +1255,7 @@
 	{
 		"name": "Naturalist",
 		"unitType": "Civilian",
-		"uniques": ["Empire enters a [3]-turn Golden Age <by consuming this unit>",
+		"uniques": ["Empire enters a [10]-turn Golden Age <by consuming this unit>",
             "Instantly provides [1] [Conservation Points] <by consuming this unit>",
             "Great Person - [Culture]", "Unbuildable", "Uncapturable"],
 		"cost":100,
@@ -1264,7 +1264,7 @@
 	{
 		"name": "Writer",
 		"unitType": "Civilian",
-		"uniques": ["Empire enters a [3]-turn Golden Age <by consuming this unit>",
+		"uniques": ["Empire enters a [10]-turn Golden Age <by consuming this unit>",
             "Instantly provides [1] [Literary Work] <by consuming this unit>",
             "Great Person - [Culture]", "Unbuildable", "Uncapturable"],
 		"cost":100,
@@ -1273,7 +1273,7 @@
 	{
 		"name": "Musician",
 		"unitType": "Civilian",
-		"uniques": ["Empire enters a [3]-turn Golden Age <by consuming this unit>",
+		"uniques": ["Empire enters a [10]-turn Golden Age <by consuming this unit>",
             "Instantly provides [1] [Composition] <by consuming this unit>",
             "Great Person - [Culture]", "Unbuildable", "Uncapturable"],
 		"cost":100,
@@ -1282,14 +1282,14 @@
 	{
 		"name": "Scientist",
 		"unitType": "Civilian",
-		"uniques": ["Empire enters a [8]-turn Golden Age <by consuming this unit>","Can hurry technology research",
+		"uniques": ["Empire enters a [10]-turn Golden Age <by consuming this unit>","Can hurry technology research",
             "Great Person - [Science]", "Unbuildable", "Uncapturable"],
 		"movement": 2
 	},
 	{
 		"name": "Merchant",
 		"unitType": "Civilian",
-		"uniques": ["Empire enters a [8]-turn Golden Age <by consuming this unit>","Can undertake a trade mission with City-State, giving a large sum of gold and [30] Influence",
+		"uniques": ["Empire enters a [10]-turn Golden Age <by consuming this unit>","Can undertake a trade mission with City-State, giving a large sum of gold and [30] Influence",
             "Gain [400] [Gold] <by consuming this unit>",
 			"Great Person - [Gold]", "Unbuildable", "Uncapturable"],
 		"movement": 2
@@ -1297,7 +1297,7 @@
 	{
 		"name": "Football Player",
 		"unitType": "Civilian",
-		"uniques": ["Empire enters a [3]-turn Golden Age <by consuming this unit>","Can undertake a trade mission with City-State, giving a large sum of gold and [70] Influence",
+		"uniques": ["Empire enters a [10]-turn Golden Age <by consuming this unit>","Can undertake a trade mission with City-State, giving a large sum of gold and [70] Influence",
             "Gain [200] [Gold] <by consuming this unit>",
 			"Great Person - [Gold]", "Unbuildable", "Uncapturable"],
 		"movement": 2
@@ -1305,23 +1305,25 @@
 	{
 		"name": "Builder",
 		"unitType": "Civilian",
-		"uniques": ["Empire enters a [3]-turn Golden Age <by consuming this unit>","Can speed up construction of a building",
+		"uniques": ["Empire enters a [10]-turn Golden Age <by consuming this unit>","Can speed up construction of a building",
             "Great Person - [Production]", "Unbuildable", "Uncapturable"],
 		"movement": 2
 	},
 	{
 		"name": "General",
 		"unitType": "Civilian",
-		"uniques": ["Empire enters a [8]-turn Golden Age <by consuming this unit>",
+		"uniques": ["Empire enters a [10]-turn Golden Age <by consuming this unit>",
             "[+20]% Strength bonus for [Land] units within [2] tiles",
+			"[+20]% Strength bonus for [Land] units within [2] tiles <starting from the [Modern Era]>",
 			"Great Person - [War]", "Unbuildable", "Uncapturable"],
 		"movement": 2
 	},
 	{
 		"name": "Admiral",
 		"unitType": "Civilian",
-		"uniques": ["Empire enters a [8]-turn Golden Age <by consuming this unit>",
+		"uniques": ["Empire enters a [10]-turn Golden Age <by consuming this unit>",
             "[+20]% Strength bonus for [Water] units within [2] tiles",
+			"[+20]% Strength bonus for [Water] units within [2] tiles <starting from the [Modern Era]>",
 			"Great Person - [War]", "Unbuildable", "Uncapturable"],
 		"movement": 2
 	},

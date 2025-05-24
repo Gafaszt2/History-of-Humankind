@@ -105,7 +105,7 @@
 			{
 				"name": "Writing",
 				"row": 6,
-				"uniques":["May buy [Missionary] units for [150] [Faith] [in all cities] at an increasing price ([150])"],
+				"uniques":["May buy [Missionary] units for [150] [Faith] [in all cities] at an increasing price ([350])"],
 				"prerequisites": ["Mining","Pottery"],
 				"quote": "The creation of written language represents a monumental step in human communication, enabling record-keeping, the transmission of knowledge, and the fostering of cultural development."
 			},
@@ -125,14 +125,14 @@
 			{
 				"name": "Bronze Working",
 				"row": 9,
-                "uniques": ["May buy [General] units for [150] [Faith] [in all cities] at an increasing price ([200])"],
+                "uniques": ["May buy [General] units for [250] [Faith] [in all cities] at an increasing price ([200])"],
 				"prerequisites": ["Mining","Wolf Domestication"],
 				"quote": "The alloying of copper with tin to create bronze ushers in a new era of tools, weapons, and artistry, marking the dawn of more advanced craftsmanship and metallurgy."
 			},
 			{
 				"name": "Wheel",
 				"row": 4,
-				"uniques": ["May buy [Builder] units for [150] [Faith] [in all cities] at an increasing price ([200])"],
+				"uniques": ["May buy [Builder] units for [250] [Faith] [in all cities] at an increasing price ([200])"],
 				"prerequisites": ["Wolf Domestication","Mining"],
 				"quote": "The invention of the wheel revolutionizes transport and logistics, enabling the movement of goods, people, and armies over greater distances with efficiency."
 			}
@@ -149,14 +149,14 @@
 			{
 				"name": "Optics",
 				"row": 1,
-				"uniques": ["May buy [Admiral] units for [150] [Faith] [in all cities] at an increasing price ([200])","Enables embarkation for land units"],
+				"uniques": ["May buy [Admiral] units for [250] [Faith] [in all cities] at an increasing price ([200])","Enables embarkation for land units"],
 				"prerequisites": ["Sailing","Astrology","Wheel"],
 				"quote": "The study of light and vision, Optics enhances the ability to navigate waterways and improves observational tools, enabling further exploration and mastery of the surrounding environment."
 			},
 			{
 				"name": "Currency",
 				"row": 4,
-				"uniques": ["May buy [Merchant] units for [150] [Faith] [in all cities] at an increasing price ([200])"],
+				"uniques": ["May buy [Merchant] units for [250] [Faith] [in all cities] at an increasing price ([200])"],
 				"prerequisites": ["Writing","Wheel"],
 				"quote": "The introduction of standardized trade systems simplifies commerce, allowing civilizations to develop bustling markets and secure economic prosperity through trade routes."
 			},
@@ -192,7 +192,7 @@
 			{
 				"name": "Philosophy",
 				"row": 3,
-				"uniques": ["May buy [Scientist] units for [150] [Faith] [in all cities] at an increasing price ([200])"],
+				"uniques": ["May buy [Scientist] units for [250] [Faith] [in all cities] at an increasing price ([200])"],
 				"prerequisites": ["Optics"],
 				"quote": "A discipline born from the need to measure and record, Mathematics lays the groundwork for advanced scientific and architectural achievements. Unlocks new methods for construction, trade, and problem-solving"
 			},
@@ -211,7 +211,7 @@
 			{
 				"name": "Drama and Poetry",
 				"row": 6,
-				"uniques": ["May buy [Artist] units for [150] [Faith] [in all cities] at an increasing price ([200])"],
+				"uniques": ["May buy [Artist] units for [250] [Faith] [in all cities] at an increasing price ([200])"],
 				"prerequisites": ["Currency"],
 				"quote": "Establishes organized legal systems, introducing civic buildings like courthouses and strengthening government influence"
 			},
@@ -415,7 +415,7 @@
 			{
 				"name": "Natural History",
 				"row": 1,
-				"uniques":["May buy [Archaeologist] units for [100] [Gold] [in all cities] at an increasing price ([500])","May buy [Archaeologist] units for [100] [Faith] [in all cities] at an increasing price ([500])"],
+				"uniques":["May buy [Archaeologist] units for [300] [Gold] [in all cities] at an increasing price ([500])","May buy [Archaeologist] units for [100] [Faith] [in all cities] at an increasing price ([500])"],
 				"prerequisites": ["Humanism"],
 				"quote": "Sparked by the curiosity of explorers and scientists, Natural History emerged as a study of the Earth's plants, animals, and landscapes. Efforts to classify and understand the natural world not only broadened knowledge but also laid the groundwork for conservation and ecological awareness"
 			},
@@ -558,7 +558,7 @@
 			{
 				"name": "Biology",
 				"row": 4,
-				"uniques":["May buy [Naturalist] units for [200] [Gold] [in all cities] at an increasing price ([100])"],
+				"uniques":["May buy [Naturalist] units for [350] [Gold] [in all cities] at an increasing price ([300])"],
 				"prerequisites": ["Sanitation"],
 				"quote": "Biology grew from the curiosity to understand life itself. Pioneering studies in anatomy, evolution, and ecosystems provided the knowledge to improve medicine, agriculture, and environmental stewardship"
 			}

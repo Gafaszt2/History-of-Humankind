@@ -668,7 +668,7 @@
             {
                 "name": "Inquisition",
                 "uniques": [
-                    "May buy [Inquisitor] units for [100] [Faith] [in all cities] at an increasing price ([200])"
+                    "May buy [Inquisitor] units for [300] [Faith] [in all cities] at an increasing price ([300])"
                 ],
                 "row": 1,
                 "column": 3
@@ -932,13 +932,13 @@
             "Scientific": 0
         },
         "uniques": ["Only available <before adopting [Wisdom of the Elders]>","Only available <before adopting [Tradition of Kings]>",
-            "[+5]% to Flank Attack bonuses"
+            "[+30]% to Flank Attack bonuses"
         ],
         "policies": [
             {
                 "name": "Shield Wall",
                 "uniques": [
-                    "[+25]% Strength <when defending>"
+                    "[+15]% Strength <when defending>"
                 ],
                 "row": 1,
                 "column": 1
@@ -946,7 +946,7 @@
             {
                 "name": "Arena Warriors",
                 "uniques": [
-                    "[+30]% XP gained from combat <for [Military] units>"
+                    "[+25]% XP gained from combat <for [Military] units>"
                 ],
                 "row": 1,
                 "column": 3
