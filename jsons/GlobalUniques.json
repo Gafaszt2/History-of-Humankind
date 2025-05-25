@@ -1,6 +1,8 @@
 {
     "name": "Global uniques",
     "uniques": [
+        ///// RECRUITABLE ELEPHANT UNITS
+        
         ///// Stock Markets
         "[-15]% [Gold] [in all cities] <when not in a Golden Age> <with [15]% chance> <starting from the [Modern Era]>",
         "[+15]% [Gold] [in all cities] <when not in a Golden Age> <with [15]% chance> <starting from the [Modern Era]>",

@@ -276,6 +276,24 @@
 		"uniques": ["Generated on every [210] tiles <in [Tropical] tiles>","Generated on every [210] tiles <in [Marsh] tiles>"]
 	},
 	{
+		"name": "Pronghorn Antelope",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Sagebrush Steppe"],
+		"food": 1,
+		"improvedBy": ["Animal Pen","Theater Square","Military Camp","Airstrip","Spaceport","Industrial Zone","Commercial Hub","Holy Site","Campus"],
+		"improvementStats": {"production": 1},
+		"uniques": ["Generated on every [15] tiles <in [Sagebrush Steppe] tiles>"]
+	},
+	{
+		"name": "Tapir",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Tropical"],
+		"food": 1,
+		"improvedBy": ["Animal Pen","Theater Square","Military Camp","Airstrip","Spaceport","Industrial Zone","Commercial Hub","Holy Site","Campus"],
+		"improvementStats": {"production": 1},
+		"uniques": ["Generated on every [700] tiles <in [Tropical] tiles>"]
+	},
+	{
 		"name": "Cattle",
 		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": ["Grassland"],
@@ -385,12 +403,21 @@
 	},
 	{
 		"name": "Elephant",
-		"resourceType": "Bonus",
-		"terrainsCanBeFoundOn": ["Plains","Savanna Woodland"],
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": ["Plains","Savanna Woodland","Rainforest","Tropical"],
 		"food": 1,
 		"improvedBy": ["Animal Pen","Theater Square","Military Camp","Airstrip","Spaceport","Industrial Zone","Commercial Hub","Holy Site","Campus"],
 		"improvementStats": {"production": 1},
-		"uniques": ["Generated on every [210] tiles <in [Plains] tiles>","Generated on every [210] tiles <in [Savanna Woodland] tiles>"]
+		"uniques": ["Generated on every [210] tiles <in [Tropical] tiles>","Generated on every [210] tiles <in [Plains] tiles>","Generated on every [210] tiles <in [Savanna Woodland] tiles>"]
+	},
+	{
+		"name": "Rhinoceros",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": ["Savanna Woodland"],
+		"food": 1,
+		"improvedBy": ["Animal Pen","Theater Square","Military Camp","Airstrip","Spaceport","Industrial Zone","Commercial Hub","Holy Site","Campus"],
+		"improvementStats": {"production": 1},
+		"uniques": ["Generated on every [410] tiles <in [Savanna Woodland] tiles>"]
 	},
 	{
 		"name": "Camel",
@@ -531,7 +558,7 @@
 	},
 	{
 		"name": "Bronze",
-	    "terrainsCanBeFoundOn": ["Grassland","Plains","Tundra","Hill","Sagebrush Steppe","Savanna Woodland"],
+	    "terrainsCanBeFoundOn": ["Grassland","Plains","Tundra","Hill","Sagebrush Steppe","Savanna Woodland","Tropical"],
 		"revealedBy": "Mining",
 		"gold": 1,
 		"production": 1,
@@ -540,8 +567,20 @@
 		"uniques":["Generated on every [10] tiles <in [Hill] tiles>"]
 	},
 	{
+		"name": "War Elephant",
+		"revealedBy": "Iron Working",
+		"production": 1,
+		"resourceType": "Strategic"
+	},
+	{
+		"name": "War Camel",
+		"revealedBy": "Iron Working",
+		"production": 1,
+		"resourceType": "Strategic"
+	},
+	{
 		"name": "Iron",
-	    "terrainsCanBeFoundOn": ["Grassland","Plains","Tundra","Hill","Sagebrush Steppe","Savanna Woodland"],
+	    "terrainsCanBeFoundOn": ["Grassland","Plains","Tundra","Hill","Sagebrush Steppe","Savanna Woodland","Tropical"],
 		"revealedBy": "Iron Working",
 		"gold": 1,
 		"production": 1,
@@ -551,13 +590,23 @@
 	},
 	{
 		"name": "Niter",
-	    "terrainsCanBeFoundOn": ["Grassland","Snow","Plains","Desert","Hill","Sagebrush Steppe","Savanna Woodland"],
+	    "terrainsCanBeFoundOn": ["Grassland","Snow","Plains","Desert","Hill","Sagebrush Steppe","Savanna Woodland","Tropical"],
 		"revealedBy": "Gunpowder",
 		"gold": 1,
 		"production": 1,
 		"improvedBy": ["Mine","Theater Square","Military Camp","Airstrip","Spaceport","Industrial Zone","Commercial Hub","Holy Site","Campus"],
 		"resourceType": "Strategic",
 		"uniques":["Generated on every [11] tiles <in [Hill] tiles>"]
+	},
+	{
+		"name": "Lithium",
+	    "terrainsCanBeFoundOn": ["Desert","Sagebrush Steppe","Hill"],
+		"revealedBy": "Synthetic Materials",
+		"gold": 3,
+		"production": 3,
+		"improvedBy": ["Mine","Theater Square","Military Camp","Airstrip","Spaceport","Industrial Zone","Commercial Hub","Holy Site","Campus"],
+		"resourceType": "Luxury",
+		"uniques":["Generated on every [50] tiles <in [Sagebrush Steppe] tiles>","Generated on every [50] tiles <in [Desert] tiles>","Generated on every [50] tiles <in [Hill] tiles>"]
 	},
 	{
 		"name": "Artifact",
@@ -577,7 +626,7 @@
 	},
 	{
 		"name": "Coal",
-	    "terrainsCanBeFoundOn": ["Grassland","Snow","Plains","Desert","Hill","Sagebrush Steppe","Savanna Woodland","Forest","Jungle"],
+	    "terrainsCanBeFoundOn": ["Grassland","Snow","Plains","Desert","Tropical","Hill","Sagebrush Steppe","Savanna Woodland","Forest","Jungle"],
 		"revealedBy": "Industrialization",
 		"gold": 1,
 		"production": 1,
@@ -587,13 +636,13 @@
 	},
 	{
 		"name": "Oil",
-	    "terrainsCanBeFoundOn": ["Desert","Deep Coast","Deep Ocean","Snow"],
+	    "terrainsCanBeFoundOn": ["Desert","Deep Coast","Deep Ocean","Snow","Tropical","Savanna Woodland","Sagebrush Steppe","Coast","Jungle","Forest"],
 		"revealedBy": "Refining",
 		"gold": 2,
 		"production": 1,
 		"improvedBy": ["Oil well", "Offshore Platform","Harbor"],
 		"resourceType": "Strategic",
-		"uniques":["Generated on every [11] tiles <in [Desert] tiles>","Generated on every [11] tiles <in [Deep Coast] tiles>","Generated on every [11] tiles <in [Deep Ocean] tiles>","Generated on every [11] tiles <in [Snow] tiles>"]
+		"uniques":["Generated on every [11] tiles <in [Desert] tiles>","Generated on every [11] tiles <in [Coast] tiles>","Generated on every [11] tiles <in [Deep Coast] tiles>","Generated on every [11] tiles <in [Deep Ocean] tiles>","Generated on every [11] tiles <in [Snow] tiles>"]
 	},
 	{
 		"name": "Conservation Points",
@@ -602,7 +651,7 @@
 	},
 	{
 		"name": "Aluminum",
-	    "terrainsCanBeFoundOn": ["Desert","Rainforest","Plains"],
+	    "terrainsCanBeFoundOn": ["Desert","Rainforest","Plains","Tropical"],
 		"revealedBy": "Advanced Flight",
 		"gold": 1,
 		"production": 1,

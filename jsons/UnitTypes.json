@@ -117,7 +117,8 @@
     },
     {
         "name": "Camel",
-        "uniques":["[This Unit] gains the [Poisoned] status for [3] turn(s) <upon losing at least [5] HP in a single attack> <vs [Poisonous Archer] units> <with [60]% chance>",
+        "uniques":["[+15]% Strength <vs [Mounted] units>","[-5]% Strength <vs [Heavy Cavalry] units>","[-5]% Strength <vs [Ranged] units>",
+                   "[This Unit] gains the [Poisoned] status for [3] turn(s) <upon losing at least [5] HP in a single attack> <vs [Poisonous Archer] units> <with [60]% chance>",
                    "[This Unit] gains the [Soft Injury] status for [5] turn(s) <upon losing at least [5] HP in a single attack> <with [15]% chance>",
                    "[This Unit] gains the [On Fire] status for [5] turn(s) <upon losing at least [50] HP in a single attack> <vs [Flamethrower] units> <with [60]% chance>",
                    "[This Unit] gains the [On Fire] status for [5] turn(s) <upon losing at least [50] HP in a single attack> <vs [Flame Tank] units> <with [60]% chance>",
@@ -127,7 +128,8 @@
     },
     {
         "name": "Elephant",
-        "uniques":["[This Unit] gains the [Poisoned] status for [3] turn(s) <upon losing at least [5] HP in a single attack> <vs [Poisonous Archer] units> <with [60]% chance>",
+        "uniques":["[+15]% Strength <vs [Sword] units>","[-5]% Strength <vs [Heavy Cavalry] units>","[-5]% Strength <vs [Camel] units>",
+                   "[This Unit] gains the [Poisoned] status for [3] turn(s) <upon losing at least [5] HP in a single attack> <vs [Poisonous Archer] units> <with [60]% chance>",
                    "[This Unit] gains the [Soft Injury] status for [5] turn(s) <upon losing at least [5] HP in a single attack> <with [15]% chance>",
                    "[This Unit] gains the [On Fire] status for [5] turn(s) <upon losing at least [50] HP in a single attack> <vs [Flamethrower] units> <with [60]% chance>",
                    "[This Unit] gains the [On Fire] status for [5] turn(s) <upon losing at least [50] HP in a single attack> <vs [Flame Tank] units> <with [60]% chance>",

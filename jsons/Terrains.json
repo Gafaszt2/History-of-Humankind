@@ -7,8 +7,10 @@
 		"gold": 1,
 		"movementCost": 1,
 		"RGB": [43, 87, 151],
-		"uniques": ["Becomes [Deep Ocean] when adjacent to [Ocean] <with [20]% chance>",
-		"Becomes [Deeper Ocean] when adjacent to [Ocean] <with [20]% chance>"]
+		"uniques": ["Becomes [Deep Ocean] when adjacent to [Ocean] <with [35]% chance>",
+		"Becomes [Deeper Ocean] when adjacent to [Ocean] <with [35]% chance>",
+		"Becomes [Deep Coast] when adjacent to [Coast] <with [35]% chance>",
+		"Becomes [Deeper Coast] when adjacent to [Coast] <with [35]% chance>"]
 	},
 	{
 		"name": "Canal",
@@ -25,8 +27,6 @@
 		"movementCost": 1,
 		"RGB": [70, 138, 216],
 		"uniques": ["[+2] to Fertility for Map Generation",
-		"Becomes [Deep Coast] when adjacent to [Ocean] <with [20]% chance>",
-		"Becomes [Deeper Coast] when adjacent to [Ocean] <with [20]% chance>",
 			"Considered [Desirable] when determining start locations <on water maps>",
 			"Every [60] tiles with this terrain will receive a major deposit of a strategic resource."]
 	},
@@ -573,6 +573,20 @@
 		"uniques": ["Must be adjacent to [0] [Coast] tiles",
 			"Must be adjacent to [1] to [6] [Jungle] tiles",
 			"Grants [+500 Gold] to the first civilization to discover it"],
+		"weight": 2
+	},
+	{
+		"name": "Termite Mounds",
+		"type": "NaturalWonder",
+		"happiness": 1,
+		"faith": 1,
+		"culture": 1,
+		"overrideStats": false,
+		"occursOn": ["Savanna Woodland"],
+		"turnsInto": "Savanna Woodland",
+		"impassable": false,
+		"unbuildable": true,
+		"uniques": ["Occurs in groups of [2] to [2] tiles","Neighboring tiles will convert to [Savanna Woodland]"],
 		"weight": 2
 	},
 	{ // This will count as "Fresh water" in civ 6

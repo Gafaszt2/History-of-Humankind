@@ -255,6 +255,30 @@
 	"attackSound": "nonmetalhit"
 },
 {
+	"name": "Elephant Lancer",
+	"upgradesTo":"Armored Elephant",
+	"unitType": "Elephant",
+	"movement": 2,
+	"strength": 45,
+	"requiredTech": "Horseback Riding",
+	"obsoleteTech": "Stirrups",
+	"cost": 80,
+	"uniques": ["Consumes [1] [War Elephant]","[+20]% Strength <when fighting in [Open terrain] tiles>","No defensive terrain bonus","Rough terrain penalty","Never appears as a Barbarian unit"],
+	"attackSound": "nonmetalhit"
+},
+{
+	"name": "Camel Rider",
+	"upgradesTo":"Elite Camel Rider",
+	"unitType": "Camel",
+	"movement": 2,
+	"strength": 35,
+	"requiredTech": "Horseback Riding",
+	"obsoleteTech": "Stirrups",
+	"cost": 80,
+	"uniques": ["Consumes [1] [War Camel]","[+20]% Strength <when fighting in [Open terrain] tiles>","No defensive terrain bonus","Rough terrain penalty","Never appears as a Barbarian unit"],
+	"attackSound": "nonmetalhit"
+},
+{
 	"name": "Catapult",
 	"upgradesTo":"Trebuchet",
 	"unitType": "Siege",
@@ -383,6 +407,30 @@
 	"requiredTech": "Stirrups",
 	"cost": 80,
 	"uniques": ["Consumes [1] [Horses]","[+20]% Strength <when fighting in [Open terrain] tiles>","No defensive terrain bonus","Rough terrain penalty","Never appears as a Barbarian unit"],
+	"attackSound": "nonmetalhit"
+},
+{
+	"name": "Armored Elephant",
+	"upgradesTo":"Royal Elephant",
+	"unitType": "Elephant",
+	"movement": 2,
+	"strength": 60,
+	"requiredTech": "Stirrups",
+	"obsoleteTech": "Flintlock",
+	"cost": 80,
+	"uniques": ["Consumes [1] [War Elephant]","[+20]% Strength <when fighting in [Open terrain] tiles>","No defensive terrain bonus","Rough terrain penalty","Never appears as a Barbarian unit"],
+	"attackSound": "nonmetalhit"
+},
+{
+	"name": "Elite Camel Rider",
+	"upgradesTo":"Royal Camel",
+	"unitType": "Camel",
+	"movement": 2,
+	"strength": 45,
+	"requiredTech": "Stirrups",
+	"obsoleteTech": "Flintlock",
+	"cost": 80,
+	"uniques": ["Consumes [1] [War Camel]","[+20]% Strength <when fighting in [Open terrain] tiles>","No defensive terrain bonus","Rough terrain penalty","Never appears as a Barbarian unit"],
 	"attackSound": "nonmetalhit"
 },
 {
@@ -537,6 +585,28 @@
 	"uniques": ["Only available <starting from the [Renaissance Era]>","Consumes [1] [Horses]","[+20]% Strength <when fighting in [Open terrain] tiles>","No defensive terrain bonus","Rough terrain penalty","Never appears as a Barbarian unit"],
 	"attackSound": "metalhit"
 },
+{
+	"name": "Royal Elephant",
+	"unitType": "Elephant",
+	"movement": 2,
+	"strength": 70,
+	"requiredTech": "Flintlock",
+	"obsoleteTech": "Industrialization",
+	"cost": 90,
+	"uniques": ["Consumes [1] [War Elephant]","[+20]% Strength <when fighting in [Open terrain] tiles>","No defensive terrain bonus","Rough terrain penalty","Never appears as a Barbarian unit"],
+	"attackSound": "nonmetalhit"
+},
+{
+	"name": "Royal Camel",
+	"unitType": "Camel",
+	"movement": 2,
+	"strength": 60,
+	"requiredTech": "Flintlock",
+	"obsoleteTech": "Industrialization",
+	"cost": 90,
+	"uniques": ["Consumes [1] [War Camel]","[+20]% Strength <when fighting in [Open terrain] tiles>","No defensive terrain bonus","Rough terrain penalty","Never appears as a Barbarian unit"],
+	"attackSound": "nonmetalhit"
+},
 //// Enlightenment 
 {
 	"name": "Sloop-of-War",
@@ -597,7 +667,7 @@
 	"strength": 40,
 	"requiredTech": "Flintlock",
 	"cost": 100,
-	"uniques": ["[+60]% Strength <vs [Light Cavalry] units>","Never appears as a Barbarian unit"],
+	"uniques": ["[+60]% Strength <vs [Light Cavalry] units>","[+25]% Strength <vs [Camel] units>","[+25]% Strength <vs [Elephant] units>","Never appears as a Barbarian unit"],
 	"attackSound": "shot"
 },
 {

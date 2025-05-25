@@ -233,6 +233,42 @@
 		"requiredTech": "Iron Working"
 	},
 	{
+		"name": "Elephant Academy",
+		"requiredBuilding": "Military Camp Project",
+		"maintenance": 2,
+		"requiredNearbyImprovedResources":["Elephant"],
+		"hurryCostModifier": 50,
+		"uniques": ["Provides [2] [War Elephant]","Only available <in cities without a [Camel Academy]>","Only available <in cities without a [Barracks]>"],
+		"requiredTech": "Iron Working"
+	},
+	{
+		"name": "Elite Elephant Academy",
+		"requiredBuilding": "Elephant Academy",
+		"maintenance": 1,
+		"requiredNearbyImprovedResources":["Elephant"],
+		"hurryCostModifier": 50,
+		"uniques": ["Provides [2] [War Elephant]","New [Elephant] units start with [15] XP [in all cities]","[+15]% Production when constructing [Elephant] units [in this city]"],
+		"requiredTech": "Iron Working"
+	},
+	{
+		"name": "Camel Academy",
+		"requiredBuilding": "Military Camp Project",
+		"maintenance": 2,
+		"requiredNearbyImprovedResources":["Elephant"],
+		"hurryCostModifier": 50,
+		"uniques": ["Provides [2] [War Camel]","Only available <in cities without a [Elephant Academy]>","Only available <in cities without a [Barracks]>"],
+		"requiredTech": "Iron Working"
+	},
+	{
+		"name": "Elite Camel Academy",
+		"requiredBuilding": "Elephant Academy",
+		"maintenance": 1,
+		"requiredNearbyImprovedResources":["Elephant"],
+		"hurryCostModifier": 50,
+		"uniques": ["Provides [2] [War Camel]","New [Camel] units start with [15] XP [in all cities]","[+15]% Production when constructing [Camel] units [in this city]"],
+		"requiredTech": "Iron Working"
+	},
+	{
 		"name": "Theater Square Project",
 		"culture": 1,
 		"hurryCostModifier": 50,
@@ -643,7 +679,7 @@
 		"food": 1,
 		"gold": 2,
 		"hurryCostModifier": 50,
-		"uniques": ["Must be next to [Coast]","Never destroyed when the city is captured","Creates a [Harbor] improvement on a specific tile"],
+		"uniques": ["Must be next to [Coast]","Connects trade routes over water","Never destroyed when the city is captured","Creates a [Harbor] improvement on a specific tile"],
 		"requiredTech": "Astronomy"
 	},
 	{
