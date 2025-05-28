@@ -84,20 +84,18 @@
 	{
 		"name": "Pottery Workshop",
 		"food": 1,
-		"uniques":["Destroyed when the city is captured","Provides [1] [Ware]"],
 		"hurryCostModifier": 25,
 		"requiredTech": "Pottery"
 	},
 	{
 		"name": "Ceramics Market",
-		"gold": 2,
-		"uniques":["Destroyed when the city is captured","Consumes [2] [Ware]"],
+		"gold": 1,
 		"hurryCostModifier": 25,
 		"requiredTech": "Pottery"
 	},
 	{
 		"name": "Grain Mill",
-		"production": 2,
+		"production": 1,
 		"hurryCostModifier": 25,
 		"requiredTech": "Wheel"
 	},
@@ -957,7 +955,44 @@
 		"name": "Stock Exchange",
 		"gold": 4,
 		"hurryCostModifier": 50,
+		"uniques":["Provides [2] [Stock]"],
 		"requiredTech": "Economics"
+	},
+	{
+		"name": "Sea Mammal Fat Industry",
+		"requiredBuilding":"Commercial Hub Project",
+		"requiredNearbyImprovedResources":["Sirenian","Coastal Cetacean","Ocean Cetacean","Deep Ocean Cetacean"],
+		"gold": 2,
+		"uniques":["Consumes [2] [Stock]","Provides [2] [Marine Mammal Fat]"],
+		"hurryCostModifier": 50,
+		"requiredTech": "Manufacturing"
+	},
+	{
+		"name": "Oil Industry",
+		"requiredBuilding":"Industrial Zone Project",
+		"requiredNearbyImprovedResources":["Oil"],
+		"gold": 3,
+		"hurryCostModifier": 50,
+		"uniques":["Consumes [2] [Stock]","Provides [2] [Stock] <during a Golden Age>"],
+		"requiredTech": "Manufacturing"
+	},
+	{
+		"name": "Steel Industry",
+		"requiredBuilding":"Industrial Zone Project",
+		"requiredNearbyImprovedResources":["Iron"],
+		"uniques":["Consumes [2] [Stock]","[+15]% Production when constructing [Armored] units [in this city]"],
+		"maintenance":1,
+		"hurryCostModifier": 50,
+		"requiredTech": "Steel"
+	},
+	{
+		"name": "Rubber Industry",
+		"requiredBuilding":"Industrial Zone Project",
+		"requiredNearbyImprovedResources":["Rubber"],
+		"uniques":["Consumes [2] [Stock]","[+15]% Production when constructing [Armored] units [in this city]"],
+		"maintenance":1,
+		"hurryCostModifier": 50,
+		"requiredTech": "Steel"
 	},
 	{
 		"name": "Sewer",

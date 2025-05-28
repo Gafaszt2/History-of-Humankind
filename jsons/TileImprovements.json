@@ -96,6 +96,15 @@
 		"shortcutKey": "C"
 	},
 	{
+		"name": "Rubber Collector",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"production": 1,
+		"turnsToBuild": 7,
+		"techRequired": "Steel",
+		"uniques": ["Can only be built to improve a resource"],
+		"shortcutKey": "C"
+	},
+	{
 		"name": "Fish Trap",
 		"terrainsCanBeBuiltOn": ["Coast","Deep Coast","Land","Ocean","Deep Ocean","Deeper Ocean"],
 		"food": 1,

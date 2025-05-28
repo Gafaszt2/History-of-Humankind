@@ -148,7 +148,7 @@
 	"strength": 9,
 	"requiredTech": "Wolf Domestication",
 	"cost": 30,
-	"uniques": ["Never appears as a Barbarian unit"],
+	"uniques": ["Consumes [1] [Wolves]","Never appears as a Barbarian unit"],
 	"attackSound": "nonmetalhit"
 },
 {
@@ -239,7 +239,7 @@
 	"rangedStrength": 25,
 	"obsoleteTech": "Machinery",
 	"cost": 50,
-	"uniques": ["Only available <starting from the [Classical Era]>","Never appears as a Barbarian unit"],
+	"uniques": ["Consumes [1] [Wolves]","Only available <starting from the [Classical Era]>","Never appears as a Barbarian unit"],
 	"attackSound": "nonmetalhit"
 },
 {

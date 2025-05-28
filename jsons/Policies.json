@@ -375,7 +375,7 @@
             "Domination": 10,
             "Scientific": 0
         },
-        "uniques": ["Only available <before adopting [Individualism]>","Only available <before adopting [Social Contract]>",
+        "uniques": ["Only available <before adopting [Social Contract]>","Only available <before adopting [Individualism]>",
             "[+20]% [Science] [in capital]"
         ],
         "policies": [
@@ -421,7 +421,7 @@
             "Domination": 10,
             "Scientific": 0
         },
-        "uniques": ["Only available <before adopting [Empiricism]>","Only available <before adopting [Social Contract]>",
+        "uniques": ["Only available <before adopting [Social Contract]>","Only available <before adopting [Empiricism]>",
             "[+25]% [Gold] [in all cities]"
         ],
         "policies": [
@@ -467,7 +467,7 @@
             "Domination": 10,
             "Scientific": 0
         },
-        "uniques": ["Only available <before adopting [Empirical Pursuits]>","Only available <before adopting [Cultural Renaissance]>",
+        "uniques": ["Only available <before adopting [Individualism]>","Only available <before adopting [Empiricism]>",
             "[Gold] cost of purchasing items in cities [-30]%"
         ],
         "policies": [

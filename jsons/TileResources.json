@@ -276,6 +276,60 @@
 		"uniques": ["Generated on every [210] tiles <in [Tropical] tiles>","Generated on every [210] tiles <in [Marsh] tiles>"]
 	},
 	{
+		"name": "Zebra",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Watering Hole"],
+		"food": 1,
+		"improvedBy": ["Animal Pen","Theater Square","Military Camp","Airstrip","Spaceport","Industrial Zone","Commercial Hub","Holy Site","Campus"],
+		"improvementStats": {"production": 1},
+		"uniques": ["Generated on every [5] tiles <in [Watering Hole] tiles>"]
+	},
+	{
+		"name": "Crocodile",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Watering Hole"],
+		"food": 1,
+		"improvedBy": ["Animal Pen","Theater Square","Military Camp","Airstrip","Spaceport","Industrial Zone","Commercial Hub","Holy Site","Campus"],
+		"improvementStats": {"production": 1},
+		"uniques": ["Generated on every [5] tiles <in [Watering Hole] tiles>"]
+	},
+	{
+		"name": "Rhinoceros",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": ["Tropical","Plains"],
+		"gold": 1,
+		"improvedBy": ["Animal Pen","Theater Square","Military Camp","Airstrip","Spaceport","Industrial Zone","Commercial Hub","Holy Site","Campus"],
+		"improvementStats": {"production": 1},
+		"uniques": ["Generated on every [700] tiles <in [Tropical] tiles>","Generated on every [700] tiles <in [Plains] tiles>"]
+	},
+	{
+		"name": "Guanaco",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Tundra"],
+		"food": 1,
+		"improvedBy": ["Animal Pen","Theater Square","Military Camp","Airstrip","Spaceport","Industrial Zone","Commercial Hub","Holy Site","Campus"],
+		"improvementStats": {"production": 1},
+		"uniques": ["Generated on every [270] tiles <in [Tundra] tiles>"]
+	},
+	{
+		"name": "Dhole",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Tropical","Hill"],
+		"food": 1,
+		"improvedBy": ["Animal Pen","Theater Square","Military Camp","Airstrip","Spaceport","Industrial Zone","Commercial Hub","Holy Site","Campus"],
+		"improvementStats": {"production": 1},
+		"uniques": ["Generated on every [210] tiles <in [Tropical] tiles>"]
+	},
+	{
+		"name": "Maned Wolf",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Plains"],
+		"food": 1,
+		"improvedBy": ["Animal Pen","Theater Square","Military Camp","Airstrip","Spaceport","Industrial Zone","Commercial Hub","Holy Site","Campus"],
+		"improvementStats": {"production": 1},
+		"uniques": ["Generated on every [210] tiles <in [Plains] tiles>"]
+	},
+	{
 		"name": "Pronghorn Antelope",
 		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": ["Sagebrush Steppe"],
@@ -502,6 +556,15 @@
 		"uniques": ["Generated on every [10] tiles <in [Ocean] tiles>"]
 	},
 	{
+		"name": "Eel",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Lakes","Coast","Ocean"],
+		"food": 1,
+		"improvement": "Fish Trap",
+		"improvementStats": {"production": 1},
+		"uniques": ["Generated on every [500] tiles <in [Lakes] tiles>","Generated on every [500] tiles <in [Ocean] tiles>"]
+	},
+	{
 		"name": "Lake Fish",
 		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": ["Lakes"],
@@ -522,13 +585,68 @@
 	},
 	/// Mercantile
 	{
-		"name": "Jewelry",
+		"name": "Babirusa",
+		"resourceType": "Luxury",
+		"gold": 2,
+		"uniques": ["Can only be created by Mercantile City-States"]
+	},
+	{
+		"name": "Tiger Pelt",
 		"resourceType": "Luxury",
 		"gold": 2,
 		"uniques": ["Can only be created by Mercantile City-States"]
 	},
 	{
 		"name": "Porcelain",
+		"resourceType": "Luxury",
+		"gold": 2,
+		"uniques": ["Can only be created by Mercantile City-States"]
+	},
+
+	{
+		"name": "Amber",
+		"resourceType": "Luxury",
+		"gold": 2,
+		"uniques": ["Can only be created by Mercantile City-States"]
+	},
+	{
+		"name": "Coffee",
+		"resourceType": "Luxury",
+		"gold": 2,
+		"uniques": ["Can only be created by Mercantile City-States"]
+	},
+	{
+		"name": "Coral",
+		"resourceType": "Luxury",
+		"gold": 2,
+		"uniques": ["Can only be created by Mercantile City-States"]
+	},
+	{
+		"name": "Jade",
+		"resourceType": "Luxury",
+		"gold": 2,
+		"uniques": ["Can only be created by Mercantile City-States"]
+	},
+	{
+		"name": "Lapis Lazuli",
+		"resourceType": "Luxury",
+		"gold": 2,
+		"uniques": ["Can only be created by Mercantile City-States"]
+	},
+	{
+		"name": "Olives",
+		"resourceType": "Luxury",
+		"gold": 2,
+		"uniques": ["Can only be created by Mercantile City-States"]
+	},
+	{
+		"name": "Perfume",
+		"resourceType": "Luxury",
+		"gold": 2,
+		"uniques": ["Can only be created by Mercantile City-States"]
+	},
+	{
+		"name": "Tobacco",
 		"resourceType": "Luxury",
 		"gold": 2,
 		"uniques": ["Can only be created by Mercantile City-States"]
@@ -541,6 +659,15 @@
 		"resourceType": "Strategic"
 	},
 	{
+		"name": "Wolves",
+		"culture": 1,
+		"terrainsCanBeFoundOn": ["Forest"],
+		"revealedBy": "Wolf Domestication",
+		"improvedBy": ["Animal Pen","Theater Square","Military Camp","Airstrip","Spaceport","Industrial Zone","Commercial Hub","Holy Site","Campus"],
+		"resourceType": "Strategic",
+		"uniques":["Not shown on world screen <starting from the [Atomic Era]>","Generated on every [50] tiles <in [Forest] tiles>"]
+	},
+	{
 		"name": "Horses",
 		"food": 1,
 		"production": 1,
@@ -549,12 +676,6 @@
 		"improvedBy": ["Animal Pen","Theater Square","Military Camp","Airstrip","Spaceport","Industrial Zone","Commercial Hub","Holy Site","Campus"],
 		"resourceType": "Strategic",
 		"uniques":["Not shown on world screen <starting from the [Atomic Era]>","Generated on every [50] tiles <in [Grassland] tiles>","Generated on every [50] tiles <in [Plains] tiles>"]
-	},
-	{
-		"name": "Ware",
-		"revealedBy": "Pottery",
-		"uniques":["Not shown on world screen <starting from the [Medieval Era]>"],
-		"resourceType": "Strategic"
 	},
 	{
 		"name": "Bronze",
@@ -645,9 +766,28 @@
 		"uniques":["Generated on every [11] tiles <in [Desert] tiles>","Generated on every [11] tiles <in [Coast] tiles>","Generated on every [11] tiles <in [Deep Coast] tiles>","Generated on every [11] tiles <in [Deep Ocean] tiles>","Generated on every [11] tiles <in [Snow] tiles>"]
 	},
 	{
+		"name": "Stock",
+		"resourceType": "Strategic",
+		"uniques":["Not shown on world screen <before the [Industrial Era]>"]
+	},
+	{
+		"name": "Marine Mammal Fat",
+		"resourceType": "Luxury"
+	},
+	{
 		"name": "Conservation Points",
 		"resourceType": "Strategic",
 		"uniques":["Stockpiled","Not shown on world screen <before the [Modern Era]>"]
+	},
+	{
+		"name": "Rubber",
+	    "terrainsCanBeFoundOn": ["Tropical","Jungle"],
+		"revealedBy": "Steel",
+		"gold": 1,
+		"production": 1,
+		"improvedBy": ["Rubber Collector","Theater Square","Military Camp","Airstrip","Spaceport","Industrial Zone","Commercial Hub","Holy Site","Campus"],
+		"resourceType": "Strategic",
+		"uniques":["Generated on every [400] tiles <in [Tropical] tiles>","Generated on every [400] tiles <in [Jungle] tiles>"]
 	},
 	{
 		"name": "Aluminum",
